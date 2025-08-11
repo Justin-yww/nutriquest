@@ -7,13 +7,19 @@ lazy val root = (project in file("."))
   .settings(
     name := "introtosclafx",
     libraryDependencies ++= {
+      val os = System.getProperty("os.name")
+      val arch = System.getProperty("os.arch")
       // Determine OS version of JavaFX binaries
-      val osName = System.getProperty("os.name") match {
-        case n if n.startsWith("Linux")   => "linux"
-        case n if n.startsWith("Mac")     => "mac"
-        case n if n.startsWith("Windows") => "win"
-        case _                            => throw new Exception("Unknown platform!")
+      val classifier = (os, arch) match {
+        case ("Linux", "aarch64") => "linux-aarch64"
+        case ("Linux", _)         => "linux-x64"
+        case ("Mac OS X", "aarch64") => "mac-aarch64"
+        case ("Mac OS X", _)      => "mac-x64"
+        case ("Windows", "amd64") => "win-x64"
+        case ("Windows", _)       => "win-x86"
+        case _                    => throw new Exception("Unknown platform!")
       }
+      
       Seq("base", "controls", "fxml", "graphics", "media", "swing", "web")
         .map(m => "org.openjfx" % s"javafx-$m" % "21.0.4" classifier osName)
     },
