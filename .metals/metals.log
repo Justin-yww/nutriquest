@@ -122,3 +122,84 @@ WARNING: Unmatched cancel notification for request id 88
 2025.08.12 01:26:11 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
 2025.08.12 01:26:11 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
 2025.08.12 01:26:11 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:26:45 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:26:45 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:27:20 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:27:22 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/myfirstscala.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:27:22 WARN  no build target for: /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/myfirstscala.scala
+2025.08.12 01:27:22 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/myfirstscala.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:27:22 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/myfirstscala.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:27:22 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/myfirstscala.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:27:36 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:27:36 WARN  no build target for: /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala
+2025.08.12 01:27:36 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:27:36 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala
+2025.08.12 01:27:36 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:27:36 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala
+2025.08.12 01:27:37 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:27:37 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:27:37 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:27:38 WARN  no build target for: /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala
+2025.08.12 01:27:37 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:28:36 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:28:38 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/myfirstscala.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:28:38 WARN  no build target for: /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/myfirstscala.scala
+2025.08.12 01:28:38 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/myfirstscala.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:28:41 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:28:41 WARN  no build target for: /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala
+2025.08.12 01:28:41 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:28:44 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:28:44 WARN  no build target for: /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/plugins.sbt
+2025.08.12 01:28:44 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:28:44 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:28:44 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/plugins.sbt
+2025.08.12 01:28:44 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:28:44 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:28:44 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/plugins.sbt
+2025.08.12 01:28:44 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:28:44 WARN  no build target for: /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/metals.sbt
+2025.08.12 01:28:44 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:28:44 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:28:44 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/metals.sbt
+2025.08.12 01:28:44 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:28:45 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:28:45 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/metals.sbt
+2025.08.12 01:28:55 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:28:55 WARN  no build target for: /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala
+2025.08.12 01:28:55 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:30:22 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/myfirstscala.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:31:44 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:39:46 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:39:55 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:39:55 WARN  no build target for: /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala
+2025.08.12 01:39:55 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:42:41 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/myfirstscala.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:42:41 WARN  no build target for: /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/myfirstscala.scala
+2025.08.12 01:42:41 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/myfirstscala.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:42:41 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/myfirstscala.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:42:41 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/myfirstscala.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:42:42 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/myfirstscala.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:42:42 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:42:43 WARN  no build target for: /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala
+2025.08.12 01:42:43 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:42:45 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:42:45 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:42:45 WARN  no build target for: /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt
+2025.08.12 01:42:45 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:42:45 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 01:42:45 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+Aug 12, 2025 1:44:25 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Aug 12, 2025 1:45:59 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.08.12 01:59:56 INFO  Shutting down server
+2025.08.12 01:59:56 INFO  shutting down Metals
+2025.08.12 01:59:56 INFO  Exiting server
+2025.08.12 02:00:13 INFO  Started: Metals version 1.6.2 in folders '/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww' for client Visual Studio Code 1.103.0.
+2025.08.12 02:04:13 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerApp/MainApp.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 02:04:13 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerApp/MainApp.scala
+2025.08.12 02:04:21 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerApp/MainApp.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 02:04:21 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerApp/app/MainApp.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 02:04:21 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerApp/app/MainApp.scala
+Aug 12, 2025 2:04:24 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
