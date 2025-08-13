@@ -5,11 +5,13 @@ lazy val root = (project in file("."))
   .settings(
     name := "final-project-Justin-yww",
 
-    // --- Pick the correct JavaFX native classifier for your OS/CPU ---
+    // Allows the selection of the JavaFX version based on the OS and architecture
     libraryDependencies ++= {
       val os   = sys.props.getOrElse("os.name", "").toLowerCase
       val arch = sys.props.getOrElse("os.arch", "").toLowerCase
 
+      // Pick the correct JavaFX native classifier for your OS/CPU 
+      // NOTE: The mac version is need to be identified as 'arm64' for the M1 based Macbooks
       val classifier =
         if (os.contains("mac") && (arch.contains("aarch64") || arch.contains("arm64"))) "mac-aarch64"
         else if (os.contains("mac")) "mac"
@@ -19,10 +21,11 @@ lazy val root = (project in file("."))
         else if (os.contains("linux")) "linux"
         else throw new Exception(s"Unknown platform: $os / $arch")
 
+      // Version to use (MUST BE 21)
       val fxVersion = "21.0.5"
 
-      // Minimal set (uncomment what you need)
-      val fxModules = Seq("base", "graphics", "controls" /*, "fxml", "media", "swing", "web"*/)
+      // Modules needed for the GUI system 
+      val fxModules = Seq("base", "graphics", "controls", "fxml" ) 
 
       fxModules.map(m => "org.openjfx" % s"javafx-$m" % fxVersion classifier classifier)
     },
@@ -30,8 +33,14 @@ lazy val root = (project in file("."))
     // ScalaFX 21 for Scala 3
     libraryDependencies += "org.scalafx" %% "scalafx" % "21.0.0-R32",
 
-    // Your DB libraries (unchanged)
+    // Database libraries -- Not sure if used yet (FROM PRACTICAL)
     libraryDependencies ++= Seq(
       "org.scalikejdbc" %% "scalikejdbc" % "4.3.0",
-    )
+      "com.h2database" % "h2" % "2.2.224",
+      "org.apache.derby" % "derby" % "10.17.1.0",
+      "org.apache.derby" % "derbytools" % "10.17.1.0"
+    ),
+
+    // For JSON handling 
+    libraryDependencies += "com.typesafe.play" %% "play-json" % "2.10.6" 
   )
