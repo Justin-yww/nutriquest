@@ -838,3 +838,16 @@ exception caught when loading module class module-info$: java.lang.AssertionErro
 exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
 Aug 13, 2025 5:14:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 4221
+2025.08.13 17:16:10 INFO  compiling root (1 scala source)
+2025.08.13 17:16:10 INFO  time: compiled root in 0.4s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+Aug 13, 2025 5:21:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4549
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.13 17:26:14 INFO  Created report: Optional[file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/Main.scala]
+2025.08.13 17:26:14 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/.reports/metals-full/2025-08-13/r_empty-definition_(root)_17-26-14-226.md")
+2025.08.13 17:26:14 INFO  compiling root (1 scala source)
+2025.08.13 17:26:14 INFO  time: compiled root in 0.23s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
