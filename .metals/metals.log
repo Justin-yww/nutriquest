@@ -203,3 +203,613 @@ INFO: Unsupported notification method: $/setTrace
 2025.08.12 02:04:21 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerApp/app/MainApp.scala
 Aug 12, 2025 2:04:24 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2025.08.12 02:05:23 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 02:05:23 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 02:05:24 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+Aug 12, 2025 2:05:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+2025.08.12 02:05:23 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 02:18:34 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 02:18:34 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 02:18:36 WARN  no build target for: /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerApp/app/MainApp.scala
+2025.08.12 02:18:36 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerApp/app/MainApp.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 02:18:36 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerApp/app/MainApp.scala
+2025.08.12 02:32:14 WARN  no build target for: /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerApp/app/MainApp.scala
+2025.08.12 02:32:14 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerApp/app/MainApp.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 02:32:14 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerApp/app/MainApp.scala
+2025.08.12 02:45:16 INFO  Shutting down server
+2025.08.12 02:45:16 INFO  shutting down Metals
+2025.08.12 02:45:16 INFO  Exiting server
+2025.08.12 02:45:16 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1570)
+
+2025.08.12 02:54:08 INFO  Started: Metals version 1.6.2 in folders '/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww' for client Visual Studio Code 1.103.0.
+Aug 12, 2025 2:54:09 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Aug 12, 2025 2:54:09 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Aug 12, 2025 2:54:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Aug 12, 2025 2:54:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2025.08.12 02:54:11 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerApp/app/MainApp.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 02:54:12 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerApp/app/MainApp.scala
+2025.08.12 02:54:22 WARN  no build target for: /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerApp/app/MainApp.scala
+2025.08.12 02:54:22 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerApp/app/MainApp.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 02:54:22 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerApp/app/MainApp.scala
+Aug 12, 2025 2:54:25 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.08.12 02:54:40 WARN  no build target for: /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt
+2025.08.12 02:54:40 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerApp/app/MainApp.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 02:54:40 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 02:55:15 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerApp/app/MainApp.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 02:56:00 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 02:56:01 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+Aug 12, 2025 2:56:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+2025.08.12 02:56:00 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+Aug 12, 2025 2:56:17 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.08.12 02:56:25 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 02:56:27 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 02:56:59 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 02:56:59 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:17:40 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:17:40 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:17:41 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:17:41 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:17:54 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:17:54 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:17:54 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:17:54 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:17:56 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:17:57 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:17:57 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:01 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:01 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:01 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:04 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:04 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:04 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:06 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:06 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:06 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:06 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:06 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:06 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:06 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:07 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:06 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:06 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:07 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:07 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:07 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:07 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:07 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:06 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:06 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:07 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:07 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:07 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:07 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:07 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:07 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:08 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:08 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:08 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:07 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:07 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:08 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:08 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:09 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:09 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:08 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:08 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:08 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:09 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:09 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:09 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:09 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:09 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:09 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:09 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:09 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:09 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:09 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:09 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:09 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:09 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:09 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:09 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:09 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:10 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:10 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:10 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:10 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:10 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:10 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:10 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:10 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:11 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:11 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:10 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:10 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:11 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:11 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:11 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:11 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:11 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:11 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:11 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:12 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:14 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:14 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:15 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:15 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:15 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:18 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:18 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:18 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:20 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:20 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:20 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:20 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:20 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:21 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:21 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:20 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:21 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:21 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:21 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:21 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:21 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:21 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:21 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:21 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:21 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:21 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:21 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:21 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:22 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:22 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:22 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:22 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:23 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:23 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:22 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:22 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:22 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:22 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:22 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:23 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:23 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:22 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:22 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:22 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:23 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:23 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:23 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:23 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:23 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:24 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:24 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:23 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:25 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:25 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:25 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:25 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:25 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:26 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:26 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:26 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:26 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:26 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:26 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:28 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:28 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:28 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:28 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:28 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:29 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:29 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:29 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:29 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:29 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:29 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:29 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:29 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:29 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:29 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:30 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:30 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:29 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:30 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:30 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:30 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:31 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:31 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:31 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:31 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:31 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:31 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:31 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:31 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:32 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:32 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:31 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:32 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:33 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:33 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:32 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:32 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:33 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:33 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:32 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:33 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:33 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:33 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:33 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:34 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:34 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:33 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:34 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:34 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:34 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:34 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:34 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:34 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:35 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:35 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:34 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:34 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:35 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:35 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:34 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:34 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:34 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:34 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:35 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:36 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:36 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:35 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:36 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:36 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:35 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:35 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:36 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:36 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:35 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:37 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:37 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:37 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:37 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:37 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:37 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:37 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:37 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:37 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:37 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:38 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:38 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:38 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:38 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:38 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:38 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:38 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:38 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:38 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:38 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:38 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:39 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:39 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:39 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:39 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:39 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:39 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:39 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:39 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:39 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:39 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:39 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:39 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:39 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:40 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:40 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:40 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:40 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:40 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:40 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:41 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:41 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 03:18:40 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:42 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:43 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:44 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 03:18:44 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 11:21:04 INFO  Shutting down server
+2025.08.12 11:21:04 INFO  shutting down Metals
+2025.08.12 11:21:04 INFO  Exiting server
+2025.08.12 11:21:04 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1570)
+
+2025.08.12 11:21:08 INFO  Started: Metals version 1.6.2 in folders '/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww' for client Visual Studio Code 1.103.0.
+Aug 12, 2025 11:21:21 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.08.12 11:21:24 WARN  no build target for: /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 11:21:24 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 11:21:24 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 11:21:26 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 11:21:26 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 11:21:26 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 11:21:26 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 11:21:27 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 11:21:27 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 11:21:28 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 11:21:28 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 11:21:28 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 11:21:30 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 11:21:30 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 11:21:30 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 11:21:30 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 11:21:31 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 11:21:31 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 11:21:31 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 14:03:53 INFO  Shutting down server
+2025.08.12 14:03:53 INFO  shutting down Metals
+2025.08.12 14:03:53 INFO  Exiting server
+2025.08.12 14:03:53 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1570)
+
+2025.08.12 14:04:01 INFO  Started: Metals version 1.6.2 in folders '/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww' for client Visual Studio Code 1.103.0.
+2025.08.12 14:04:05 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 14:04:08 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 14:15:12 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 14:15:12 WARN  no build target for: /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 14:15:12 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 14:15:12 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 14:15:16 WARN  no build target for: /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 14:15:16 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 14:15:16 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 14:24:21 WARN  no build target for: /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt
+2025.08.12 14:24:21 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 14:24:21 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.12 14:24:21 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.12 14:25:58 INFO  running '/opt/homebrew/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.08.12 14:25:59 ERROR Aug 12, 2025 2:25:59 PM org.jline.utils.Log logr
+2025.08.12 14:25:59 ERROR WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2025.08.12 14:25:59 INFO  [info] welcome to sbt 1.10.2 (Oracle Corporation Java 22.0.1)
+2025.08.12 14:25:59 INFO  [info] loading settings for project final-project-justin-yww-build-build-build from metals.sbt ...
+2025.08.12 14:25:59 INFO  [info] loading project definition from /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/project/project
+2025.08.12 14:26:01 INFO  
+2025.08.12 14:26:01 INFO    | => final-project-justin-yww-build-build-build / Compile / compileIncremental 0s
+2025.08.12 14:26:01 INFO  [info] loading settings for project final-project-justin-yww-build-build from metals.sbt ...
+2025.08.12 14:26:01 INFO  [info] loading project definition from /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/project
+2025.08.12 14:26:01 INFO  
+2025.08.12 14:26:01 INFO    | => final-project-justin-yww-build-build / updateSbtClassifiers 0s
+2025.08.12 14:26:02 INFO  [success] Generated .bloop/final-project-justin-yww-build-build.json
+2025.08.12 14:26:02 INFO  
+2025.08.12 14:26:02 INFO    | => final-project-justin-yww-build-build / updateSbtClassifiers 0s
+2025.08.12 14:26:02 INFO  [success] Total time: 1 s, completed Aug 12, 2025, 2:26:02 PM
+2025.08.12 14:26:02 INFO  [info] loading settings for project final-project-justin-yww-build from metals.sbt,plugins.sbt ...
+2025.08.12 14:26:02 INFO  [info] loading project definition from /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project
+2025.08.12 14:26:02 INFO  
+2025.08.12 14:26:02 INFO    | => final-project-justin-yww-build / updateSbtClassifiers 0s
+2025.08.12 14:26:02 INFO  [success] Generated .bloop/final-project-justin-yww-build.json
+2025.08.12 14:26:02 INFO  
+2025.08.12 14:26:02 INFO    | => final-project-justin-yww-build / updateSbtClassifiers 0s
+2025.08.12 14:26:02 INFO  [success] Total time: 0 s, completed Aug 12, 2025, 2:26:02 PM
+2025.08.12 14:26:02 INFO  [info] loading settings for project root from build.sbt ...
+2025.08.12 14:26:02 INFO  [info] set current project to final-project-Justin-yww (in build file:/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/)
+2025.08.12 14:26:02 INFO  
+2025.08.12 14:26:02 INFO    | => root / Compile / scalacOptions 0s
+2025.08.12 14:26:04 INFO  
+2025.08.12 14:26:04 INFO    | => root / update 0s
+2025.08.12 14:26:04 INFO    | => root / Compile / unmanagedJars 0s
+2025.08.12 14:26:04 INFO    | => root / Compile / unmanagedClasspath 0s
+2025.08.12 14:26:04 INFO    | => root / Compile / scalacOptions 0s
+2025.08.12 14:26:04 INFO  
+2025.08.12 14:26:04 INFO    | => root / update 1s
+2025.08.12 14:26:04 INFO    | => root / Compile / unmanagedJars 1s
+2025.08.12 14:26:04 INFO    | => root / Compile / unmanagedClasspath 1s
+2025.08.12 14:26:04 INFO    | => root / Compile / scalacOptions 1s
+2025.08.12 14:26:05 INFO  
+2025.08.12 14:26:05 INFO    | => root / update 1s
+2025.08.12 14:26:05 INFO    | => root / Compile / unmanagedJars 1s
+2025.08.12 14:26:05 INFO    | => root / Compile / unmanagedClasspath 1s
+2025.08.12 14:26:05 INFO    | => root / Compile / scalacOptions 1s
+2025.08.12 14:26:05 INFO  
+2025.08.12 14:26:05 INFO    | => root / update 2s
+2025.08.12 14:26:05 INFO    | => root / Compile / unmanagedJars 2s
+2025.08.12 14:26:06 INFO    | => root / Compile / unmanagedClasspath 2s
+2025.08.12 14:26:06 INFO    | => root / Compile / scalacOptions 2s
+2025.08.12 14:26:06 INFO  
+2025.08.12 14:26:06 INFO    | => root / update 3s
+2025.08.12 14:26:06 INFO    | => root / Compile / unmanagedJars 3s
+2025.08.12 14:26:06 INFO    | => root / Compile / unmanagedClasspath 3s
+2025.08.12 14:26:06 INFO    | => root / Compile / scalacOptions 3s
+2025.08.12 14:26:08 INFO  
+2025.08.12 14:26:08 INFO    | => root / update 4s
+2025.08.12 14:26:08 INFO    | => root / Compile / unmanagedJars 4s
+2025.08.12 14:26:08 INFO    | => root / Compile / unmanagedClasspath 4s
+2025.08.12 14:26:08 INFO    | => root / Compile / scalacOptions 4s
+2025.08.12 14:26:09 INFO  
+2025.08.12 14:26:09 INFO    | => root / update 5s
+2025.08.12 14:26:09 INFO    | => root / Compile / unmanagedJars 5s
+2025.08.12 14:26:09 INFO    | => root / Compile / unmanagedClasspath 5s
+2025.08.12 14:26:09 INFO    | => root / Compile / scalacOptions 5s
+2025.08.12 14:26:09 INFO  
+2025.08.12 14:26:09 INFO    | => root / update 6s
+2025.08.12 14:26:09 INFO    | => root / Compile / unmanagedJars 6s
+2025.08.12 14:26:09 INFO    | => root / Compile / unmanagedClasspath 6s
+2025.08.12 14:26:09 INFO    | => root / Compile / scalacOptions 6s
+2025.08.12 14:26:10 INFO  
+2025.08.12 14:26:10 INFO    | => root / update 7s
+2025.08.12 14:26:10 INFO    | => root / Compile / unmanagedJars 7s
+2025.08.12 14:26:10 INFO    | => root / Compile / unmanagedClasspath 7s
+2025.08.12 14:26:10 INFO    | => root / Compile / scalacOptions 7s
+2025.08.12 14:26:10 INFO  
+2025.08.12 14:26:10 INFO    | => root / update 7s
+2025.08.12 14:26:10 INFO    | => root / Compile / unmanagedJars 7s
+2025.08.12 14:26:10 INFO    | => root / Compile / unmanagedClasspath 7s
+2025.08.12 14:26:10 INFO    | => root / Compile / scalacOptions 7s
+2025.08.12 14:26:12 INFO  
+2025.08.12 14:26:12 INFO    | => root / update 8s
+2025.08.12 14:26:12 INFO    | => root / Compile / unmanagedJars 8s
+2025.08.12 14:26:12 INFO    | => root / Compile / unmanagedClasspath 8s
+2025.08.12 14:26:12 INFO    | => root / Compile / scalacOptions 8s
+2025.08.12 14:26:13 INFO  
+2025.08.12 14:26:13 INFO    | => root / update 9s
+2025.08.12 14:26:13 INFO    | => root / Compile / unmanagedJars 9s
+2025.08.12 14:26:13 INFO    | => root / Compile / unmanagedClasspath 9s
+2025.08.12 14:26:13 INFO    | => root / Compile / scalacOptions 9s
+2025.08.12 14:26:13 INFO  
+2025.08.12 14:26:13 INFO    | => root / update 10s
+2025.08.12 14:26:13 INFO    | => root / Compile / unmanagedJars 10s
+2025.08.12 14:26:13 INFO    | => root / Compile / unmanagedClasspath 10s
+2025.08.12 14:26:13 INFO    | => root / Compile / scalacOptions 10s
+2025.08.12 14:26:14 INFO  
+2025.08.12 14:26:14 INFO    | => root / update 11s
+2025.08.12 14:26:14 INFO    | => root / Compile / unmanagedJars 11s
+2025.08.12 14:26:14 INFO    | => root / Compile / unmanagedClasspath 11s
+2025.08.12 14:26:14 INFO    | => root / Compile / scalacOptions 11s
+2025.08.12 14:26:15 INFO  
+2025.08.12 14:26:15 INFO    | => root / update 12s
+2025.08.12 14:26:15 INFO    | => root / Compile / unmanagedJars 12s
+2025.08.12 14:26:15 INFO    | => root / Compile / scalacOptions 12s
+2025.08.12 14:26:16 INFO  
+2025.08.12 14:26:16 INFO    | => root / update 13s
+2025.08.12 14:26:16 INFO    | => root / Compile / unmanagedJars 13s
+2025.08.12 14:26:16 INFO  
+2025.08.12 14:26:16 INFO    | => root / update 14s
+2025.08.12 14:26:17 INFO    | => root / Compile / unmanagedJars 14s
+2025.08.12 14:26:17 INFO  
+2025.08.12 14:26:17 INFO    | => root / Compile / unmanagedClasspath 0s
+2025.08.12 14:26:17 INFO    | => root / update 15s
+2025.08.12 14:26:19 INFO  
+2025.08.12 14:26:19 INFO    | => root / Compile / unmanagedClasspath 1s
+2025.08.12 14:26:19 INFO    | => root / update 16s
+2025.08.12 14:26:19 INFO  
+2025.08.12 14:26:19 INFO    | => root / Compile / unmanagedClasspath 1s
+2025.08.12 14:26:19 INFO  
+2025.08.12 14:26:19 INFO    | => root / Compile / unmanagedClasspath 1s
+2025.08.12 14:26:19 INFO  
+2025.08.12 14:26:19 INFO    | => root / Compile / unmanagedClasspath 1s
+2025.08.12 14:26:19 INFO  
+2025.08.12 14:26:19 INFO    | => root / Compile / unmanagedClasspath 1s
+2025.08.12 14:26:19 INFO  
+2025.08.12 14:26:19 INFO    | => root / Compile / unmanagedClasspath 1s
+2025.08.12 14:26:19 INFO  
+2025.08.12 14:26:19 INFO    | => root / Compile / unmanagedClasspath 1s
+2025.08.12 14:26:19 INFO  
+2025.08.12 14:26:19 INFO    | => root / Compile / unmanagedClasspath 1s
+2025.08.12 14:26:19 INFO  
+2025.08.12 14:26:19 INFO    | => root / Compile / unmanagedClasspath 1s
+2025.08.12 14:26:19 INFO  
+2025.08.12 14:26:19 INFO    | => root / Compile / unmanagedClasspath 1s
+2025.08.12 14:26:19 INFO  [success] Generated .bloop/root-test.json
+2025.08.12 14:26:19 INFO  
+2025.08.12 14:26:19 INFO    | => root / Compile / unmanagedClasspath 1s
+2025.08.12 14:26:19 INFO  
+2025.08.12 14:26:19 INFO    | => root / Compile / managedClasspath 0s
+2025.08.12 14:26:19 INFO    | => root / Compile / unmanagedClasspath 1s
+2025.08.12 14:26:19 INFO  
+2025.08.12 14:26:19 INFO    | => root / Compile / managedClasspath 0s
+2025.08.12 14:26:19 INFO    | => root / Compile / unmanagedClasspath 1s
+2025.08.12 14:26:19 INFO  
+2025.08.12 14:26:19 INFO    | => root / Compile / managedClasspath 0s
+2025.08.12 14:26:19 INFO    | => root / Compile / unmanagedClasspath 1s
+2025.08.12 14:26:20 INFO  
+2025.08.12 14:26:20 INFO    | => root / Compile / managedClasspath 0s
+2025.08.12 14:26:20 INFO    | => root / Compile / unmanagedClasspath 2s
+2025.08.12 14:26:20 INFO  
+2025.08.12 14:26:20 INFO    | => root / Compile / managedClasspath 1s
+2025.08.12 14:26:20 INFO    | => root / Compile / unmanagedClasspath 3s
+2025.08.12 14:26:22 INFO  
+2025.08.12 14:26:22 INFO    | => root / Compile / managedClasspath 2s
+2025.08.12 14:26:22 INFO  
+2025.08.12 14:26:22 INFO    | => root / Compile / managedClasspath 2s
+2025.08.12 14:26:23 INFO  
+2025.08.12 14:26:23 INFO    | => root / Compile / managedClasspath 3s
+2025.08.12 14:26:23 INFO  
+2025.08.12 14:26:23 INFO    | => root / Compile / managedClasspath 4s
+2025.08.12 14:26:24 INFO  
+2025.08.12 14:26:24 INFO    | => root / Compile / managedClasspath 4s
+2025.08.12 14:26:24 INFO  
+2025.08.12 14:26:24 INFO    | => root / Compile / managedClasspath 5s
+2025.08.12 14:26:26 INFO  
+2025.08.12 14:26:26 INFO    | => root / Compile / managedClasspath 6s
+2025.08.12 14:26:27 INFO  
+2025.08.12 14:26:27 INFO    | => root / Compile / managedClasspath 7s
+2025.08.12 14:26:27 INFO  
+2025.08.12 14:26:27 INFO    | => root / Compile / managedClasspath 8s
+2025.08.12 14:26:29 INFO  
+2025.08.12 14:26:29 INFO    | => root / Compile / externalDependencyClasspath 0s
+2025.08.12 14:26:29 INFO  
+2025.08.12 14:26:29 INFO    | => root / Compile / externalDependencyClasspath 1s
+2025.08.12 14:26:31 INFO  
+2025.08.12 14:26:31 INFO    | => root / Compile / externalDependencyClasspath 2s
+2025.08.12 14:26:31 INFO  
+2025.08.12 14:26:31 INFO    | => root / Compile / externalDependencyClasspath 3s
+2025.08.12 14:26:33 INFO  
+2025.08.12 14:26:33 INFO    | => root / Compile / externalDependencyClasspath 4s
+2025.08.12 14:26:33 INFO  
+2025.08.12 14:26:33 INFO    | => root / Compile / externalDependencyClasspath 4s
+2025.08.12 14:26:34 INFO  
+2025.08.12 14:26:34 INFO    | => root / Compile / externalDependencyClasspath 5s
+2025.08.12 14:26:34 INFO  
+2025.08.12 14:26:34 INFO    | => root / Compile / externalDependencyClasspath 5s
+2025.08.12 14:26:35 INFO  [success] Generated .bloop/root.json
+2025.08.12 14:26:35 INFO  
+2025.08.12 14:26:35 INFO    | => root / Compile / externalDependencyClasspath 5s
+2025.08.12 14:26:35 INFO  [success] Total time: 32 s, completed Aug 12, 2025, 2:26:35 PM
+2025.08.12 14:26:35 INFO  
+2025.08.12 14:26:35 INFO  time: ran 'sbt bloopInstall' in 37s
+2025.08.12 14:26:35 INFO  Attempting to connect to the build server...
+2025.08.12 14:26:35 INFO  Found a Bloop server running
+2025.08.12 14:26:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/bsp.trace.json or /Users/justinyong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.08.12 14:26:35 INFO  Attempting to connect to the build server...
+2025.08.12 14:26:35 INFO  Found a Bloop server running
+2025.08.12 14:26:35 INFO  Attempting to connect to the build server...
+2025.08.12 14:26:35 INFO  Found a Bloop server running
+2025.08.12 14:26:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/project/.metals/bsp.trace.json or /Users/justinyong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.08.12 14:26:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/.metals/bsp.trace.json or /Users/justinyong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.08.12 14:26:35 INFO  time: Connected to build server in 0.31s
+2025.08.12 14:26:35 INFO  Connected to Build server: Bloop v2.0.13
+2025.08.12 14:26:43 INFO  time: indexed workspace in 7.9s
+2025.08.12 14:26:43 INFO  compiling root (1 scala source)
+2025.08.12 14:26:43 INFO  time: compiled root in 0.13s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.12 14:26:43 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.13 14:00:28 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+Aug 13, 2025 4:17:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
