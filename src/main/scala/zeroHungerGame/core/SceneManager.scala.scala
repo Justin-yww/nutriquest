@@ -10,6 +10,7 @@ import javafx.fxml.FXMLLoader
 import javafx.scene.Parent
 
 import zeroHungerGame.core.Routes.Screen
+import zeroHungerGame.util.ResourceLoader
 
 // PURPOSE: Manage scene transition and loading of FXML files
 class SceneManager private (stage: Stage) {
