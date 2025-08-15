@@ -1413,3 +1413,13 @@ Exception in thread "pool-5-thread-3" java.lang.InterruptedException
 2025.08.16 01:19:09 INFO  time: compiled root in 1.8s
 2025.08.16 01:19:14 INFO  compiling root (2 scala sources)
 2025.08.16 01:19:14 INFO  time: compiled root in 0.83s
+Aug 16, 2025 1:21:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19161
+2025.08.16 01:21:42 INFO  compiling root (2 scala sources)
+2025.08.16 01:21:43 INFO  time: compiled root in 1.8s
+2025.08.16 01:22:13 INFO  compiling root (2 scala sources)
+2025.08.16 01:22:13 INFO  time: compiled root in 0.66s
+2025.08.16 01:25:29 INFO  compiling root (2 scala sources)
+2025.08.16 01:25:30 INFO  time: compiled root in 1.74s
+2025.08.16 01:25:36 INFO  compiling root (2 scala sources)
+2025.08.16 01:25:36 INFO  time: compiled root in 0.52s
