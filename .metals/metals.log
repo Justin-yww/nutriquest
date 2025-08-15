@@ -997,3 +997,76 @@ Aug 15, 2025 5:35:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 3235
 2025.08.15 17:36:34 INFO  compiling root (3 scala sources)
 2025.08.15 17:36:35 INFO  time: compiled root in 1.28s
+exception caught when loading class module-info: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.15 17:37:01 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/hungerZeroGame/Main.scala
+2025.08.15 20:02:56 INFO  compiling root (3 scala sources)
+2025.08.15 20:02:56 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/controller/EducationController.scala
+2025.08.15 20:02:56 INFO  time: compiled root in 0.58s
+2025.08.15 20:03:02 INFO  compiling root (4 scala sources)
+exception caught when loading class module-info: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.15 20:03:03 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/controller/MenuController.scala
+2025.08.15 20:03:02 INFO  time: compiled root in 0.43s
+2025.08.15 20:03:13 INFO  compiling root (5 scala sources)
+exception caught when loading class module-info: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.15 20:03:14 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/controller/ResultsController.scala
+2025.08.15 20:03:13 INFO  time: compiled root in 0.39s
+2025.08.15 20:03:26 INFO  compiling root (6 scala sources)
+exception caught when loading class module-info: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.15 20:03:26 INFO  time: compiled root in 0.36s
+2025.08.15 20:03:44 INFO  compiling root (7 scala sources)
+exception caught when loading class module-info: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.15 20:03:44 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/game/GameEngine.scala
+2025.08.15 20:03:44 INFO  time: compiled root in 0.38s
+2025.08.15 20:03:46 INFO  compiling root (7 scala sources)
+2025.08.15 20:03:46 INFO  time: compiled root in 0.37s
+2025.08.15 20:03:55 INFO  compiling root (8 scala sources)
+exception caught when loading class module-info: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.15 20:03:55 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/model/Character.scala
+2025.08.15 20:03:55 INFO  time: compiled root in 0.38s
+2025.08.15 20:04:05 INFO  compiling root (9 scala sources)
+exception caught when loading class module-info: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.15 20:04:05 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/model/FoodItem.scala
+2025.08.15 20:04:05 INFO  time: compiled root in 0.36s
+2025.08.15 20:04:18 INFO  compiling root (10 scala sources)
+exception caught when loading class module-info: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.15 20:04:18 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/model/NutritionProfile.scala
+2025.08.15 20:04:18 INFO  time: compiled root in 0.33s
+2025.08.15 20:04:28 INFO  compiling root (11 scala sources)
+exception caught when loading class module-info: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.15 20:04:28 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/model/LevelConfig.scala
+2025.08.15 20:04:28 INFO  time: compiled root in 0.3s
+2025.08.15 20:04:41 INFO  compiling root (12 scala sources)
+exception caught when loading class module-info: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.15 20:04:41 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/ui/GameView.scala
+2025.08.15 20:04:41 INFO  time: compiled root in 0.36s
+2025.08.15 20:04:54 INFO  compiling root (13 scala sources)
+exception caught when loading class module-info: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.15 20:04:54 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/util/ResourceLoader.scala
+2025.08.15 20:04:54 INFO  time: compiled root in 0.33s
+2025.08.15 20:04:55 INFO  compiling root (13 scala sources)
+2025.08.15 20:04:55 INFO  time: compiled root in 0.34s
+2025.08.15 20:05:06 INFO  compiling root (14 scala sources)
+exception caught when loading class module-info: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.15 20:05:06 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/util/FxEffects.scala
+2025.08.15 20:05:06 INFO  time: compiled root in 0.35s
+exception caught when loading class module-info: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.15 20:06:13 INFO  file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/Main.scala:13:18: stale bloop error: Not found: SceneManager
+      val root = SceneManager.load()
+                 ^^^^^^^^^^^^
+2025.08.15 20:06:13 INFO  file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/Main.scala:24:9: stale bloop error: Reference to root is ambiguous.
+It is both defined in method start
+and inherited subsequently in anonymous class scalafx.scene.Scene {...}
+        root = new BorderPane {
+        ^^^^
+2025.08.15 20:06:13 INFO  file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/Main.scala:32:6: stale bloop error: Found:    scalafx.stage.Stage {...}
+Required: scalafx.application.JFXApp3.PrimaryStage
+    }
+     ^
+2025.08.15 20:06:13 INFO  file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/Main.scala:23:7: stale bloop warning: Line is indented too far to the left, or a `}` is missing
+      scene = new Scene {
+      ^
+2025.08.15 20:06:13 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/Main.scala
+2025.08.15 20:06:14 INFO  compiling root (14 scala sources)
+2025.08.15 20:06:14 INFO  time: compiled root in 0.32s
+2025.08.15 20:06:15 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/Main.scala
+2025.08.15 20:06:39 INFO  compiling root (14 scala sources)
