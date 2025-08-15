@@ -73,7 +73,9 @@ class SceneManager private (stage: Stage) {
       }
 
       private def applyCssToPane(pane: Pane): Unit = {
-            // TO BE ADDED: Logic to apply CSS to the pane
+            try {
+                  val cssPath = 
+            }
             
       }
 }
