@@ -1070,3 +1070,95 @@ Required: scalafx.application.JFXApp3.PrimaryStage
 2025.08.15 20:06:14 INFO  time: compiled root in 0.32s
 2025.08.15 20:06:15 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/Main.scala
 2025.08.15 20:06:39 INFO  compiling root (14 scala sources)
+2025.08.15 20:06:39 INFO  time: compiled root in 0.23s
+2025.08.15 20:06:39 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/Main.scala
+2025.08.15 20:07:02 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/Main.scala
+2025.08.15 20:07:07 INFO  Shutting down server
+2025.08.15 20:07:07 INFO  shutting down Metals
+2025.08.15 20:07:07 INFO  Shut down connection with build server.
+2025.08.15 20:07:07 INFO  Shut down connection with build server.
+2025.08.15 20:07:07 INFO  Shut down connection with build server.
+2025.08.15 20:07:07 INFO  Exiting server
+2025.08.15 20:41:15 INFO  Started: Metals version 1.6.2 in folders '/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww' for client Visual Studio Code 1.103.0.
+2025.08.15 20:41:16 INFO  Attempting to connect to the build server...
+2025.08.15 20:41:16 INFO  Found a Bloop server running
+2025.08.15 20:41:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/bsp.trace.json or /Users/justinyong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.08.15 20:41:16 INFO  Attempting to connect to the build server...
+2025.08.15 20:41:16 INFO  Found a Bloop server running
+2025.08.15 20:41:16 INFO  Attempting to connect to the build server...
+2025.08.15 20:41:16 INFO  Found a Bloop server running
+2025.08.15 20:41:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/project/.metals/bsp.trace.json or /Users/justinyong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.08.15 20:41:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/.metals/bsp.trace.json or /Users/justinyong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.08.15 20:41:16 INFO  time: Connected to build server in 0.32s
+2025.08.15 20:41:16 INFO  Connected to Build server: Bloop v2.0.13
+Aug 15, 2025 8:41:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Aug 15, 2025 8:41:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.08.15 20:41:19 INFO  time: indexed workspace in 3.63s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.15 20:44:16 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/Main.scala
+Aug 15, 2025 8:45:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 683
+Aug 15, 2025 10:15:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 954
+Aug 15, 2025 10:15:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 955
+Aug 15, 2025 10:15:07 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Aug 15, 2025 10:16:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1077
+Aug 15, 2025 10:16:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1078
+Aug 15, 2025 10:16:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1079
+Aug 15, 2025 10:16:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1080
+Aug 15, 2025 10:16:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1081
+Aug 15, 2025 10:16:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1083
+Aug 15, 2025 10:16:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1086
+Aug 15, 2025 10:49:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1590
+Aug 15, 2025 10:49:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1933
+Aug 15, 2025 10:49:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2082
+Aug 15, 2025 10:50:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2260
+Aug 15, 2025 10:52:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2470
+Aug 15, 2025 10:52:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2477
+Aug 15, 2025 10:53:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2813
+Aug 15, 2025 10:54:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3245
+Aug 15, 2025 10:55:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3638
+Aug 15, 2025 10:58:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5096
+Aug 15, 2025 11:00:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5490
+Aug 15, 2025 11:00:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5506
+Aug 15, 2025 11:00:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5683
+Aug 15, 2025 11:01:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5849
+Aug 15, 2025 11:01:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5995
+Aug 15, 2025 11:01:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6052
+2025.08.15 23:02:00 INFO  compiling root (1 scala source)
+2025.08.15 23:02:00 INFO  time: compiled root in 0.47s
+Aug 15, 2025 11:02:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6327
+Aug 15, 2025 11:03:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.08.15 23:03:04 INFO  compiling root (1 scala source)
+2025.08.15 23:03:04 INFO  time: compiled root in 0.19s
+2025.08.15 23:03:22 INFO  compiling root (1 scala source)
+2025.08.15 23:03:22 INFO  time: compiled root in 0.41s
