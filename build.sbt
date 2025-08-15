@@ -1,11 +1,20 @@
 ThisBuild / version := "0.1.0-SNAPSHOT"
 ThisBuild / scalaVersion := "3.3.6"
 
+/*  
+AI DECLARATION: Usage for debugging
+  the build.sbt file was modified heavily using Claude Sonnet 3.7 as there was a 
+  lot of error when running trying 'sbt run' in the VS Code terminal. The provided
+  build.sbt in the practical classes faced several compilation errors which was 
+  then debugged with Claude Sonnet 3.7
+*/ 
+
 lazy val root = (project in file("."))
   .settings(
     name := "final-project-Justin-yww",
+    fork := true,
 
-    // Allows the selection of the JavaFX version based on the OS and architecture
+    // JavaFX Modules Selection by platform classifier
     libraryDependencies ++= {
       val os   = sys.props.getOrElse("os.name", "").toLowerCase
       val arch = sys.props.getOrElse("os.arch", "").toLowerCase
@@ -23,24 +32,11 @@ lazy val root = (project in file("."))
 
       // Version to use (MUST BE 21)
       val fxVersion = "21.0.5"
-
-      // Modules needed for the GUI system 
-      val fxModules = Seq("base", "graphics", "controls", "fxml" ) 
-
-      fxModules.map(m => "org.openjfx" % s"javafx-$m" % fxVersion classifier classifier)
+      Seq("base", "graphics", "controls", "fxml", "media" ).map(m => "org.openjfx" % s"javafx-$m" % fxVersion classifier platform)
     },
 
-    // ScalaFX 21 for Scala 3
-    libraryDependencies += "org.scalafx" %% "scalafx" % "21.0.0-R32",
-
-    // Database libraries -- Not sure if used yet (FROM PRACTICAL)
-    libraryDependencies ++= Seq(
-      "org.scalikejdbc" %% "scalikejdbc" % "4.3.0",
-      "com.h2database" % "h2" % "2.2.224",
-      "org.apache.derby" % "derby" % "10.17.1.0",
-      "org.apache.derby" % "derbytools" % "10.17.1.0"
-    ),
-
-    // For JSON handling 
-    libraryDependencies += "com.typesafe.play" %% "play-json" % "2.10.6" 
+    Compile / unmanagedResourceDirectories += baseDirectory.value / "src" / "main" / "resources",
+    Compile / run / javaOptions ++= Seq("--enable--native-access=ALL-UNAMED"),
+    Compile / mainClass := Some("zeroHungerGame.Main"),
+    Compile / run / mainClass := Some("zeroHungerGame.Main")
   )

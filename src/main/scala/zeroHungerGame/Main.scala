@@ -1,22 +1,34 @@
-object Main {
-      def main (args: Array[String]): Unit = {
+package zeroHungerGame
+
+import scalafx.application.JFXApp3
+import scalafx.scene.Scene
+import scalafx.scene.control.Label
+import scalafx.scene.layout.BorderPane
+import scalafx.geometry.Insets
+import scalafx.stage.Stage
+
+/** NutriQuest - A PRG 2104 Project (ScalaFX 21) */
+object Main extends JFXApp3 {
+  override def start(): Unit = {
+      val root = SceneManager.load()
+      
+      stage = new Stage {
+            title = "🪴 NutriQuest - A PRG 2104 Project"
             
+            width = 1024
+            height = 768
+            resizable = true
+
+      // Initialisation of scene management
+      scene = new Scene {
+        root = new BorderPane {
+          padding = Insets(12)
+          // Load the first screen of GUI System
+          center = new Label("Welcome to NutriQuest! 🧑🏻‍🌾")
+        }
       }
-}
+      // Stage is shown automatically when using JFXApp3
 
-class MainApp extends Application { 
-      override def start(primaryStage: Stage): Unit = {
-            // [1] Area with the window for the entire GUI System 
-            primaryStage.setTitle("NutriQuest - A PRG 2104 Project")
-            primaryStage.setwidth(1024)
-            primaryStage.setHeight(768)
-            primaryStage.setResizable(true)
-
-            // [2] Initialisation of scene management 
-            
-            // [3] Load the first screen of GUI System 
-
-            // [4] Displaying the window 
-      }
-
+    }
+  }
 }

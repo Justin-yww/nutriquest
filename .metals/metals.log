@@ -851,3 +851,147 @@ exception caught when loading module class module-info$: java.lang.AssertionErro
 2025.08.13 17:26:14 INFO  compiling root (1 scala source)
 2025.08.13 17:26:14 INFO  time: compiled root in 0.23s
 exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.13 17:28:28 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/core/Routes.scala
+2025.08.13 17:28:28 INFO  compiling root (2 scala sources)
+2025.08.13 17:28:28 INFO  time: compiled root in 0.11s
+Aug 13, 2025 5:31:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6428
+Aug 13, 2025 5:31:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6443
+Aug 13, 2025 5:31:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6532
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.13 17:54:35 INFO  compiling root (3 scala sources)
+2025.08.13 17:54:36 INFO  time: compiled root in 1.31s
+2025.08.13 17:54:36 INFO  compiling root (3 scala sources)
+2025.08.13 17:54:37 INFO  time: compiled root in 0.65s
+Aug 13, 2025 6:13:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8003
+2025.08.13 19:10:35 INFO  Shutting down server
+2025.08.13 19:10:35 INFO  shutting down Metals
+2025.08.13 19:10:35 INFO  Shut down connection with build server.
+2025.08.13 19:10:35 INFO  Shut down connection with build server.
+2025.08.13 19:10:35 INFO  Shut down connection with build server.
+2025.08.13 19:10:35 INFO  Exiting server
+2025.08.13 19:12:37 INFO  Started: Metals version 1.6.2 in folders '/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww' for client Visual Studio Code 1.103.0.
+2025.08.13 19:12:39 INFO  Attempting to connect to the build server...
+2025.08.13 19:12:39 INFO  Found a Bloop server running
+2025.08.13 19:12:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/bsp.trace.json or /Users/justinyong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.08.13 19:12:40 INFO  Attempting to connect to the build server...
+2025.08.13 19:12:40 INFO  Found a Bloop server running
+2025.08.13 19:12:40 INFO  Attempting to connect to the build server...
+2025.08.13 19:12:40 INFO  Found a Bloop server running
+2025.08.13 19:12:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/project/.metals/bsp.trace.json or /Users/justinyong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.08.13 19:12:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/.metals/bsp.trace.json or /Users/justinyong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.08.13 19:12:40 INFO  time: Connected to build server in 0.42s
+2025.08.13 19:12:40 INFO  Connected to Build server: Bloop v2.0.13
+2025.08.13 19:12:47 INFO  time: indexed workspace in 7.59s
+2025.08.13 19:12:47 INFO  compiling root (3 scala sources)
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.13 19:12:49 INFO  time: compiled root in 1.48s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.13 19:13:09 INFO  Shutting down server
+2025.08.13 19:13:09 INFO  shutting down Metals
+2025.08.13 19:13:10 INFO  Shut down connection with build server.
+2025.08.13 19:13:10 INFO  Shut down connection with build server.
+2025.08.13 19:13:10 INFO  Shut down connection with build server.
+2025.08.13 19:13:09 INFO  Exiting server
+2025.08.13 19:17:31 INFO  Started: Metals version 1.6.2 in folders '/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww' for client Visual Studio Code 1.103.0.
+2025.08.13 19:17:32 INFO  Attempting to connect to the build server...
+2025.08.13 19:17:32 INFO  No running Bloop server found, starting one.
+2025.08.13 19:17:34 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.13 19:17:34 INFO  Starting compilation server
+2025.08.13 19:17:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/bsp.trace.json or /Users/justinyong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.08.13 19:17:37 INFO  Attempting to connect to the build server...
+2025.08.13 19:17:37 INFO  Found a Bloop server running
+2025.08.13 19:17:37 INFO  Attempting to connect to the build server...
+2025.08.13 19:17:37 INFO  Found a Bloop server running
+2025.08.13 19:17:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/.metals/bsp.trace.json or /Users/justinyong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.08.13 19:17:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/project/.metals/bsp.trace.json or /Users/justinyong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.08.13 19:17:37 INFO  time: Connected to build server in 5.46s
+2025.08.13 19:17:37 INFO  Connected to Build server: Bloop v2.0.13
+2025.08.13 19:17:38 INFO  time: Imported build in 0.14s
+2025.08.13 19:17:41 INFO  time: indexed workspace in 3.8s
+2025.08.13 19:17:42 INFO  compiling root (3 scala sources)
+exception caught when loading class module-info: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.13 19:17:44 INFO  time: compiled root in 2.37s
+exception caught when loading class module-info: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.13 22:22:22 INFO  compiling root (3 scala sources)
+2025.08.13 22:22:24 INFO  time: compiled root in 1.17s
+Aug 14, 2025 12:25:23 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.08.14 00:58:13 INFO  compiling root (3 scala sources)
+2025.08.14 00:58:15 INFO  time: compiled root in 1.79s
+2025.08.14 00:58:28 INFO  file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/Main.scala:11:8: stale bloop error: value core is not a member of unsdg2game
+import unsdg2game.core.{SceneManager, Routes}
+       ^^^^^^^^^^^^^^^
+2025.08.14 00:58:28 INFO  file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/Main.scala:12:8: stale bloop error: value util is not a member of unsdg2game
+import unsdg2game.util.ResourceLoader
+       ^^^^^^^^^^^^^^^
+2025.08.14 00:58:28 INFO  file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/Main.scala:32:6: stale bloop error: Found:    scalafx.stage.Stage {...}
+Required: scalafx.application.JFXApp3.PrimaryStage
+    }
+     ^
+2025.08.14 00:58:28 INFO  file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/Main.scala:47:37: stale bloop error: Could not infer type for parameter _$1 of anonymous function
+
+In expanded function:
+_$1 =>
+  {
+    SceneManager.cleanup()
+    sys.exit(0)
+  }
+
+Expected type for the whole anonymous function: Any
+    stage.onCloseRequest = handle { _ =>
+                                    ^
+2025.08.14 00:58:29 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/Main.scala
+2025.08.14 10:49:57 INFO  Shutting down server
+2025.08.14 10:49:57 INFO  shutting down Metals
+2025.08.14 10:49:57 INFO  Shut down connection with build server.
+2025.08.14 10:49:57 INFO  Shut down connection with build server.
+2025.08.14 10:49:57 INFO  Shut down connection with build server.
+2025.08.14 10:49:57 INFO  Exiting server
+2025.08.14 10:50:11 INFO  Started: Metals version 1.6.2 in folders '/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww' for client Visual Studio Code 1.103.0.
+2025.08.14 10:50:17 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.14 10:50:17 INFO  Attempting to connect to the build server...
+2025.08.14 10:50:17 INFO  Found a Bloop server running
+2025.08.14 10:50:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/bsp.trace.json or /Users/justinyong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.08.14 10:50:17 INFO  Attempting to connect to the build server...
+2025.08.14 10:50:17 INFO  Found a Bloop server running
+2025.08.14 10:50:17 INFO  Attempting to connect to the build server...
+2025.08.14 10:50:17 INFO  Found a Bloop server running
+2025.08.14 10:50:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/project/.metals/bsp.trace.json or /Users/justinyong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.08.14 10:50:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/.metals/bsp.trace.json or /Users/justinyong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.08.14 10:50:17 INFO  time: Connected to build server in 0.5s
+2025.08.14 10:50:17 INFO  Connected to Build server: Bloop v2.0.13
+2025.08.14 10:50:17 INFO  time: Imported build in 0.12s
+2025.08.14 10:50:27 INFO  time: indexed workspace in 8.89s
+2025.08.14 10:50:27 INFO  compiling root (3 scala sources)
+2025.08.14 10:50:28 INFO  time: compiled root in 1.23s
+exception caught when loading class module-info: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+exception caught when loading class module-info: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+Aug 14, 2025 1:29:07 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Aug 14, 2025 1:51:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.08.15 07:25:04 INFO  compiling root (3 scala sources)
+2025.08.15 07:25:05 INFO  time: compiled root in 1.71s
+2025.08.15 10:11:08 INFO  compiling root (3 scala sources)
+2025.08.15 10:11:08 INFO  time: compiled root in 0.94s
+2025.08.15 17:26:45 INFO  time: code lens generation in 1.73s
+Aug 15, 2025 5:27:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 108
+Aug 15, 2025 5:27:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 226
+Aug 15, 2025 5:27:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 237
+Aug 15, 2025 5:28:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 468
+Aug 15, 2025 5:28:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 469
+Aug 15, 2025 5:31:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Aug 15, 2025 5:35:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2797
+Aug 15, 2025 5:35:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3235
