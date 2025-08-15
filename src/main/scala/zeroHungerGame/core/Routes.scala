@@ -1,5 +1,6 @@
 package zeroHungerGame.core
 
+// PURPOSE: Define fxml paths for the different screens in the application
 object Routes {
       // NOTE: Trait will be used for all screens 
       sealed trait Screen {
