@@ -9,7 +9,7 @@ import scalafx.scene.control.Label
 import javafx.fxml.FXMLLoader
 import javafx.scene.Parent
 
-import zeroHungerGame.controllers.{MenuController, EducationController, ResultController}
+import zeroHungerGame.controller.{MenuController, EducationController, ResultController}
 import zeroHungerGame.core.Routes.Screen
 import zeroHungerGame.ui.GameView
 import zeroHungerGame.util.ResourceLoader
