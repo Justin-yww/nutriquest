@@ -1,3 +1,13 @@
+error id: file://<WORKSPACE>/src/main/scala/zeroHungerGame/game/GameEngine.scala:`<none>`.
+file://<WORKSPACE>/src/main/scala/zeroHungerGame/game/GameEngine.scala
+empty definition using pc, found symbol in pc: `<none>`.
+empty definition using semanticdb
+
+found definition using fallback; symbol toInt
+offset: 6516
+uri: file://<WORKSPACE>/src/main/scala/zeroHungerGame/game/GameEngine.scala
+text:
+```scala
 package zeroHungerGame.game
 
 import scalafx.beans.property.{BooleanProperty, IntegerProperty, ObjectProperty, StringProperty}
@@ -5,9 +15,9 @@ import scala.collection.mutable
 
 import zeroHungerGame.model.{Character, FoodItem, LevelConfig}
 
-class GameEngine(initialMode: String) {
+class GameEngine {
       // Goal of Game Engine: Manages game state and logic (works with 'model' files)
-      // STATE PROPERTIES
+      // STATE
       private val _running       = BooleanProperty(false)
       private val _score         = IntegerProperty(0)
       private val _timeRemaining = IntegerProperty(0)
@@ -163,7 +173,6 @@ class GameEngine(initialMode: String) {
                   food.isMatched = true
                   matchedCharacters.add(character)
                   
-                  // SCORE LOGIC 
                   // Score Calculation 
                   val timeRatio = timeRemaining.toDouble / levelConfig.timeLimit.toDouble
                   
@@ -171,14 +180,18 @@ class GameEngine(initialMode: String) {
                   val speedMultiplier = speedMultiplierMin + (speedScoreRange * timeRatio)
                   
                   // Apply the multiplier to the base score
-                  val matchScore = (baseMatchScore * speedMultiplier).toInt
+                  val matchScore = (baseMatchScore * speedMultiplier).@@toInt
                   
                   // Update total score
                   _score.value = _score.value + matchScore
                   
-                  
+                  // Clear selection
                   _selectedFood.value = None
+                  
+                  // Notify listeners
                   notifyListeners(GameEvent.CorrectMatch(food, character))
+                  
+                  // Check for win condition - all characters matched
                   if (matchedCharacters.size == characters.size) {
                         stop()
                   }
@@ -189,39 +202,13 @@ class GameEngine(initialMode: String) {
                   false
                   }
                   case None =>
-                        false
+                  false
             }
       }
-
-      // TIMERSERVICE - Update time
-      def updateTime(secondsRemaining: Int): Unit = {
-            _timeRemaining.value = secondsRemaining
-
-            if (secondsRemaining <= 0 && running) {
-                  stop()
-            }
-      }
-
-      // MANAGEMENT OF THE EVENT LISTENER
-      def addEventListener(listener: GameEvent => Unit): Unit =
-            gameEventListeners.add(listener)
-
-      def removeEventListener(listener: GameEvent => Unit): Unit =
-            gameEventListeners.remove(listener)
-
-      private def notifyListeners(event: GameEvent): Unit =
-            gameEventListeners.foreach(_(event))
 }
+```
 
-sealed trait GameEvent
-object GameEvent {
-  case object GameStarted extends GameEvent
-  case object GamePaused extends GameEvent
-  case object GameResumed extends GameEvent
-  case class GameCompleted(finalScore: Int) extends GameEvent
-  case class ModeChanged(mode: String) extends GameEvent
-  case class FoodSelected(food: FoodItem) extends GameEvent
-  case class FoodDeselected(food: FoodItem) extends GameEvent
-  case class CorrectMatch(food: FoodItem, character: Character) extends GameEvent
-  case class IncorrectMatch(food: FoodItem, character: Character) extends GameEvent
-}
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: `<none>`.
