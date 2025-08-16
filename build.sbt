@@ -40,7 +40,7 @@ lazy val root = (project in file("."))
     },
 
     Compile / unmanagedResourceDirectories += baseDirectory.value / "src" / "main" / "resources",
-    Compile / run / javaOptions ++= Seq("--enable--native-access=ALL-UNAMED"),
+    Compile / run / javaOptions ++= Seq("--enable-native-access=ALL-UNAMED"),
     Compile / mainClass := Some("zeroHungerGame.Main"),
     Compile / run / mainClass := Some("zeroHungerGame.Main")
   )

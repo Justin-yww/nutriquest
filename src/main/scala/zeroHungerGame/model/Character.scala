@@ -74,7 +74,7 @@ class Character(
             _imageCache.value
       }
 
-      def primaryNutritionNeeded: String = nutritionProfile.primaryNeed 
+      def primaryNutritionNeed: String = nutritionProfile.primaryNeed 
 
       // PURPOSE: Helper method to determine nutrition prompt
       // NOTE: Nutrition prompt needs to be shorter to ensure it is visible 
