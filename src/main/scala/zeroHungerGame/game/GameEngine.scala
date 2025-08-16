@@ -52,6 +52,8 @@ class GameEngine(initialMode: String) {
       def availableFoods: List[FoodItem] = _availableFoods.value
       def selectedFoodOption: Option[FoodItem] = _selectedFood.value
 
+      def gameStatus: String = _gameStatus.value
+
       def mode: String = _levelConfig.value.map(_.mode).getOrElse(initialMode)
 
       // ACCESSORS 

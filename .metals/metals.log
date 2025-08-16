@@ -3528,3 +3528,6 @@ Exception in thread "pool-5-thread-4" java.lang.InterruptedException
 2025.08.17 00:00:21 INFO  time: compiled root in 0.97s
 2025.08.17 00:00:36 INFO  compiling root (16 scala sources)
 2025.08.17 00:00:37 INFO  time: compiled root in 1.17s
+2025.08.17 00:02:48 INFO  compiling root (16 scala sources)
+2025.08.17 00:02:48 INFO  time: compiled root in 0.82s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile

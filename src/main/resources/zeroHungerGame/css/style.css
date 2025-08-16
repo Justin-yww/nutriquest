@@ -4,6 +4,8 @@ Styles for the complete project
 AI DECLARATION:
 Used constantly to experiment with different styling
 */
+
+/* ###### COMMON SHARED ELEMENTS ###### */
 .root {
   -fx-font-family: "Segoe UI", "SF Pro Text", "Helvetica Neue", sans-serif;
   -fx-background-color: #f7f7f7;
@@ -35,6 +37,47 @@ Used constantly to experiment with different styling
 .button:pressed {
   -fx-background-color: #d4d4d4;
   -fx-effect: innershadow(gaussian, rgba(0, 0, 0, 0.1), 2, 0, 0, 1);
+}
+
+/* ###### BUTTON VARIANTS ###### */
+.primary-button {
+  -fx-background-color: #3b82f6;
+  -fx-text-fill: white;
+  -fx-border-color: transparent;
+}
+
+.primary-button:hover {
+  -fx-background-color: #2563eb;
+}
+
+.success-button {
+  -fx-background-color: #10b981;
+  -fx-text-fill: white;
+  -fx-border-color: transparent;
+}
+
+.success-button:hover {
+  -fx-background-color: #059669;
+}
+
+.warning-button {
+  -fx-background-color: #f59e0b;
+  -fx-text-fill: white;
+  -fx-border-color: transparent;
+}
+
+.warning-button:hover {
+  -fx-background-color: #d97706;
+}
+
+.danger-button {
+  -fx-background-color: #ef4444;
+  -fx-text-fill: white;
+  -fx-border-color: transparent;
+}
+
+.danger-button:hover {
+  -fx-background-color: #dc2626;
 }
 
 /* ###### MENU STYLE ###### */
