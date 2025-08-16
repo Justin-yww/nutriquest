@@ -2957,3 +2957,60 @@ WARNING: Unmatched cancel notification for request id 68992
 2025.08.16 20:54:53 INFO  compiling root (6 scala sources)
 2025.08.16 20:54:54 INFO  time: compiled root in 1.25s
 exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.16 21:06:42 INFO  Created report: Optional[file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/controller/MenuController.scala]
+2025.08.16 21:06:42 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/.reports/metals-full/2025-08-16/r_empty-definition_(root)_21-06-42-899.md")
+2025.08.16 21:06:56 INFO  compiling root (7 scala sources)
+2025.08.16 21:06:56 INFO  time: compiled root in 0.89s
+2025.08.16 21:07:22 INFO  compiling root (7 scala sources)
+2025.08.16 21:07:22 INFO  time: compiled root in 0.98s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.16 21:08:04 INFO  compiling root (7 scala sources)
+2025.08.16 21:08:04 INFO  time: compiled root in 0.95s
+Aug 16, 2025 9:10:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 69707
+2025.08.16 21:12:49 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/.reports/metals-full/2025-08-16/r_empty-definition_(root)_21-06-42-899.md")
+2025.08.16 21:12:49 INFO  compiling root (7 scala sources)
+2025.08.16 21:12:50 INFO  time: compiled root in 1.1s
+2025.08.16 21:13:16 INFO  compiling root (7 scala sources)
+2025.08.16 21:13:17 INFO  time: compiled root in 1s
+Aug 16, 2025 9:20:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 71846
+Aug 16, 2025 9:21:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 72244
+2025.08.16 21:22:01 INFO  compiling root (7 scala sources)
+2025.08.16 21:22:01 INFO  time: compiled root in 0.92s
+2025.08.16 21:22:21 INFO  compiling root (7 scala sources)
+2025.08.16 21:22:22 INFO  time: compiled root in 1.01s
+Aug 16, 2025 9:23:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 72596
+Aug 16, 2025 9:23:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 72624
+2025.08.16 21:23:26 INFO  compiling root (7 scala sources)
+2025.08.16 21:23:26 INFO  time: compiled root in 0.95s
+Aug 16, 2025 9:23:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 72897
+2025.08.16 21:25:00 INFO  compiling root (7 scala sources)
+2025.08.16 21:25:00 INFO  time: compiled root in 0.94s
+2025.08.16 21:25:08 INFO  compiling root (7 scala sources)
+2025.08.16 21:25:09 INFO  time: compiled root in 1.07s
+2025.08.16 21:27:34 INFO  compiling root (7 scala sources)
+2025.08.16 21:27:35 INFO  time: compiled root in 1.13s
+2025.08.16 21:30:00 INFO  compiling root (7 scala sources)
+2025.08.16 21:30:00 INFO  time: compiled root in 0.94s
+2025.08.16 21:31:01 INFO  compiling root (7 scala sources)
+2025.08.16 21:31:01 INFO  time: compiled root in 0.93s
+Aug 16, 2025 9:33:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 74166
+Aug 16, 2025 9:33:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 74352
+Aug 16, 2025 9:33:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 74392
+2025.08.16 21:35:32 INFO  compiling root (7 scala sources)
+2025.08.16 21:35:32 INFO  time: compiled root in 0.91s
+2025.08.16 21:36:49 INFO  compiling root (7 scala sources)
+2025.08.16 21:36:49 INFO  time: compiled root in 0.92s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.16 21:38:26 INFO  compiling root (7 scala sources)
+2025.08.16 21:38:26 INFO  time: compiled root in 0.96s
+2025.08.16 21:39:08 INFO  compiling root (14 scala sources)
+2025.08.16 21:39:08 INFO  time: compiled root in 0.8s

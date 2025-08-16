@@ -15,7 +15,7 @@ object Routes {
       }
 
       // [2] Village Mode - Education Section 
-      final case class VillageEduation(pageNumber: Int) extends Screen{
+      final case class VillageEducation(pageNumber: Int) extends Screen{
             override val fxmlPath  = Some("view/Education.fxml")
             override val id        = s"village-edu-$pageNumber"
 
