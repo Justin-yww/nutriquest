@@ -13,10 +13,11 @@ import scalafx.util.Duration
 import scala.collection.mutable
 
 import zeroHungerGame.core.{Routes, SceneManager}
+import zeroHungerGame.game.{GameEngine, GameEvent}
 import zeroHungerGame.model.{Character, FoodItem}
 import zeroHungerGame.util.{FxEffects, ResourceLoader}
 
-class GameView { 
-      // Work on gameEngine first
+class GameView(gameEngine: GameEngine, sceneManager: SceneManager) {
+      
       
 }

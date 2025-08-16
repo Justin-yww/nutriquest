@@ -3627,3 +3627,7 @@ exception caught when loading module class module-info$: java.lang.AssertionErro
 2025.08.17 01:07:11 INFO  compiling root (16 scala sources)
 2025.08.17 01:07:11 INFO  time: compiled root in 0.7s
 exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.17 01:10:07 INFO  compiling root (16 scala sources)
+2025.08.17 01:10:07 INFO  time: compiled root in 0.72s
+2025.08.17 01:10:36 INFO  compiling root (16 scala sources)
+2025.08.17 01:10:36 INFO  time: compiled root in 0.76s
