@@ -136,3 +136,175 @@ Used constantly to experiment with different styling
   -fx-opacity: 1;
   -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 2, 0, 1, 1);
 }
+
+/* ###### EDUCATION SCREEN STYLES ###### */
+.education-screen {
+  -fx-background-color: #fafafa;
+}
+
+.edu-title {
+  -fx-font-size: 24px;
+  -fx-font-weight: bold;
+  -fx-text-fill: #262626;
+}
+
+/* Education HUD Bar */
+.edu-hud-bar {
+  -fx-background-color: #1f2937;
+  -fx-background-radius: 0 0 6px 6px;
+  -fx-padding: 8px 15px;
+  -fx-spacing: 30px;
+}
+
+.edu-hud-label {
+  -fx-text-fill: white;
+  -fx-font-weight: normal;
+  -fx-font-size: 13px;
+  -fx-opacity: 0.9;
+}
+
+.edu-hud-value {
+  -fx-text-fill: #fbbf24;
+  -fx-font-weight: bold;
+  -fx-font-size: 14px;
+  -fx-opacity: 1;
+}
+
+.nav-button {
+  -fx-background-color: #e5e5e5;
+  -fx-padding: 6px 12px;
+}
+
+.content-pane {
+  -fx-background-color: white;
+  -fx-background-radius: 6px;
+  -fx-border-radius: 6px;
+  -fx-border-color: #e5e5e5;
+  -fx-border-width: 1px;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.05), 4, 0, 0, 1);
+}
+
+.edu-content {
+  -fx-font-size: 15px;
+  -fx-background-color: transparent;
+  -fx-border-color: transparent;
+  -fx-text-fill: #262626;
+}
+
+.section-header {
+  -fx-font-size: 18px;
+  -fx-font-weight: bold;
+  -fx-text-fill: #262626;
+}
+
+.character-container,
+.food-container {
+  -fx-background-color: rgba(255, 255, 255, 0.8);
+  -fx-background-radius: 6px;
+  -fx-border-radius: 6px;
+  -fx-border-color: #e5e5e5;
+  -fx-border-width: 1px;
+}
+
+.character-preview {
+  -fx-background-color: white;
+  -fx-padding: 12px;
+  -fx-background-radius: 6px;
+  -fx-border-radius: 6px;
+  -fx-border-color: #e5e5e5;
+  -fx-border-width: 1px;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.05), 3, 0, 0, 1);
+  -fx-min-width: 150px;
+  -fx-alignment: center;
+}
+
+.character-name {
+  -fx-font-weight: bold;
+  -fx-font-size: 16px;
+}
+
+.character-role {
+  -fx-font-style: italic;
+  -fx-text-fill: #525252;
+}
+
+.nutrition-text {
+  -fx-font-size: 12px;
+  -fx-text-fill: #525252;
+}
+
+.food-preview {
+  -fx-background-color: white;
+  -fx-padding: 12px;
+  -fx-background-radius: 6px;
+  -fx-border-radius: 6px;
+  -fx-border-color: #e5e5e5;
+  -fx-border-width: 1px;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.05), 3, 0, 0, 1);
+  -fx-min-width: 120px;
+  -fx-alignment: center;
+}
+
+.food-name {
+  -fx-font-weight: bold;
+  -fx-font-size: 14px;
+}
+
+.tags-text {
+  -fx-font-size: 12px;
+  -fx-text-fill: #525252;
+}
+
+.edu-footer {
+  -fx-background-color: #262626;
+  -fx-padding: 12px;
+}
+
+.edu-footer .label {
+  -fx-text-fill: white;
+}
+
+.start-game-button {
+  -fx-background-color: #10b981;
+  -fx-text-fill: white;
+  -fx-font-size: 15px;
+}
+
+.start-game-button:hover {
+  -fx-background-color: #059669;
+}
+
+/* ###### GAME SCREEN STYLES ###### */
+
+/* ###### RESULTS SCREEN STYLES ###### */
+
+/* ###### SEPARATOR STYLING ###### */
+.separator .line {
+  -fx-border-color: #d4d4d4;
+  -fx-border-width: 0.5px;
+}
+
+/* ###### RESPONSIVE DESIGN MEDIA QUERIES ###### */
+@media screen and (max-height: 600px) {
+  .menu-container {
+    -fx-spacing: 15px;
+    -fx-padding: 20px;
+  }
+
+  .title-label {
+    -fx-font-size: 24px;
+  }
+
+  .footer {
+    -fx-min-height: 80px;
+    -fx-padding: 20px;
+  }
+
+  .footer-text-main {
+    -fx-font-size: 16px;
+  }
+
+  .footer-text-subtitle {
+    -fx-font-size: 12px;
+  }
+}
