@@ -3531,3 +3531,87 @@ Exception in thread "pool-5-thread-4" java.lang.InterruptedException
 2025.08.17 00:02:48 INFO  compiling root (16 scala sources)
 2025.08.17 00:02:48 INFO  time: compiled root in 0.82s
 exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.17 00:28:45 INFO  compiling root (16 scala sources)
+2025.08.17 00:28:45 INFO  time: compiled root in 0.83s
+Aug 17, 2025 12:28:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5379
+2025.08.17 00:29:00 INFO  compiling root (16 scala sources)
+2025.08.17 00:29:01 INFO  time: compiled root in 1.17s
+2025.08.17 00:30:46 INFO  compiling root (16 scala sources)
+2025.08.17 00:30:46 INFO  time: compiled root in 0.72s
+2025.08.17 00:42:51 INFO  compiling root (16 scala sources)
+2025.08.17 00:42:51 INFO  time: compiled root in 0.73s
+2025.08.17 00:43:19 INFO  compiling root (16 scala sources)
+2025.08.17 00:43:19 INFO  time: compiled root in 0.72s
+2025.08.17 00:43:32 INFO  compiling root (16 scala sources)
+2025.08.17 00:43:32 INFO  time: compiled root in 0.67s
+2025.08.17 00:45:01 INFO  compiling root (16 scala sources)
+2025.08.17 00:45:01 INFO  time: compiled root in 0.72s
+2025.08.17 00:45:17 INFO  compiling root (16 scala sources)
+2025.08.17 00:45:17 INFO  time: compiled root in 0.71s
+2025.08.17 00:45:24 INFO  compiling root (16 scala sources)
+2025.08.17 00:45:24 INFO  time: compiled root in 0.62s
+2025.08.17 00:45:28 INFO  compiling root (16 scala sources)
+2025.08.17 00:45:28 INFO  time: compiled root in 0.61s
+2025.08.17 00:45:33 INFO  compiling root (16 scala sources)
+2025.08.17 00:45:33 INFO  time: compiled root in 0.62s
+2025.08.17 00:45:36 INFO  compiling root (16 scala sources)
+2025.08.17 00:45:36 INFO  time: compiled root in 0.59s
+2025.08.17 00:46:10 INFO  compiling root (16 scala sources)
+2025.08.17 00:46:10 INFO  time: compiled root in 0.85s
+2025.08.17 00:46:13 INFO  compiling root (16 scala sources)
+2025.08.17 00:46:13 INFO  time: compiled root in 0.6s
+2025.08.17 00:46:17 INFO  compiling root (16 scala sources)
+2025.08.17 00:46:17 INFO  time: compiled root in 0.61s
+2025.08.17 00:46:20 INFO  compiling root (16 scala sources)
+2025.08.17 00:46:20 INFO  time: compiled root in 0.69s
+2025.08.17 00:46:24 INFO  compiling root (16 scala sources)
+2025.08.17 00:46:24 INFO  time: compiled root in 0.7s
+2025.08.17 00:47:47 INFO  compiling root (16 scala sources)
+2025.08.17 00:47:47 INFO  time: compiled root in 0.74s
+2025.08.17 00:47:53 INFO  compiling root (16 scala sources)
+2025.08.17 00:47:53 INFO  time: compiled root in 0.71s
+2025.08.17 00:47:58 INFO  compiling root (16 scala sources)
+2025.08.17 00:47:58 INFO  time: compiled root in 0.67s
+2025.08.17 00:48:13 INFO  compiling root (16 scala sources)
+2025.08.17 00:48:13 INFO  time: compiled root in 0.84s
+Aug 17, 2025 12:48:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7487
+2025.08.17 00:48:27 INFO  compiling root (16 scala sources)
+2025.08.17 00:48:27 INFO  time: compiled root in 0.65s
+Aug 17, 2025 12:48:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7575
+2025.08.17 00:49:06 INFO  compiling root (16 scala sources)
+2025.08.17 00:49:06 INFO  time: compiled root in 0.72s
+2025.08.17 00:49:17 INFO  compiling root (16 scala sources)
+2025.08.17 00:49:17 INFO  time: compiled root in 0.62s
+Aug 17, 2025 12:51:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7733
+2025.08.17 00:51:52 INFO  compiling root (16 scala sources)
+2025.08.17 00:51:52 INFO  time: compiled root in 0.99s
+2025.08.17 00:53:58 INFO  compiling root (16 scala sources)
+2025.08.17 00:53:58 INFO  time: compiled root in 0.69s
+Aug 17, 2025 12:56:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8004
+Exception in thread "pool-5-thread-5" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025.08.17 00:56:45 INFO  compiling root (16 scala sources)
+2025.08.17 00:56:45 INFO  time: compiled root in 0.73s
+2025.08.17 00:56:49 INFO  compiling root (16 scala sources)
+2025.08.17 00:56:49 INFO  time: compiled root in 0.68s
+2025.08.17 00:56:55 INFO  compiling root (16 scala sources)
+Exception in thread "pool-5-thread-6" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025.08.17 00:56:55 INFO  time: compiled root in 0.83s
+2025.08.17 00:56:59 INFO  compiling root (16 scala sources)
+2025.08.17 00:56:59 INFO  time: compiled root in 0.8s
