@@ -16,6 +16,7 @@ import zeroHungerGame.core.{Routes, SceneManager}
 import zeroHungerGame.game.{GameEngine, GameEvent}
 import zeroHungerGame.model.{Character, FoodItem}
 import zeroHungerGame.util.{FxEffects, ResourceLoader}
+import zeroHungerGame.controller.ResultController
 
 class GameView(gameEngine: GameEngine, sceneManager: SceneManager) {
       
@@ -602,22 +603,19 @@ class GameView(gameEngine: GameEngine, sceneManager: SceneManager) {
                               println(s"Result object class: ${resultObj.getClass.getName}")
                         }
                   
-                  if (resultObj != null) {
-                        try {
-                              val controller = resultObj.asInstanceOf[ResultController]
-                              println(s"Successfully got ResultController: $controller")
-                              controller.setResults(
-                                    gameEngine.mode,
-                                    finalScore
-                              )
-                        } catch {
-                              case e: ClassCastException =>
-                                    println(s"Error casting controller: ${e.getMessage}")
-                                    e.printStackTrace()
-                              case e: Exception =>
-                                    println(s"Unexpected error with controller: ${e.getMessage}")
-                                    e.printStackTrace()
-                        }
+                        if (resultObj != null) {
+                              try {
+                                    val controller = resultObj.asInstanceOf[ResultController]
+                                    println(s"Successfully got ResultController: $controller")
+                                    controller.setResults(gameEngine.mode, finalScore)
+                              } catch {
+                                    case e: ClassCastException =>
+                                          println(s"Error casting controller: ${e.getMessage}")
+                                          e.printStackTrace()
+                                    case e: Exception =>
+                                          println(s"Unexpected error with controller: ${e.getMessage}")
+                                          e.printStackTrace()
+                              }
                   } else {
                         println("Warning: No controller returned from sceneManager.goTo(Routes.Result)")
                   }

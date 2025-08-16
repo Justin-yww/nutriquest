@@ -126,10 +126,10 @@ class GameEngine(initialMode: String) {
                   _gameStatus.value = "completed"
                   timerService.stop()
 
-            val timeBonus = timeRemaining * timeRemainingMultiplier
-            _score.value  = score + timeBonus
+                  val timeBonus = timeRemaining * timeRemainingMultiplier
+                  _score.value  = score + timeBonus
 
-            notifyListeners(GameEvent.GameCompleted(score))
+                  notifyListeners(GameEvent.GameCompleted(_score.value))
             }
       }
 
@@ -161,35 +161,34 @@ class GameEngine(initialMode: String) {
 
             _selectedFood.value match {                             
                   case Some(food) =>
-                  if (character.matchesFood(food)) {
-                  food.isMatched = true
-                  matchedCharacters.add(character)
-                  
-                  // SCORE LOGIC 
-                  // Score Calculation 
-                  val timeRatio = timeRemaining.toDouble / levelConfig.timeLimit.toDouble
-                  
-                  // Speed multiplier for quicker reflexes from user
-                  val speedMultiplier = speedMultiplierMin + (speedScoreRange * timeRatio)
-                  
-                  // Apply the multiplier to the base score
-                  val matchScore = (baseMatchScore * speedMultiplier).toInt
-                  
-                  // Update total score
-                  _score.value = _score.value + matchScore
-                  
-                  
-                  _selectedFood.value = None
-                  notifyListeners(GameEvent.CorrectMatch(food, character))
-                  if (matchedCharacters.size == characters.size) {
-                        stop()
-                  }
-                  
-                  true
-                  } else {
-                  notifyListeners(GameEvent.IncorrectMatch(food, character))
-                  false
-                  }
+                        if (character.matchesFood(food)) {
+                              food.isMatched = true
+                              matchedCharacters.add(character)
+                              
+                              // SCORE LOGIC 
+                              // Score Calculation 
+                              val timeRatio = timeRemaining.toDouble / levelConfig.timeLimit.toDouble
+                              
+                              // Speed multiplier for quicker reflexes from user
+                              val speedMultiplier = speedMultiplierMin + (speedScoreRange * timeRatio)
+                              
+                              // Apply the multiplier to the base score
+                              val matchScore = (baseMatchScore * speedMultiplier).toInt
+                              
+                              // Update total score
+                              _score.value = _score.value + matchScore
+                              
+                              _selectedFood.value = None
+                              notifyListeners(GameEvent.CorrectMatch(food, character))
+                              if (matchedCharacters.size == characters.size) {
+                                    stop()
+                              }
+                        
+                              true
+                        } else {
+                        notifyListeners(GameEvent.IncorrectMatch(food, character))
+                        false
+                        }
                   case None =>
                         false
             }

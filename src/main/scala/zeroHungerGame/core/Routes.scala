@@ -10,12 +10,12 @@ object Routes {
 
       // [1] Main Menu Screen
       case object Menu extends Screen {
-            override def fxmlPath: Option[String] = Some("view/Menu.fxml")
-            override def id: String = "menu"
+            override val fxmlPath = Some("view/Menu.fxml")
+            override val id       = "menu"
       }
 
-      // [2] Village Mode - Education Section 
-      final case class VillageEducation(pageNumber: Int) extends Screen{
+      // [2] Village Mode - Education Section
+      final case class VillageEducation(pageNumber: Int) extends Screen {
             override val fxmlPath  = Some("view/Education.fxml")
             override val id        = s"village-edu-$pageNumber"
 
@@ -52,7 +52,7 @@ object Routes {
       // [6] Result 
       case object Result extends Screen {
             override val fxmlPath  = Some("view/Result.fxml")
-            override def id        = "result"
+            override val id        = "result"
       }
 
 }

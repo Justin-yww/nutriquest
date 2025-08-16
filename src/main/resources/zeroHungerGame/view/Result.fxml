@@ -1,7 +1,65 @@
-<!-- 
-AI DECLARATION: 
-There was substantial usage of AI to help structure the UI due to the
-scene builder not working with VS Code as intended and leading to constant 
-compilation errors or incomplete layouts
--->
+<?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            styleClass="result-screen">
+    
+    <top>
+        <VBox alignment="CENTER" spacing="10">
+            <padding>
+                <Insets top="30" bottom="20" />
+            </padding>
+            
+            <Label fx:id="titleLabel" text="Challenge Results" styleClass="result-title" />
+        </VBox>
+    </top>
+    
+    <center>
+        <!-- ScrollPane wrapper for the entire content area -->
+        <ScrollPane fitToWidth="true" fitToHeight="true" 
+                    style="-fx-background-color: transparent; -fx-background: transparent; -fx-border-color: transparent; -fx-padding: 0;">
+            <VBox alignment="CENTER" spacing="25">
+                <padding>
+                    <Insets top="20" right="50" bottom="30" left="50" />
+                </padding>
+                
+                <!-- Score display -->
+                <Label fx:id="scoreLabel" text="Your Score: 0" styleClass="score-label" />
+                
+                <!-- Feedback as per score display -->
+                <Label fx:id="feedbackLabel" text="Feedback on your performance" 
+                       styleClass="feedback-label"
+                       wrapText="true" alignment="CENTER" maxWidth="500" />
+                
+                <VBox alignment="CENTER" spacing="15" styleClass="result-summary">
+                    <Label text="What You've Learned" styleClass="summary-header" />
+                    
+                    <Label text="SDG2 Zero Hunger focuses on ensuring access to safe, nutritious and sufficient food for all people throughout the year. Through this game, you've learned about the nutritional needs of different people in different environments." 
+                           wrapText="true" styleClass="summary-text" />
+                    
+                    <Label text="Remember: Everyone deserves access to healthy, nutritious food!" 
+                           styleClass="summary-highlight" />
+                </VBox>
+            </VBox>
+        </ScrollPane>
+    </center>
+    
+    <bottom>
+        <HBox alignment="CENTER" spacing="20" styleClass="result-footer">
+            <padding>
+                <Insets top="20" right="40" bottom="20" left="40" />
+            </padding>
+            
+            <!-- Navigation button display -->
+            <Button fx:id="tryAgainButton" text="Try Again" styleClass="try-again-button" />
+            <Button fx:id="tryOtherModeButton" text="Try Other Mode" styleClass="try-other-mode-button" />
+            <Button fx:id="mainMenuButton" text="Main Menu" styleClass="main-menu-button" />
+        </HBox>
+    </bottom>
+    
+</BorderPane>

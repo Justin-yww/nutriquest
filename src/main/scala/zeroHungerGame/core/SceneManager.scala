@@ -1,10 +1,11 @@
 package zeroHungerGame.core
 
 import scala.collection.mutable
+import scalafx.scene.layout.{BorderPane, Pane}
 import scalafx.Includes._
 import scalafx.scene.Scene
 import scalafx.stage.Stage
-import scalafx.scene.layout.{BorderPane, Pane}
+
 import scalafx.scene.control.Label
 import javafx.fxml.FXMLLoader
 import javafx.scene.Parent
@@ -22,11 +23,11 @@ class SceneManager private (stage: Stage) {
       private val navigationStack = mutable.Stack[Screen]()
 
       // Cache of loaded screen - Prevents reloading 
-      private val screenCache = mutable.Map[Screen, Pane]()
+      private val screenCache = mutable.Map[String, Pane]()
 
       // Root container - to hold all scenes
-      private val root = new BorderPane()
-      
+      private val rootContainer = new BorderPane()
+
       // Root scene - Set up the CSS for scenes
       private val mainScene = new Scene(rootContainer) { 
             val cssPath = ResourceLoader.loadCssPath("style.css")
@@ -41,7 +42,7 @@ class SceneManager private (stage: Stage) {
       stage.scene = mainScene
 
       // PURPOSE: To navigate to a specified screen
-      def goTo(screen:Screen, addToStack: Boolean = true): Any = { 
+      def goTo(screen: Screen, addToStack: Boolean = true): Any = { 
             println(s"Navigating to screen: ${screen.id}")
             
             if (addToStack && navigationStack.nonEmpty) {
@@ -62,25 +63,34 @@ class SceneManager private (stage: Stage) {
                   }
 
                   if (screen == Routes.Result) {
-                        // TO BE ADDED: Logic to handle result screen
+                        val userData = content.getUserData
+                        if (userData != null && userData.isInstanceOf[FXMLLoader]) {
+                              val loader = userData.asInstanceOf[FXMLLoader]
+                              return loader.getController
+                        } else {
+                              return null
+                        }
+                  } else {
+                        return null  
                   }
-            }catch {
+            
+            } catch {
                   case e: Exception =>
                         println(s"Error loading screen ${screen.id}: ${e.getMessage}")
                         e.printStackTrace()
 
-                  // DISPLAY: Error message
-                  val errorPane = new BorderPane()
-                  val errorLabel = new Label(s"Error loading screen: ${e.getMessage}")
-                  errorLabel.setStyle("-fx-text-fill: red; -fx-font-size: 16px")
-                  errorPane.setCenter(errorLabel)
+                        // DISPLAY: Error message
+                        val errorPane = new BorderPane()
+                        val errorLabel = new Label(s"Error loading screen: ${e.getMessage}")
+                        errorLabel.setStyle("-fx-text-fill: red; -fx-font-size: 16px")
+                        errorPane.setCenter(errorLabel)
 
-                  // Apply CSS 
-                  applyCssToPane(errorPane)
+                        // Apply CSS 
+                        applyCssToPane(errorPane)
 
-                  rootContainer.center = errorPane
+                        rootContainer.center = errorPane
 
-                  null
+                        null
             }
 
       }
@@ -148,7 +158,7 @@ class SceneManager private (stage: Stage) {
       }
 
       // PURPOSE: Clear game screen and navigate back to menu 
-      def clearGameScreenAndGoToMenu(): Unit = {
+      def clearGameScreensAndGoToMenu(): Unit = {
             screenCache.remove(Routes.GameVillage.id)
             screenCache.remove(Routes.GameUrban.id)
             screenCache.remove(Routes.Result.id)
@@ -156,19 +166,19 @@ class SceneManager private (stage: Stage) {
             navigationStack.clear()
 
             // Return to menu (Used for resetting game state)
-            goTo(MenuScreen, addToStack = false)
+            goTo(Routes.Menu, addToStack = false)
       }
 
       // PURPOSE: Start a complete new game (clear score and rest timer)
       def startFreshGame(screen: Screen): Unit = {
             screenCache.remove(screen.id)
-            screenCahce.remove(Routes.Result.id)
+            screenCache.remove(Routes.Result.id)
 
             goTo(screen, addToStack = true)
       }
 
       // PURPOSE: Load screen based on the type
-      private def loadScreen(screen: Screen): Unit = {
+      private def loadScreen(screen: Screen): Pane = {
             try {
                   val loadedPane = screen match { 
                         // SECTION 1: FXML-based
@@ -219,9 +229,9 @@ class SceneManager private (stage: Stage) {
 
             try {
                   val possiblePaths = List(
-                        s"/unsdg2game/$resourcePath",  // Standard path
-                        resourcePath,                  // Direct path
-                        s"/$resourcePath"              // Root-relative path
+                        s"/zeroHungerGame/$resourcePath",   // Standard path
+                        resourcePath,                       // Direct path
+                        s"/$resourcePath"                   // Root-relative path
                   )
 
                   // Searching for the FXML file with a different path 
