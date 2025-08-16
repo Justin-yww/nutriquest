@@ -1,3 +1,22 @@
+error id: file://<WORKSPACE>/src/main/scala/zeroHungerGame/ui/GameView.scala:`<none>`.
+file://<WORKSPACE>/src/main/scala/zeroHungerGame/ui/GameView.scala
+empty definition using pc, found symbol in pc: `<none>`.
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+	 -scalafx/Includes.food.
+	 -scalafx/Includes.food#
+	 -scalafx/Includes.food().
+	 -food.
+	 -food#
+	 -food().
+	 -scala/Predef.food.
+	 -scala/Predef.food#
+	 -scala/Predef.food().
+offset: 15000
+uri: file://<WORKSPACE>/src/main/scala/zeroHungerGame/ui/GameView.scala
+text:
+```scala
 package zeroHungerGame.ui
 
 import scalafx.Includes._
@@ -270,7 +289,7 @@ class GameView(gameEngine: GameEngine, sceneManager: SceneManager) {
             println(s"Character container setup complete with ${totalCharacters} characters")            
       }
 
-      // METHOD: Create Character Box
+      // METHOD: 
       private def createCharacterBox(character: Character): Pane = {
       // CONTAINER FOR CHARACTER BOXES
       val box = new VBox {
@@ -412,245 +431,33 @@ class GameView(gameEngine: GameEngine, sceneManager: SceneManager) {
             println("Reset all character styling to default state")
       }
 
-      // METHOD: Setup food items
+      // METHOD: 
       private def setupFoods(): Unit = {
             foodHBox.children.clear()
             
             // DEBUG
             println(s"Setting up ${gameEngine.availableFoods.size} food items in scrollable container")
             
-            gameEngine.availableFoods.foreach { food =>
+            gameEngine.availableFoods.foreach { food@@ =>
                   println(s"Creating food box for ${food.name}")
                   val foodBox = createFoodBox(food)
                   foodHBox.children.add(foodBox)
             }
             
+            // Ensure proper sizing for different numbers of foods
             val totalFoods = gameEngine.availableFoods.size
-            val minContentWidth = totalFoods * 135 
+            val minContentWidth = totalFoods * 135 // 120px width + 15px spacing per food
             foodHBox.minWidth = math.max(minContentWidth, 600)
             
             println(s"Food container setup complete with ${totalFoods} foods")
       }
 
-      // METHOD: Create Food Item Box
-      private def createFoodBox(food: FoodItem): Pane = {
-            // CONTAINER FOR FOOD ITEM BOXES
-            val box = new VBox {
-                  spacing = 3 
-                  alignment = Pos.Center
-                  styleClass += "food-box"
-                  prefWidth = 110
-                  maxWidth = 110
-                  minWidth = 110
-                  prefHeight = 110 
-                  maxHeight = 110
-                  
-                  visible <== !food.isMatchedProperty
-                  managed <== !food.isMatchedProperty
-            }
-            
-            // FOOD ITEM IMAGE
-            val imageView = new ImageView {
-                  image = food.image
-                  fitWidth = 60 // Consistent size
-                  fitHeight = 60
-                  preserveRatio = true
-                  style = "-fx-background-color: white; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 2, 0, 0, 1);"
-            }
-            
-            // FOOD ITEM NAME
-            val nameLabel = new Label(food.name) {
-                  styleClass += "food-name"
-                  style = "-fx-font-size: 11px; -fx-font-weight: bold;"
-                  wrapText = true
-                  maxWidth = 100
-                  textAlignment = TextAlignment.Center
-            }
-            
-            // FOOD ITEM CATEGORY
-            val categoryLabel = new Label(s"Type: ${food.primaryCategory}") {
-                  styleClass += "food-category-label"
-                  style = "-fx-font-style: italic; -fx-text-fill: #1976D2; -fx-background-color: rgba(255,255,255,0.9); -fx-padding: 1px 3px; -fx-background-radius: 3px; -fx-font-size: 9px;"
-                  wrapText = true
-                  maxWidth = 100
-                  textAlignment = TextAlignment.Center
-            }
-            
-            // COMPONENTS OF FOOD ITEM BOX
-            box.children = List(
-                  imageView,
-                  nameLabel,
-                  categoryLabel
-            )
 
-            // SERVICES - Drag and Drop
-            dragDropService.registerDragSource(
-                  box, 
-                  food,
-                  food => gameEngine.selectFood(food),
-                  food => gameEngine.deselectFood()
-            )
-
-            // EFFECTS
-            box.onMouseEntered = _ => {
-                  FxEffects.applyPulseEffect(box)
-            }
-            box.onMouseExited = _ => {
-                  FxEffects.removeEffect(box)
-            }
-            box.onMouseClicked = _ => {
-                  if (gameEngine.selectedFood == null) {
-                  gameEngine.selectFood(food)
-                  FxEffects.applyGlowEffect(box, Color.Gold)
-                  } else if (gameEngine.selectedFood == food) {
-                  gameEngine.deselectFood()
-                  FxEffects.removeEffect(box)
-                  }
-            }
-            box
-      }
-
-      // METHOD: To set up the game controls + pre-game screen 
-      private def setupGameControls(): Unit = {
-            // START GAME OVERLAY (Shown before game as an initial cover screen)
-            val startGameOverlay = new StackPane() {
-                  alignment = Pos.Center
-                  styleClass += "game-overlay"
-                  
-                  prefWidth = 1024
-                  prefHeight = 768
-       
-                  root.width.onChange { (_, _, newWidth) =>
-                  prefWidth = newWidth.doubleValue()
-                  }
-                  root.height.onChange { (_, _, newHeight) =>
-                  prefHeight = newHeight.doubleValue()
-                  }
-            }
-
-            // START GAME OVERLAY - Rectangle 
-            val overlayRect = new Rectangle {
-                  width = 1024
-                  height = 768
-                  
-                  startGameOverlay.width.onChange { (_, _, newWidth) =>
-                  width = newWidth.doubleValue()
-                  }
-                  startGameOverlay.height.onChange { (_, _, newHeight) =>
-                  height = newHeight.doubleValue()
-                  }
-                  
-                  fill = Color.rgb(0, 0, 0, 0.7)
-            }
-
-            // START GAME OVERLAY - Content
-            val overlayContent = new VBox {
-                  spacing = 20
-                  alignment = Pos.Center
-                  maxWidth = 600
-                  padding = Insets(30)
-                  
-                  children = Seq(
-                        new Label(s"${gameEngine.levelConfig.name}") {
-                              styleClass += "overlay-title"
-                              wrapText = true
-                        },
-                        new Label(gameEngine.levelConfig.description) {
-                              styleClass += "overlay-text"
-                              wrapText = true
-                        },
-                        new Label("Match food items to characters based on the nutritional prompts of each character. Use scroll bars if needed to see all characters and foods.") {
-                              styleClass += "overlay-instructions"
-                              wrapText = true
-                        },
-                        new Button("Start Game") {
-                              styleClass += "start-button"
-                              minWidth = 200
-                              minHeight = 50
-                              onAction = _ => {
-                                    startGameOverlay.visible = false
-                                    gameEngine.start()
-                              }
-                        }
-                  )
-            }
-
-            // ADD CONTENT TO OVERLAY
-            startGameOverlay.children = Seq(overlayRect, overlayContent)
-            val gameArea = createGameArea()
-
-            val combinedLayout = new StackPane {
-                  children = Seq(
-                        gameArea,
-                        startGameOverlay
-                  )
-            }
-
-            root.center = combinedLayout
-      }
-
-      // METHOD: Handle game events via the game engine
-      private def handleGameEvent(event: GameEvent): Unit = {
-            event match {
-                  case GameEvent.GameCompleted(finalScore) =>
-                        println("Game completed, navigating to results screen")
-                        val resultObj = sceneManager.goTo(Routes.Result)
-                  
-                        // DEBUG
-                        println(s"Result object: $resultObj")
-                        if (resultObj != null) {
-                              println(s"Result object class: ${resultObj.getClass.getName}")
-                        }
-                  
-                  if (resultObj != null) {
-                        try {
-                              val controller = resultObj.asInstanceOf[ResultController]
-                              println(s"Successfully got ResultController: $controller")
-                              controller.setResults(
-                                    gameEngine.mode,
-                                    finalScore
-                              )
-                        } catch {
-                              case e: ClassCastException =>
-                                    println(s"Error casting controller: ${e.getMessage}")
-                                    e.printStackTrace()
-                              case e: Exception =>
-                                    println(s"Unexpected error with controller: ${e.getMessage}")
-                                    e.printStackTrace()
-                        }
-                  } else {
-                        println("Warning: No controller returned from sceneManager.goTo(Routes.Result)")
-                  }
-                  
-                  case GameEvent.CorrectMatch(food, character) =>
-                        println(s"Correct match: ${food.name} -> ${character.name}")
-                  
-                  
-                  val characterBoxes = characterHBox.children.filtered(node => 
-                        node.getId == character.name
-                  )
-                  
-                  if (characterBoxes.size() > 0) {
-                        FxEffects.applySpinningGreenEffect(characterBoxes.get(0))
-                  
-                        val pauseTransition = new PauseTransition(Duration(1.5))
-                        pauseTransition.onFinished = _ => {
-                              applyMatchedStyling(character)
-                        }
-                        pauseTransition.play()
-                  }
-                  
-                  case GameEvent.IncorrectMatch(food, character) =>
-                        val characterBoxes = characterHBox.children.filtered(node => 
-                              node.getId == character.name
-                        )
-                        
-                        if (characterBoxes.size() > 0) {
-                              FxEffects.applyShakeEffect(characterBoxes.get(0))
-                        }
-                  
-                  case _ => // INTENTIONALLY LEFT BLANK
-            }
-      }
 
 }
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: `<none>`.

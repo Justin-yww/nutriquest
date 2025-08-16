@@ -1,3 +1,22 @@
+error id: file://<WORKSPACE>/src/main/scala/zeroHungerGame/ui/GameView.scala:registerDragSource.
+file://<WORKSPACE>/src/main/scala/zeroHungerGame/ui/GameView.scala
+empty definition using pc, found symbol in pc: registerDragSource.
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+	 -scalafx/Includes.DragDropService.registerDragSource.
+	 -scalafx/Includes.DragDropService.registerDragSource#
+	 -scalafx/Includes.DragDropService.registerDragSource().
+	 -DragDropService.registerDragSource.
+	 -DragDropService.registerDragSource#
+	 -DragDropService.registerDragSource().
+	 -scala/Predef.DragDropService.registerDragSource.
+	 -scala/Predef.DragDropService.registerDragSource#
+	 -scala/Predef.DragDropService.registerDragSource().
+offset: 17608
+uri: file://<WORKSPACE>/src/main/scala/zeroHungerGame/ui/GameView.scala
+text:
+```scala
 package zeroHungerGame.ui
 
 import scalafx.Includes._
@@ -484,7 +503,7 @@ class GameView(gameEngine: GameEngine, sceneManager: SceneManager) {
             )
 
             // SERVICES - Drag and Drop
-            dragDropService.registerDragSource(
+            DragDropService.reg@@isterDragSource(
                   box, 
                   food,
                   food => gameEngine.selectFood(food),
@@ -654,3 +673,9 @@ class GameView(gameEngine: GameEngine, sceneManager: SceneManager) {
       }
 
 }
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: registerDragSource.
