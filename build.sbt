@@ -20,9 +20,6 @@ lazy val root = (project in file("."))
       "org.scala-lang.modules" %% "scala-xml" % "2.2.0"
     ),
 
-    // Pick the correct JavaFX native classifier for your OS/CPU 
-    
-    // NOTE: The mac version is need to be identified as 'arm64' for the M1 based Macbooks
     // JavaFX modules by platform classifier
     libraryDependencies ++= {
       val os   = sys.props.getOrElse("os.name", "").toLowerCase
@@ -40,7 +37,7 @@ lazy val root = (project in file("."))
     },
 
     Compile / unmanagedResourceDirectories += baseDirectory.value / "src" / "main" / "resources",
-    Compile / run / javaOptions ++= Seq("--enable-native-access=ALL-UNAMED"),
+    Compile / run / javaOptions ++= Seq("--enable-native-access=ALL-UNNAMED"),
     Compile / mainClass := Some("zeroHungerGame.Main"),
     Compile / run / mainClass := Some("zeroHungerGame.Main")
   )

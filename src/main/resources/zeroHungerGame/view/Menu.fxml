@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+AI DECLARATION: 
+There was substantial usage of AI to help structure the UI due to the
+scene builder not working with VS Code as intended and leading to constant 
+compilation errors or incomplete layouts
+-->
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            styleClass="menu-screen">
+    
+    <!-- Main content area with background image -->
+    <center>
+        <!-- StackPane to layer background image and content -->
+        <StackPane>
+            <!-- Background Image -->
+            <ImageView fx:id="backgroundImageView" 
+                      fitWidth="1024" 
+                      fitHeight="630" 
+                      preserveRatio="false"
+                      pickOnBounds="false">
+            </ImageView>
+            
+            <!-- Content Layer  -->
+            <VBox alignment="CENTER" spacing="0">
+                <!-- Title and Logo Section -->
+                <VBox alignment="CENTER" spacing="10">
+                    <padding>
+                        <Insets top="5" bottom="10" />
+                    </padding>
+                    
+                    <Label fx:id="titleLabel" text="UNSDG2: Zero Hunger Game" 
+                          styleClass="title-label" />
+                          
+                    <ImageView fx:id="logoImageView" fitWidth="300" fitHeight="200" preserveRatio="true" />
+                </VBox>
+                
+                <!-- Menu Container  -->
+                <VBox fx:id="menuContainer" alignment="CENTER" spacing="20" 
+                      styleClass="compact-menu-container">
+                    
+                    <Label text="Select a Game Mode" 
+                          styleClass="menu-header" />
+                    
+                    <Button fx:id="villageButton" text="Village Mode" 
+                           styleClass="menu-button,primary-button" />
+                    
+                    <Button fx:id="urbanButton" text="Urban Mode" 
+                           styleClass="menu-button,primary-button" />
+                    
+                    <Button fx:id="exitButton" text="Exit Game" 
+                           styleClass="exit-button" />
+                </VBox>
+                
+                <Region VBox.vgrow="ALWAYS" minHeight="20" maxHeight="50" />
+            </VBox>
+        </StackPane>
+    </center>
+    
+    <!-- Footer section -->
+    <bottom>
+        <HBox alignment="CENTER" styleClass="menu-footer">
+            <Label text="A PRG 2104 Project - Sunway University" 
+                  styleClass="footer-text" />
+        </HBox>
+    </bottom>
+    
+</BorderPane>

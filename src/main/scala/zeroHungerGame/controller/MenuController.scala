@@ -80,7 +80,7 @@ class MenuController(sceneManager: SceneManager) extends Initializable {
                         backgroundImage.progressProperty().addListener((_, _, progress) => {
                               if (progress.doubleValue() >= 1.0) {
                                     println(s"Background image dimensions: ${backgroundImage.getWidth} x ${backgroundImage.getHeight}")
-                               }
+                              }
                         })
                   } else {
                         println("WARNING: backgroundImageView is null!")
@@ -105,7 +105,6 @@ class MenuController(sceneManager: SceneManager) extends Initializable {
       } catch {
             case e: Exception =>
                   println(s"Error loading fallback background image: ${e.getMessage}")
-                  e.printStackTrace()
             }
       }
 

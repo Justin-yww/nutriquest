@@ -87,16 +87,17 @@ class DragDropService {
                         val foodOpt = findFoodByName(foodName)
                         
                         foodOpt.foreach { food =>
-                        if (character.matchesFood(food)) {
-                              node.effect = validTargetEffect
-                        } else {
-                              node.effect = invalidTargetEffect
+                              if (character.matchesFood(food)) {
+                                    node.effect = validTargetEffect
+                              } else {
+                                    node.effect = invalidTargetEffect
+                              }
                         }
                   }
+
+                  event.consume()
             }
-            
-            event.consume()
-      }
+      
 
             // HANDLE EXIT EVENT
             node.onDragExited = (event: DragEvent) => {
