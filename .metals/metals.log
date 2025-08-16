@@ -3615,3 +3615,15 @@ Exception in thread "pool-5-thread-6" java.lang.InterruptedException
 2025.08.17 00:56:55 INFO  time: compiled root in 0.83s
 2025.08.17 00:56:59 INFO  compiling root (16 scala sources)
 2025.08.17 00:56:59 INFO  time: compiled root in 0.8s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.17 01:03:47 INFO  compiling root (16 scala sources)
+2025.08.17 01:03:47 INFO  time: compiled root in 0.82s
+2025.08.17 01:05:51 INFO  compiling root (16 scala sources)
+2025.08.17 01:05:51 INFO  time: compiled root in 0.78s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.17 01:06:41 INFO  compiling root (16 scala sources)
+2025.08.17 01:06:41 INFO  time: compiled root in 0.68s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.17 01:07:11 INFO  compiling root (16 scala sources)
+2025.08.17 01:07:11 INFO  time: compiled root in 0.7s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile

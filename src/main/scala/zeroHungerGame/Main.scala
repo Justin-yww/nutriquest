@@ -5,6 +5,9 @@ import scalafx.scene.Scene
 import scalafx.stage.Stage
 import scalafx.scene.image.Image
 
+import zeroHungerGame.core.{Routes, SceneManager}
+import zeroHungerGame.util.{ResourceLoader}
+
 /* 
 The entry point for the GUI system application: 
       - Initialisation of window for the Menu 

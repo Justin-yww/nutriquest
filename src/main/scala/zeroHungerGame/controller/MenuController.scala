@@ -8,7 +8,7 @@ import javafx.scene.layout.{Pane, VBox, HBox}
 import java.net.URL
 import java.util.ResourceBundle
 
-import zeroHungerGame.util.{ResourceLoader}
+import zeroHungerGame.util.{FxEffects, ResourceLoader}
 import zeroHungerGame.core.{Routes, SceneManager}
 import scalafx.scene.input.KeyCode.P
 

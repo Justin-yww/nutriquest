@@ -14,7 +14,7 @@ import scala.collection.mutable
 
 import zeroHungerGame.core.{Routes, SceneManager}
 import zeroHungerGame.model.{Character, FoodItem}
-import zeroHungerGame.util.{ResourceLoader}
+import zeroHungerGame.util.{FxEffects, ResourceLoader}
 
 class GameView { 
       // Work on gameEngine first

@@ -9,7 +9,7 @@ import java.util.ResourceBundle
 
 import zeroHungerGame.core.{Routes, SceneManager}
 import zeroHungerGame.model.LevelConfig
-import zeroHungerGame.util.{ResourceLoader}
+import zeroHungerGame.util.{FxEffects, ResourceLoader}
 
 class EducationController(sceneManager: SceneManager) extends Initializable {
       // FXML fields
