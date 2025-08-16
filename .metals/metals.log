@@ -2471,3 +2471,489 @@ WARNING: Unmatched cancel notification for request id 41643
 2025.08.16 02:47:01 INFO  time: compiled root in 0.84s
 exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
 2025.08.16 02:48:02 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/.reports/metals-full/2025-08-16/r_empty-definition_(root)_02-46-17-036.md")
+Aug 16, 2025 3:00:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 43876
+Aug 16, 2025 3:00:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: Range [1193, 1250) out of bounds for length 1242
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: Range [1193, 1250) out of bounds for length 1242
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.StringIndexOutOfBoundsException: Range [1193, 1250) out of bounds for length 1242
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4914)
+	at java.base/java.lang.String.substring(String.java:2876)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:679)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:59)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:55)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:54)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Aug 16, 2025 3:00:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: Range [1193, 1250) out of bounds for length 1241
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: Range [1193, 1250) out of bounds for length 1241
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.StringIndexOutOfBoundsException: Range [1193, 1250) out of bounds for length 1241
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4914)
+	at java.base/java.lang.String.substring(String.java:2876)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:679)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:59)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:55)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:54)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Aug 16, 2025 3:10:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 44330
+Aug 16, 2025 3:13:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 45385
+Aug 16, 2025 3:13:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 45413
+Aug 16, 2025 10:33:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 45831
+2025.08.16 11:16:25 INFO  compiling root (2 scala sources)
+2025.08.16 11:16:27 INFO  time: compiled root in 2.35s
+2025.08.16 11:16:27 INFO  compiling root (2 scala sources)
+2025.08.16 11:16:29 INFO  time: compiled root in 1.67s
+2025.08.16 11:16:29 INFO  compiling root (2 scala sources)
+2025.08.16 11:16:30 INFO  time: compiled root in 1.51s
+2025.08.16 12:20:25 INFO  compiling root (3 scala sources)
+2025.08.16 12:20:28 INFO  time: compiled root in 3.18s
+2025.08.16 13:29:59 INFO  skipping build import with status 'Installed'
+2025.08.16 14:25:18 INFO  no build target found for /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.16 14:25:18 INFO  skipping build import with status 'Installed'
+2025.08.16 14:25:18 WARN  no build target for: /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/project/metals.sbt
+2025.08.16 16:27:53 INFO  compiling root (4 scala sources)
+2025.08.16 16:28:06 INFO  time: compiled root in 12s
+2025.08.16 16:28:06 INFO  compiling root (3 scala sources)
+2025.08.16 16:28:07 INFO  time: compiled root in 1.61s
+2025.08.16 16:41:24 INFO  compiling root (4 scala sources)
+2025.08.16 16:41:24 INFO  exception occurred while compiling List(/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/core/Routes.scala, /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/core/SceneManager.scala, /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/model/Character.scala, /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/util/ResourceLoader.scala)
+
+  An unhandled exception was thrown in the compiler.
+  Please file a crash report here:
+  https://github.com/scala/scala3/issues/new/choose
+  For non-enriched exceptions, compile with -Xno-enrich-error-messages.
+
+
+     while compiling: <no file>
+        during phase: <some phase>
+                mode: Mode(ImplicitsEnabled,ReadPositions)
+     library version: version 2.13.16
+    compiler version: version 3.3.6
+            settings: -Xsemanticdb true -classpath /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/resources:/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.bloop/root/bloop-internal-classes/classes-Metals-3dxJWL_2QG2h4gMcsXWkTA==-MOKLUgjkRZahPcfNoOhDRQ==:/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.bloop/root/bloop-internal-classes/classes-Metals-3dxJWL_2QG2h4gMcsXWkTA==-E7LbN89IRbCeclzqaGwWyQ==:/Users/justinyong/Library/Caches/bloop/semanticdb/com.sourcegraph.semanticdb-javac.0.11.0/semanticdb-javac-0.11.0.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.6/scala3-library_3-3.3.6.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/21.0.5/javafx-base-21.0.5-mac-aarch64.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-graphics/21.0.5/javafx-graphics-21.0.5-mac-aarch64.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-controls/21.0.5/javafx-controls-21.0.5-mac-aarch64.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalafx/scalafx_3/21.0.0-R32/scalafx_3-21.0.0-R32.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_3/4.3.0/scalikejdbc_3-4.3.0.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.16/scala-library-2.13.16.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/21.0.5/javafx-base-21.0.5.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-graphics/21.0.5/javafx-graphics-21.0.5.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-controls/21.0.5/javafx-controls-21.0.5.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-fxml/21/javafx-fxml-21.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-media/21/javafx-media-21.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-swing/21/javafx-swing-21.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-web/21/javafx-web-21.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_3/4.3.0/scalikejdbc-core_3-4.3.0.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_3/4.3.0/scalikejdbc-interpolation_3-4.3.0.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-fxml/21/javafx-fxml-21-mac-aarch64.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-media/21/javafx-media-21-mac-aarch64.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-swing/21/javafx-swing-21-mac-aarch64.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-web/21/javafx-web-21-mac-aarch64.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.11.0/commons-dbcp2-2.11.0.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_3/2.4.0/scala-parser-combinators_3-2.4.0.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_3/2.12.0/scala-collection-compat_3-2.12.0.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_3/4.3.0/scalikejdbc-interpolation-macro_3-4.3.0.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.12.0/commons-pool2-2.12.0.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/justinyong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar -d /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.bloop/root/bloop-internal-classes/classes-Metals-3dxJWL_2QG2h4gMcsXWkTA==-MOKLUgjkRZahPcfNoOhDRQ== -sourceroot /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww
+2025.08.16 16:41:24 INFO  time: compiled root in 0.15s
+2025.08.16 16:41:24 INFO  Created report: Optional.empty
+2025.08.16 16:41:24 INFO  java.io.IOException: read error
+	at dotty.tools.io.AbstractFile.toByteArray(AbstractFile.scala:180)
+... (full report at: "/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/.reports/bloop/2025-08-16/r_java.io.IOException:..._16-41-24-612.md")
+2025.08.16 16:41:24 INFO  Created report: Optional.empty
+2025.08.16 16:41:24 INFO  Unexpected error when compiling root: java.io.IOException: read error
+	at dotty.tools.io.AbstractFil... (full report at: "/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/.reports/bloop/2025-08-16/r_Unexpected error whe..._16-41-24-623.md")
+2025.08.16 16:41:58 INFO  compiling root (3 scala sources)
+2025.08.16 16:42:00 INFO  time: compiled root in 1.36s
+Aug 16, 2025 4:45:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47839
+Aug 16, 2025 4:45:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47985
+Aug 16, 2025 4:45:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48029
+Aug 16, 2025 4:46:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48088
+Aug 16, 2025 4:46:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48099
+Aug 16, 2025 4:46:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48132
+Aug 16, 2025 4:46:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48135
+Aug 16, 2025 4:46:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48146
+Aug 16, 2025 4:46:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48184
+Aug 16, 2025 4:46:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48187
+Aug 16, 2025 4:47:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48670
+Aug 16, 2025 4:47:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48730
+Aug 16, 2025 4:50:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49171
+Aug 16, 2025 4:50:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49172
+Aug 16, 2025 4:51:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49360
+2025.08.16 16:51:30 INFO  compiling root (3 scala sources)
+2025.08.16 16:51:33 INFO  time: compiled root in 2.73s
+Aug 16, 2025 4:51:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49456
+2025.08.16 16:52:19 INFO  compiling root (3 scala sources)
+2025.08.16 16:52:20 INFO  time: compiled root in 1.15s
+Aug 16, 2025 4:52:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49624
+Aug 16, 2025 4:52:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49709
+2025.08.16 16:52:53 INFO  compiling root (3 scala sources)
+2025.08.16 16:52:53 INFO  time: compiled root in 1s
+2025.08.16 16:53:53 INFO  compiling root (3 scala sources)
+2025.08.16 16:53:54 INFO  time: compiled root in 1.09s
+Aug 16, 2025 4:54:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "this.tok" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "this.tok" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "this.tok" is null
+	at scala.meta.internal.parsers.ScalametaParser$XtensionToken.is(ScalametaParser.scala:403)
+	at scala.meta.internal.parsers.ScalametaParser$XtensionToken.isAny(ScalametaParser.scala:406)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$peek(ScalametaParser.scala:419)
+	at scala.meta.internal.parsers.ScalametaParser.withName$1(ScalametaParser.scala:3979)
+	at scala.meta.internal.parsers.ScalametaParser.selfEither(ScalametaParser.scala:3983)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$templateStatSeq$1(ScalametaParser.scala:4256)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$tryParse(ScalametaParser.scala:205)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$templateStatSeq(ScalametaParser.scala:4256)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBodyOnLeftBrace$2(ScalametaParser.scala:4115)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOnOpen(ScalametaParser.scala:258)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBodyOnLeftBrace$1(ScalametaParser.scala:4115)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:324)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOnLeftBrace(ScalametaParser.scala:4115)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4122)
+	at scala.meta.internal.parsers.ScalametaParser.templateAfterExtends(ScalametaParser.scala:4070)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$template$1(ScalametaParser.scala:4091)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:324)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4075)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$3(ScalametaParser.scala:4106)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4104)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:324)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4104)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:3787)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$tmplDef$1(ScalametaParser.scala:3752)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPosOpt(ScalametaParser.scala:387)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPosOpt(ScalametaParser.scala:391)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3749)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:3743)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4248)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4242)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4235)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$statSeq$1(ScalametaParser.scala:4224)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$statSeq$1$adapted(ScalametaParser.scala:4224)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:555)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4224)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4394)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4397)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:324)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4362)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4400)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:114)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:111)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:60)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:55)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:111)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:30)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:37)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionInputOffset.safeParse(ScalametaCommonEnrichments.scala:603)
+	at scala.meta.internal.parsing.Trees.$anonfun$parse$2(Trees.scala:224)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.Trees.parse(Trees.scala:215)
+	at scala.meta.internal.parsing.Trees.didChange(Trees.scala:171)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$parseTreesAndPublishDiags$2(MetalsLspService.scala:618)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2025.08.16 16:54:12 INFO  compiling root (3 scala sources)
+2025.08.16 16:54:13 INFO  time: compiled root in 1.12s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.16 16:56:44 INFO  compiling root (4 scala sources)
+2025.08.16 16:56:44 INFO  time: compiled root in 0.97s
+2025.08.16 16:57:34 INFO  compiling root (4 scala sources)
+2025.08.16 16:57:34 INFO  time: compiled root in 0.92s
+2025.08.16 17:00:07 INFO  compiling root (4 scala sources)
+2025.08.16 17:00:07 INFO  time: compiled root in 0.84s
+Aug 16, 2025 5:00:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/.reports/metals-full/2025-08-16/r_compiler-error_(root)_17-00-14-292.md
+Aug 16, 2025 5:03:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 51933
+Aug 16, 2025 5:04:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 52328
+2025.08.16 17:04:53 INFO  compiling root (4 scala sources)
+2025.08.16 17:04:53 INFO  time: compiled root in 0.93s
+2025.08.16 17:05:20 INFO  compiling root (4 scala sources)
+2025.08.16 17:05:20 INFO  time: compiled root in 0.98s
+2025.08.16 17:06:21 INFO  compiling root (4 scala sources)
+2025.08.16 17:06:21 INFO  time: compiled root in 0.83s
+Aug 16, 2025 5:09:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 53758
+2025.08.16 17:09:39 INFO  compiling root (4 scala sources)
+2025.08.16 17:09:39 INFO  time: compiled root in 0.86s
+2025.08.16 17:09:57 INFO  compiling root (4 scala sources)
+2025.08.16 17:09:58 INFO  time: compiled root in 1.06s
+Aug 16, 2025 5:10:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 53943
+Aug 16, 2025 5:10:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 54021
+2025.08.16 17:10:42 INFO  compiling root (4 scala sources)
+2025.08.16 17:10:42 INFO  time: compiled root in 0.85s
+2025.08.16 17:11:09 INFO  compiling root (4 scala sources)
+2025.08.16 17:11:09 INFO  time: compiled root in 0.97s
+Aug 16, 2025 5:19:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 54593
+Exception in thread "pool-5-thread-5" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025.08.16 17:19:45 INFO  Created report: Optional[file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/model/FoodItem.scala]
+2025.08.16 17:19:45 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/.reports/metals-full/2025-08-16/r_empty-definition_(root)_17-19-45-908.md")
+2025.08.16 17:20:47 INFO  compiling root (4 scala sources)
+2025.08.16 17:20:47 INFO  time: compiled root in 0.97s
+2025.08.16 17:21:01 INFO  compiling root (4 scala sources)
+2025.08.16 17:21:02 INFO  time: compiled root in 1.04s
+Aug 16, 2025 5:24:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 55360
+2025.08.16 17:24:37 INFO  compiling root (4 scala sources)
+2025.08.16 17:24:37 INFO  time: compiled root in 0.9s
+2025.08.16 17:28:54 INFO  compiling root (4 scala sources)
+2025.08.16 17:28:54 INFO  time: compiled root in 0.83s
+2025.08.16 17:32:52 INFO  compiling root (4 scala sources)
+2025.08.16 17:32:52 INFO  time: compiled root in 0.89s
+2025.08.16 17:34:00 INFO  compiling root (4 scala sources)
+2025.08.16 17:34:00 INFO  time: compiled root in 0.84s
+Aug 16, 2025 5:34:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 57202
+2025.08.16 17:38:47 INFO  compiling root (4 scala sources)
+2025.08.16 17:38:47 INFO  time: compiled root in 0.94s
+2025.08.16 17:38:56 INFO  compiling root (4 scala sources)
+2025.08.16 17:38:56 INFO  time: compiled root in 0.93s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.16 17:39:26 INFO  file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/model/FoodItem.scala:29:29: stale bloop error: Not found: type FoodItem
+      def matchesFood(food: FoodItem): Boolean = { 
+                            ^^^^^^^^
+2025.08.16 17:39:26 INFO  file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/model/FoodItem.scala:49:29: stale bloop error: Not found: type FoodItem
+      def consumeFood(food: FoodItem): Set[String] = {
+                            ^^^^^^^^
+2025.08.16 17:39:27 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/model/FoodItem.scala
+2025.08.16 17:39:31 INFO  compiling root (5 scala sources)
+2025.08.16 17:39:31 INFO  file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/model/FoodItem.scala:29:29: stale bloop error: Not found: type FoodItem
+      def matchesFood(food: FoodItem): Boolean = { 
+                            ^^^^^^^^
+2025.08.16 17:39:31 INFO  file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/model/FoodItem.scala:29:29: stale bloop error: Not found: type FoodItem
+      def matchesFood(food: FoodItem): Boolean = { 
+                            ^^^^^^^^
+2025.08.16 17:39:31 INFO  file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/model/FoodItem.scala:49:29: stale bloop error: Not found: type FoodItem
+      def consumeFood(food: FoodItem): Set[String] = {
+                            ^^^^^^^^
+2025.08.16 17:39:31 INFO  time: compiled root in 0.93s
+2025.08.16 17:39:51 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/model/FoodItem.scala
+2025.08.16 17:39:52 INFO  compiling root (5 scala sources)
+2025.08.16 17:39:52 INFO  time: compiled root in 0.92s
+2025.08.16 17:40:01 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/model/FoodItem.scala
+2025.08.16 17:40:13 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/model/FoodItem.scala
+2025.08.16 17:40:13 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/model/FoodItem.scala
+2025.08.16 17:40:14 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/model/FoodItem.scala
+2025.08.16 17:40:29 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/.reports/metals-full/2025-08-16/r_empty-definition_(root)_17-19-45-908.md")
+2025.08.16 17:40:30 INFO  compiling root (5 scala sources)
+2025.08.16 17:40:30 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/.reports/metals-full/2025-08-16/r_empty-definition_(root)_17-19-45-908.md")
+2025.08.16 17:40:30 INFO  time: compiled root in 0.88s
+2025.08.16 17:40:38 INFO  compiling root (5 scala sources)
+2025.08.16 17:40:38 INFO  time: compiled root in 0.86s
+2025.08.16 17:41:53 INFO  compiling root (5 scala sources)
+2025.08.16 17:41:53 INFO  time: compiled root in 0.95s
+2025.08.16 17:42:50 INFO  compiling root (5 scala sources)
+2025.08.16 17:42:50 INFO  time: compiled root in 0.89s
+2025.08.16 17:43:07 INFO  compiling root (5 scala sources)
+2025.08.16 17:43:08 INFO  time: compiled root in 1.05s
+2025.08.16 17:47:48 INFO  compiling root (5 scala sources)
+2025.08.16 17:47:48 INFO  time: compiled root in 0.92s
+2025.08.16 17:49:51 INFO  compiling root (5 scala sources)
+2025.08.16 17:49:51 INFO  time: compiled root in 0.79s
+Aug 16, 2025 5:50:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 59919
+Aug 16, 2025 5:50:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 59987
+2025.08.16 17:50:58 INFO  compiling root (5 scala sources)
+2025.08.16 17:50:58 INFO  time: compiled root in 0.79s
+2025.08.16 17:51:58 INFO  compiling root (5 scala sources)
+2025.08.16 17:51:59 INFO  time: compiled root in 1s
+2025.08.16 17:52:26 INFO  compiling root (5 scala sources)
+2025.08.16 17:52:26 INFO  time: compiled root in 0.98s
+2025.08.16 17:52:45 INFO  compiling root (5 scala sources)
+2025.08.16 17:52:45 INFO  time: compiled root in 0.93s
+2025.08.16 17:53:02 INFO  compiling root (5 scala sources)
+2025.08.16 17:53:02 INFO  time: compiled root in 0.91s
+2025.08.16 17:53:20 INFO  compiling root (5 scala sources)
+2025.08.16 17:53:20 INFO  time: compiled root in 0.96s
+2025.08.16 17:57:29 INFO  compiling root (5 scala sources)
+2025.08.16 17:57:29 INFO  time: compiled root in 0.9s
+2025.08.16 17:58:56 INFO  compiling root (5 scala sources)
+2025.08.16 17:58:56 INFO  time: compiled root in 0.79s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.16 17:59:57 INFO  compiling root (5 scala sources)
+2025.08.16 17:59:57 INFO  time: compiled root in 0.87s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.16 18:00:24 INFO  compiling root (6 scala sources)
+2025.08.16 18:00:24 INFO  time: compiled root in 0.86s
+2025.08.16 18:01:02 INFO  compiling root (6 scala sources)
+2025.08.16 18:01:02 INFO  time: compiled root in 0.72s
+2025.08.16 18:11:29 INFO  compiling root (6 scala sources)
+2025.08.16 18:11:29 INFO  time: compiled root in 0.73s
+Aug 16, 2025 6:12:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 63349
+2025.08.16 18:12:25 INFO  compiling root (6 scala sources)
+2025.08.16 18:12:25 INFO  time: compiled root in 0.8s
+Aug 16, 2025 6:14:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 63428
+2025.08.16 18:15:46 INFO  compiling root (6 scala sources)
+2025.08.16 18:15:46 INFO  time: compiled root in 0.76s
+Aug 16, 2025 6:15:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 63737
+2025.08.16 19:09:20 INFO  compiling root (6 scala sources)
+2025.08.16 19:09:21 INFO  time: compiled root in 1s
+Aug 16, 2025 7:57:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 64873
+Exception in thread "pool-5-thread-6" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Exception in thread "pool-5-thread-7" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025.08.16 20:00:58 INFO  compiling root (6 scala sources)
+2025.08.16 20:00:58 INFO  time: compiled root in 0.93s
+2025.08.16 20:02:00 INFO  compiling root (6 scala sources)
+2025.08.16 20:02:00 INFO  time: compiled root in 0.86s
+Aug 16, 2025 8:41:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 65574
+Aug 16, 2025 8:47:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 67151
+2025.08.16 20:47:18 INFO  compiling root (6 scala sources)
+2025.08.16 20:47:18 INFO  time: compiled root in 0.97s
+Aug 16, 2025 8:49:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 67759
+Exception in thread "pool-5-thread-8" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Exception in thread "pool-5-thread-9" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Aug 16, 2025 8:51:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 68062
+2025.08.16 20:51:08 INFO  compiling root (6 scala sources)
+2025.08.16 20:51:10 INFO  time: compiled root in 1.28s
+Exception in thread "pool-5-thread-10" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Aug 16, 2025 8:51:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 68256
+2025.08.16 20:51:39 INFO  compiling root (6 scala sources)
+2025.08.16 20:51:40 INFO  time: compiled root in 1.34s
+Exception in thread "pool-5-thread-11" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Exception in thread "pool-5-thread-12" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Exception in thread "pool-5-thread-13" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025.08.16 20:52:46 INFO  compiling root (6 scala sources)
+2025.08.16 20:52:46 INFO  time: compiled root in 0.95s
+2025.08.16 20:53:45 INFO  compiling root (6 scala sources)
+2025.08.16 20:53:45 INFO  time: compiled root in 0.86s
+Aug 16, 2025 8:54:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 68992
+2025.08.16 20:54:16 INFO  compiling root (6 scala sources)
+2025.08.16 20:54:17 INFO  time: compiled root in 1.01s
+2025.08.16 20:54:53 INFO  compiling root (6 scala sources)
+2025.08.16 20:54:54 INFO  time: compiled root in 1.25s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
