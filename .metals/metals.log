@@ -3226,3 +3226,191 @@ java.nio.file.FileSystemNotFoundException: Provider "git" not installed
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1570)
 
+2025.08.16 22:41:04 INFO  compiling root (14 scala sources)
+2025.08.16 22:41:04 INFO  time: compiled root in 0.73s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.16 22:43:11 INFO  compiling root (14 scala sources)
+2025.08.16 22:43:11 INFO  time: compiled root in 0.77s
+Aug 16, 2025 10:43:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 250
+Aug 16, 2025 10:43:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 541
+2025.08.16 22:44:31 INFO  compiling root (14 scala sources)
+2025.08.16 22:44:31 INFO  time: compiled root in 0.75s
+2025.08.16 22:48:13 INFO  compiling root (14 scala sources)
+2025.08.16 22:48:13 INFO  time: compiled root in 0.74s
+2025.08.16 22:48:31 INFO  compiling root (14 scala sources)
+2025.08.16 22:48:31 INFO  time: compiled root in 0.8s
+Aug 16, 2025 10:48:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1099
+2025.08.16 22:48:41 INFO  compiling root (14 scala sources)
+2025.08.16 22:48:41 INFO  time: compiled root in 0.9s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.16 22:49:07 INFO  compiling root (15 scala sources)
+2025.08.16 22:49:07 INFO  time: compiled root in 0.92s
+2025.08.16 22:49:14 INFO  compiling root (16 scala sources)
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.16 22:49:14 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/game/TimerService.scala
+2025.08.16 22:49:14 INFO  time: compiled root in 0.71s
+2025.08.16 22:49:48 INFO  compiling root (16 scala sources)
+2025.08.16 22:49:48 INFO  time: compiled root in 0.87s
+2025.08.16 22:49:54 INFO  compiling root (16 scala sources)
+2025.08.16 22:49:54 INFO  time: compiled root in 0.71s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.16 22:50:08 INFO  compiling root (16 scala sources)
+2025.08.16 22:50:08 INFO  time: compiled root in 1s
+2025.08.16 22:50:18 INFO  compiling root (16 scala sources)
+2025.08.16 22:50:18 WARN  Could not find 'GameEngine' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2025.08.16 22:50:18 INFO  Created report: Optional[file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/game/TimerService.scala]
+2025.08.16 22:50:18 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/.reports/metals-full/2025-08-16/r_empty-definition_(root)_22-50-18-812.md")
+2025.08.16 22:50:18 INFO  time: compiled root in 0.88s
+2025.08.16 22:50:39 INFO  compiling root (16 scala sources)
+2025.08.16 22:50:39 INFO  time: compiled root in 0.91s
+2025.08.16 22:51:43 INFO  compiling root (16 scala sources)
+2025.08.16 22:51:43 INFO  time: compiled root in 0.78s
+Aug 16, 2025 10:52:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1864
+Aug 16, 2025 10:53:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2235
+Aug 16, 2025 10:55:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2455
+Aug 16, 2025 10:55:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2583
+2025.08.16 22:56:11 INFO  compiling root (16 scala sources)
+2025.08.16 22:56:11 INFO  time: compiled root in 0.78s
+Aug 16, 2025 10:57:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3147
+Aug 16, 2025 10:58:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3428
+Aug 16, 2025 10:59:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3454
+Aug 16, 2025 11:00:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3785
+2025.08.16 23:00:31 INFO  compiling root (16 scala sources)
+2025.08.16 23:00:31 INFO  time: compiled root in 0.79s
+2025.08.16 23:01:36 INFO  compiling root (16 scala sources)
+2025.08.16 23:01:36 INFO  time: compiled root in 0.79s
+2025.08.16 23:01:41 INFO  compiling root (16 scala sources)
+2025.08.16 23:01:41 INFO  time: compiled root in 0.72s
+2025.08.16 23:02:19 INFO  compiling root (16 scala sources)
+2025.08.16 23:02:19 INFO  time: compiled root in 0.9s
+2025.08.16 23:02:28 INFO  compiling root (16 scala sources)
+2025.08.16 23:02:28 INFO  time: compiled root in 0.77s
+2025.08.16 23:02:39 INFO  compiling root (16 scala sources)
+2025.08.16 23:02:39 INFO  time: compiled root in 0.88s
+2025.08.16 23:04:20 INFO  compiling root (16 scala sources)
+2025.08.16 23:04:20 INFO  time: compiled root in 0.8s
+2025.08.16 23:05:00 INFO  Created report: Optional[file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/game/DragDropService.scala.scala]
+2025.08.16 23:05:00 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/.reports/metals-full/2025-08-16/r_empty-definition_(root)_23-05-00-961.md")
+2025.08.16 23:05:01 INFO  compiling root (16 scala sources)
+2025.08.16 23:05:01 INFO  time: compiled root in 0.78s
+2025.08.16 23:07:05 INFO  compiling root (16 scala sources)
+2025.08.16 23:07:05 INFO  time: compiled root in 0.81s
+Aug 16, 2025 11:07:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/.reports/metals-full/2025-08-16/r_compiler-error_(root)_23-07-26-153.md
+2025.08.16 23:07:51 INFO  compiling root (16 scala sources)
+2025.08.16 23:07:51 INFO  time: compiled root in 0.79s
+Aug 16, 2025 11:08:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5462
+2025.08.16 23:08:30 INFO  compiling root (16 scala sources)
+2025.08.16 23:08:30 INFO  time: compiled root in 0.78s
+2025.08.16 23:08:51 INFO  compiling root (16 scala sources)
+2025.08.16 23:08:51 INFO  time: compiled root in 0.94s
+2025.08.16 23:10:08 INFO  compiling root (16 scala sources)
+2025.08.16 23:10:08 INFO  time: compiled root in 0.84s
+2025.08.16 23:10:15 INFO  compiling root (16 scala sources)
+2025.08.16 23:10:15 INFO  time: compiled root in 0.75s
+2025.08.16 23:11:08 INFO  compiling root (16 scala sources)
+2025.08.16 23:11:08 INFO  time: compiled root in 0.81s
+2025.08.16 23:11:43 INFO  Created report: Optional[file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/game/DragDropService.scala.scala]
+2025.08.16 23:11:43 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/.reports/metals-full/2025-08-16/r_empty-definition_(root)_23-11-43-935.md")
+2025.08.16 23:11:44 INFO  compiling root (16 scala sources)
+2025.08.16 23:11:44 INFO  time: compiled root in 0.8s
+2025.08.16 23:12:01 INFO  compiling root (16 scala sources)
+2025.08.16 23:12:02 INFO  time: compiled root in 1.12s
+Aug 16, 2025 11:12:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6324
+2025.08.16 23:13:20 INFO  compiling root (16 scala sources)
+2025.08.16 23:13:20 INFO  time: compiled root in 0.84s
+2025.08.16 23:13:58 INFO  compiling root (16 scala sources)
+2025.08.16 23:13:58 INFO  time: compiled root in 0.85s
+Aug 16, 2025 11:14:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6599
+2025.08.16 23:14:18 INFO  compiling root (16 scala sources)
+2025.08.16 23:14:18 INFO  time: compiled root in 0.96s
+Aug 16, 2025 11:14:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6630
+Aug 16, 2025 11:15:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6894
+2025.08.16 23:15:47 INFO  compiling root (16 scala sources)
+2025.08.16 23:15:47 INFO  time: compiled root in 0.83s
+2025.08.16 23:17:00 INFO  compiling root (16 scala sources)
+2025.08.16 23:17:00 INFO  time: compiled root in 0.87s
+Aug 16, 2025 11:17:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7331
+2025.08.16 23:17:53 INFO  compiling root (16 scala sources)
+2025.08.16 23:17:53 INFO  time: compiled root in 0.87s
+2025.08.16 23:18:20 INFO  compiling root (16 scala sources)
+2025.08.16 23:18:21 INFO  time: compiled root in 1.03s
+2025.08.16 23:18:50 INFO  compiling root (16 scala sources)
+2025.08.16 23:18:51 INFO  time: compiled root in 1.05s
+2025.08.16 23:19:08 INFO  compiling root (16 scala sources)
+2025.08.16 23:19:09 INFO  time: compiled root in 1.03s
+Aug 16, 2025 11:19:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7703
+2025.08.16 23:19:39 INFO  compiling root (16 scala sources)
+2025.08.16 23:19:39 INFO  time: compiled root in 0.99s
+Aug 16, 2025 11:20:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7847
+2025.08.16 23:21:06 INFO  compiling root (16 scala sources)
+2025.08.16 23:21:06 INFO  time: compiled root in 0.95s
+2025.08.16 23:21:44 INFO  compiling root (16 scala sources)
+2025.08.16 23:21:44 INFO  time: compiled root in 0.94s
+2025.08.16 23:21:59 INFO  compiling root (16 scala sources)
+2025.08.16 23:21:59 INFO  time: compiled root in 1s
+2025.08.16 23:22:05 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/.reports/metals-full/2025-08-16/r_empty-definition_(root)_23-11-43-935.md")
+2025.08.16 23:22:05 INFO  compiling root (16 scala sources)
+2025.08.16 23:22:05 INFO  time: compiled root in 0.87s
+2025.08.16 23:22:12 INFO  compiling root (16 scala sources)
+2025.08.16 23:22:13 INFO  time: compiled root in 1.01s
+2025.08.16 23:22:51 INFO  compiling root (16 scala sources)
+2025.08.16 23:22:51 INFO  time: compiled root in 0.94s
+2025.08.16 23:23:34 INFO  compiling root (16 scala sources)
+2025.08.16 23:23:34 INFO  time: compiled root in 0.84s
+2025.08.16 23:24:04 INFO  compiling root (16 scala sources)
+2025.08.16 23:24:04 INFO  time: compiled root in 0.93s
+2025.08.16 23:29:25 INFO  compiling root (16 scala sources)
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.16 23:29:25 WARN  Invalid text document uri received from build server: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/game/DragDropService.scala.scala
+2025.08.16 23:29:25 INFO  time: compiled root in 0.84s
+2025.08.16 23:29:25 INFO  compiling root (16 scala sources)
+2025.08.16 23:29:26 INFO  time: compiled root in 0.85s
+2025.08.16 23:33:59 INFO  Shutting down server
+2025.08.16 23:33:59 INFO  shutting down Metals
+2025.08.16 23:33:59 INFO  Shut down connection with build server.
+2025.08.16 23:33:59 INFO  Shut down connection with build server.
+2025.08.16 23:33:59 INFO  Shut down connection with build server.
+2025.08.16 23:33:59 INFO  Exiting server
+2025.08.16 23:34:19 INFO  Started: Metals version 1.6.2 in folders '/Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww' for client Visual Studio Code 1.103.0.
+2025.08.16 23:34:20 INFO  Attempting to connect to the build server...
+2025.08.16 23:34:20 INFO  Found a Bloop server running
+2025.08.16 23:34:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/bsp.trace.json or /Users/justinyong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.08.16 23:34:20 INFO  Attempting to connect to the build server...
+2025.08.16 23:34:20 INFO  Found a Bloop server running
+2025.08.16 23:34:20 INFO  Attempting to connect to the build server...
+2025.08.16 23:34:20 INFO  Found a Bloop server running
+2025.08.16 23:34:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/project/.metals/bsp.trace.json or /Users/justinyong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.08.16 23:34:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/project/.metals/bsp.trace.json or /Users/justinyong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.08.16 23:34:21 INFO  time: Connected to build server in 0.35s
+2025.08.16 23:34:21 INFO  Connected to Build server: Bloop v2.0.13
+Aug 16, 2025 11:34:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Aug 16, 2025 11:34:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Aug 16, 2025 11:34:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.08.16 23:34:24 INFO  time: indexed workspace in 3.62s
+2025.08.16 23:34:24 INFO  compiling root (16 scala sources)
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.16 23:34:24 INFO  time: compiled root in 0.99s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
