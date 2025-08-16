@@ -17,5 +17,6 @@ import zeroHungerGame.model.{Character, FoodItem}
 import zeroHungerGame.util.{ResourceLoader}
 
 class GameView { 
+      // Work on gameEngine first
       
 }
