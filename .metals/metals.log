@@ -3014,3 +3014,46 @@ exception caught when loading module class module-info$: java.lang.AssertionErro
 2025.08.16 21:38:26 INFO  time: compiled root in 0.96s
 2025.08.16 21:39:08 INFO  compiling root (14 scala sources)
 2025.08.16 21:39:08 INFO  time: compiled root in 0.8s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.16 21:48:23 INFO  compiling root (14 scala sources)
+2025.08.16 21:48:23 INFO  time: compiled root in 0.92s
+2025.08.16 21:48:45 INFO  compiling root (14 scala sources)
+2025.08.16 21:48:45 INFO  time: compiled root in 0.99s
+2025.08.16 21:50:54 INFO  compiling root (14 scala sources)
+2025.08.16 21:50:54 INFO  time: compiled root in 0.83s
+2025.08.16 21:52:03 INFO  compiling root (14 scala sources)
+2025.08.16 21:52:03 INFO  time: compiled root in 0.86s
+2025.08.16 21:52:26 INFO  compiling root (14 scala sources)
+2025.08.16 21:52:27 INFO  time: compiled root in 1.17s
+Aug 16, 2025 9:53:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 76725
+2025.08.16 21:54:55 INFO  compiling root (14 scala sources)
+2025.08.16 21:54:55 INFO  time: compiled root in 0.83s
+2025.08.16 21:55:24 INFO  compiling root (14 scala sources)
+2025.08.16 21:55:24 INFO  time: compiled root in 0.98s
+Aug 16, 2025 9:55:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 77632
+Aug 16, 2025 9:59:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 78417
+2025.08.16 22:00:03 INFO  compiling root (14 scala sources)
+2025.08.16 22:00:03 INFO  time: compiled root in 0.91s
+2025.08.16 22:00:07 INFO  compiling root (14 scala sources)
+2025.08.16 22:00:07 INFO  time: compiled root in 0.98s
+2025.08.16 22:00:12 INFO  compiling root (14 scala sources)
+2025.08.16 22:00:13 INFO  time: compiled root in 1.01s
+2025.08.16 22:00:15 INFO  compiling root (14 scala sources)
+2025.08.16 22:00:15 INFO  time: compiled root in 0.88s
+Aug 16, 2025 10:00:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 78681
+2025.08.16 22:00:20 INFO  compiling root (14 scala sources)
+2025.08.16 22:00:21 INFO  time: compiled root in 1.01s
+2025.08.16 22:00:26 INFO  compiling root (14 scala sources)
+2025.08.16 22:00:27 INFO  time: compiled root in 1.04s
+2025.08.16 22:01:21 INFO  compiling root (14 scala sources)
+2025.08.16 22:01:21 INFO  time: compiled root in 0.79s
+2025.08.16 22:02:06 INFO  compiling root (14 scala sources)
+2025.08.16 22:02:06 INFO  time: compiled root in 0.81s
+2025.08.16 22:02:42 INFO  compiling root (14 scala sources)
+2025.08.16 22:02:42 INFO  time: compiled root in 0.76s
+2025.08.16 22:03:04 INFO  compiling root (14 scala sources)
+2025.08.16 22:03:05 INFO  time: compiled root in 1.24s
