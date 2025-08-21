@@ -64,7 +64,7 @@ class MenuController(sceneManager: SceneManager) extends Initializable {
 
             // PURPOSE: Setup Top Menu Bar Buttons
             setupHelpButton()
-            // Credits Button
+            setupCreditsButton()
             setupAudioToggle()
       }
 
@@ -85,7 +85,7 @@ class MenuController(sceneManager: SceneManager) extends Initializable {
       private def showHelpOverlay(): Unit = { 
             val alert = new javafx.scene.control.Alert(javafx.scene.control.Alert.AlertType.INFORMATION)
             alert.setTitle("How does NutriQuest work")
-            alert.setHeaderText("Application Instructions")
+            alert.setHeaderText("NutriQuest - Application Instructions")
 
             val helpContent = 
                   "NutriQuest as the name suggest is about a quest for healthy nutrition:\n\n" + 
@@ -118,6 +118,55 @@ class MenuController(sceneManager: SceneManager) extends Initializable {
       }
 
       // METHOD: Setup credits button 
+      private def setupCreditsButton(): Unit = {
+            if (creditsButton != null) {
+                  creditsButton.setTooltip(new Tooltip("View app credits"))
+                  creditsButton.setOnAction(_ => {
+                        showCreditsOverlay()
+                  })
+                  println("Credits button initialised")
+            } else {
+                  println("WARNING: creditsButton is null!")
+            }
+      }
+
+      // METHOD: Show credits overlay 
+      private def showCreditsOverlay(): Unit = {
+            val alert = new javafx.scene.control.Alert(javafx.scene.control.Alert.AlertType.INFORMATION)
+            alert.setTitle("App Credits")
+            alert.setHeaderText("NutriQuest - In Support of UNSDG 2")
+
+            val creditsContent = 
+                  "Developed for PRG 2104 Object Oriented Programming Course\n" + 
+                  "Sunway University Malaysia: https://www.sunway.edu.my\n\n" +
+                  "Credits:\n\n" + 
+                  "1. Developed by Justin Yong Wenn Weii (Student ID: 18119677)\n\n" + 
+                  "2. Background Images: Taken from Canva\n" + 
+                  "Link: https://www.canva.com/design/DAGuPqns9cw/KfW9l09ESmPBpRX2YM24gg/edit?utm_content=DAGuPqns9cw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton\n\n" +
+                  "3. Background Music: Schwarzenegger Belonio\n" + 
+                  "Link: https://migfus.site/\n\n" + 
+                  "4. Logo and Character Images: Designed by Justin Yong with Canva\n" + 
+                  "Link: https://www.canva.com/design/DAGwsWrAu1M/zA5vrzYh05v50_paDbgNUA/edit?utm_content=DAGwsWrAu1M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton\n\n" + 
+                  "5. Food Item Designs: Designed by Justin Yong with Canva\n" + 
+                  "Link: https://www.canva.com/design/DAGwsWeYC00/qXgx2VXdPjy6yyJEwK81lA/edit?utm_content=DAGwsWeYC00&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton\n\n" + 
+                  "Special thanks to all open-source libraries used in this project."
+
+            val textArea = new javafx.scene.control.TextArea(creditsContent)
+            textArea.setEditable(false)
+            textArea.setWrapText(true)
+            textArea.setPrefHeight(400)
+            textArea.setPrefWidth(550)
+
+            alert.getDialogPane.setContent(textArea)
+            alert.getDialogPane.setPrefWidth(600)
+
+            val cssPath = ResourceLoader.loadCssPath("style.css")
+            if (cssPath.nonEmpty) {
+                  alert.getDialogPane.getStylesheets.add(cssPath)
+            } 
+
+            alert.showAndWait()
+      }
 
       // METHOD: Setup audio toggle button 
       private def setupAudioToggle(): Unit = {
