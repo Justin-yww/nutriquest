@@ -15,13 +15,16 @@ class EducationController(sceneManager: SceneManager) extends Initializable {
       // FXML fields
       @FXML private var titleLabel: Label = _
       @FXML private var pageNumberLabel: Label = _ 
-      @FXML private var contentArea: TextArea = _
+      @FXML private var contentContainer: VBox = _
       @FXML private var characterContainer: HBox = _
       @FXML private var foodContainer: HBox = _
       @FXML private var previousButton: Button = _ 
       @FXML private var nextButton: Button = _     
       @FXML private var skipButton: Button = _     
       @FXML private var backToMenuButton: Button = _
+
+      // Implement a case class to help store educational content (May include images)
+      case class EducationalContent(text: String, imagePath: Option[String] = None)
 
       // State 
       private var mode: String = "village"
@@ -87,7 +90,7 @@ class EducationController(sceneManager: SceneManager) extends Initializable {
                   case _ => "Nutrition Education"
             }
 
-            // PAGES OF THE EDUCATION CONTENT - EDIT EDUCATION CONTENT HERE 
+            // PAGES OF THE EDUCATION CONTENT 
             educationalContents = Array(
                   s"$baseContent - Page 1\n\nIntroduction to nutrition and its importance in ${mode} context.\n\nProper nutrition is essential for health and wellbeing, regardless of where you live.",
                   

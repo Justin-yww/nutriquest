@@ -109,11 +109,11 @@ object LevelConfig {
 
             // EDUCATIONAL CONTENT - VILLAGE MODE 
             val education = List(
-                  "Page 1",
-                  "Page 2",
-                  "Page 3",
-                  "Page 4",
-                  "Page 5"
+                  "Page 1: Introduction to Nutrition",
+                  "Page 2: Food Groups and Their Benefits",
+                  "Page 3: Common Nutritional Deficiencies",
+                  "Page 4: Tips for Healthy Eating",
+                  "Page 5: Preparing for the Game"
             )
 
             new LevelConfig(
@@ -233,13 +233,13 @@ object LevelConfig {
 
             val randomizedFoods = Random.shuffle(foods)
 
-            // EDUCATIONAL CONTENT 
+            // EDUCATIONAL CONTENT - URBAN MODE
             val education = List(
-                  "Page 1",
-                  "Page 2",
-                  "Page 3",
-                  "Page 4",
-                  "Page 5"
+                  "Page 1: Introduction to Nutrition",
+                  "Page 2: Food Groups and Their Benefits",
+                  "Page 3: Common Nutritional Deficiencies",
+                  "Page 4: Tips for Healthy Eating",
+                  "Page 5: Preparing for the Game"
             )
 
             new LevelConfig(

@@ -3840,3 +3840,26 @@ WARNING: Unmatched cancel notification for request id 7125
 2025.08.21 17:40:49 INFO  compiling root (1 scala source)
 2025.08.21 17:40:49 WARN  Invalid text document uri received from build server: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/core/SceneManager.scala.scala
 2025.08.21 17:40:49 INFO  time: compiled root in 0.36s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.21 17:47:17 INFO  compiling root (1 scala source)
+2025.08.21 17:47:18 WARN  Invalid text document uri received from build server: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/core/SceneManager.scala.scala
+2025.08.21 17:47:18 INFO  time: compiled root in 1.19s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+Aug 21, 2025 5:53:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10398
+2025.08.21 17:54:42 INFO  compiling root (1 scala source)
+2025.08.21 17:54:43 WARN  Invalid text document uri received from build server: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/core/SceneManager.scala.scala
+2025.08.21 17:54:43 INFO  time: compiled root in 1.17s
+2025.08.21 17:56:34 INFO  compiling root (1 scala source)
+2025.08.21 17:56:34 WARN  Invalid text document uri received from build server: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/core/SceneManager.scala.scala
+2025.08.21 17:56:34 INFO  time: compiled root in 0.38s
+2025.08.21 18:00:08 INFO  compiling root (1 scala source)
+2025.08.21 18:00:09 WARN  Invalid text document uri received from build server: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/core/SceneManager.scala.scala
+2025.08.21 18:00:09 INFO  time: compiled root in 1.08s
+2025.08.21 18:09:32 INFO  compiling root (1 scala source)
+2025.08.21 18:09:32 WARN  Invalid text document uri received from build server: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/core/SceneManager.scala.scala
+2025.08.21 18:09:32 INFO  time: compiled root in 0.88s
+Aug 21, 2025 6:11:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11626
+2025.08.21 18:11:50 INFO  compiling root (1 scala source)
+2025.08.21 18:11:50 INFO  time: compiled root in 0.3s

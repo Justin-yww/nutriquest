@@ -43,9 +43,9 @@ compilation errors or incomplete layouts
             </padding>
             
             <ScrollPane fitToWidth="true" styleClass="content-pane">
-                <TextArea fx:id="contentArea" wrapText="true" editable="false" 
-                          styleClass="edu-content"
-                          prefHeight="300" />
+                <VBox fx:id="contentContainer" spacing="15" styleClass="edu-content-container">
+                    <!-- SECTION FOR EDUCATIONAL CONTEXT -->
+                </VBox>
             </ScrollPane>
             
             <!-- Character and food containers -->
