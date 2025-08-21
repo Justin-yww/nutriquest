@@ -91,31 +91,76 @@ class EducationController(sceneManager: SceneManager) extends Initializable {
                         // VILLAGE MODE - PAGE 1
                         EducationContent(
                               """
-                              PAGE 1 TO BE UPTADED LATER
-                              """,
+                              RURAL NUTRITION BASICS 🌾
+                              
+                              Welcome to the basics about Kampung Nutrition
+
+                              🛖 In villages, food comes straight from farms and nature.
+
+                              🍅 Villagers often grow their own food and might have less options compared to that of cities. 
+
+                              🥬 Fresh Vegetables, fruits, grains, and even fish and meat make up most village meals. 
+
+                              💪 Good nutrition helps villagers stay healthy, grow stronger, and have sufficient energy for everyday activities like farming or fishing. 
+
+                              Question: What is your favourite traditional kampung snack or food?""",
                               Some("education/village_page1.png")
 
                         ), 
                         // VILLAGE MODE - PAGE 2
                         EducationContent(
                               """
-                              PAGE 2 TO BE UPTADED LATER
-                              """,
+                              CHALLENGES IN VILLAGE NUTRITION ⚠️
+
+                              Villagers sometimes face these nutrition challenges:
+
+                              🌧️ Recent climate change has led to unpredictable rain and flooding that can affect the growing of crops. 
+
+                              🍚 An unbalanced diet and lack of variety has resulted in many villagers eating too much rice or other carbs (like noodles).
+
+                              🥬Limited access to vegetables when the season of vegetables are not in season. 
+
+                              💧Clean water might not always be accessible and lead to food poisoning due to the water quality. 
+
+                              Villagers need to be educated to learn more about potential food options that they could grow to help with their nutritional needs.""",
                               Some("education/village_page2.png")
 
                         ), 
                         // VILLAGE MODE - PAGE 3
                         EducationContent(
                               """
-                              PAGE 3 TO BE UPTADED LATER
-                              """,
+                              VILLAGE FOOD GROUPS 🛖
+
+                              Here are some of the major food groups found in villages:
+
+                              🌾 CARBOHYDRATE: Rice, bread, and potatoes helps give you the energy you need to work on everyday activities. 
+
+                              🥚 PROTEINS: Beans, fish, eggs and meat all help build strong muscles and promotes sturdy growth. 
+
+                              🥕 VEGETABLES: Vegetables help by providing you with fiber and prevent you from getting sick. 
+
+                              🍉 FRUITS: Important for your health as it provides vitamins.
+
+                              🐄 DAIRY: Milk helps your bones grow strong with calcium. 
+
+                              A balanced diet consists of foods from all the following groups.""",
                               Some("education/village_page3.png")
 
                         ), 
                         // VILLAGE MODE - PAGE 4
                         EducationContent(
                               """
-                              PAGE 4 TO BE UPTADED LATER
+                              VILLAGE NUTRITION TIPS 💡 
+
+                              Smart ways to eat healthy in the village: 
+
+                              🫘 Mix grains (like rice) with proteins (like beans) to make increase the nutritional value of meals. 
+
+                              🌱 Try growing new types of vegetables and fruits to improve variety of the crops and to avoid shortages during different seasons. 
+
+                              👶 Growing children require more protein and calcium to ensure healthy bones and steady growth. 
+
+                              FUN FACT: Many of the healthiest families in the world live in villages where they eat fresh food they grow themselves.
                               """,
                               Some("education/village_page4.png")
 
@@ -123,7 +168,17 @@ class EducationController(sceneManager: SceneManager) extends Initializable {
                         // VILLAGE MODE - PAGE 5
                         EducationContent(
                               """
-                              PAGE 5 TO BE UPTADED LATER
+                              GET READY FOR THE VILLAGE MODE GAME 🛖
+
+                              There will be 5 characters and 5 food items to match from.
+
+                              1. Read the descriptive prompt given below each character's card to understand their nutritional requirement
+
+                              2. Drag and drop the food items onto the character cards that match their needs.
+
+                              3. Complete all matches before the time runs out to win the game!
+
+                              Press start game to proceed with the game. 
                               """,
                               Some("education/village_page5.png")
 
@@ -166,7 +221,17 @@ class EducationController(sceneManager: SceneManager) extends Initializable {
                         // URBAN MODE - PAGE 5
                         EducationContent(
                               """
-                              PAGE 5 TO BE UPTADED LATER
+                              GET READY FOR THE URBAN MODE GAME 🏙️
+
+                              There will be 9 characters and 9 food items to match from.
+
+                              1. Read the descriptive prompt given below each character's card to understand their nutritional requirement
+
+                              2. Drag and drop the food items onto the character cards that match their needs.
+
+                              3. Complete all matches before the time runs out to win the game!
+
+                              Press start game to proceed with the game. 
                               """,
                               Some("education/urban_page5.png")
 
