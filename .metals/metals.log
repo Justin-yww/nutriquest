@@ -3783,3 +3783,27 @@ Some errors like unused import referring to a non-existent class might not be re
 Aug 21, 2025 4:35:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 9
 exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.21 16:48:23 INFO  compiling root (1 scala source)
+2025.08.21 16:48:23 WARN  Invalid text document uri received from build server: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/core/SceneManager.scala.scala
+2025.08.21 16:48:23 INFO  time: compiled root in 0.63s
+Aug 21, 2025 4:48:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1202
+Aug 21, 2025 4:51:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2160
+Aug 21, 2025 4:51:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2175
+Aug 21, 2025 4:53:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3250
+2025.08.21 16:57:13 INFO  compiling root (1 scala source)
+2025.08.21 16:57:13 INFO  time: compiled root in 0.67s
+Aug 21, 2025 5:00:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5890
+2025.08.21 17:00:32 INFO  compiling root (1 scala source)
+2025.08.21 17:00:32 INFO  time: compiled root in 0.52s
+2025.08.21 17:00:43 INFO  compiling root (1 scala source)
+2025.08.21 17:00:43 INFO  time: compiled root in 0.65s
+2025.08.21 17:01:47 INFO  compiling root (1 scala source)
+2025.08.21 17:01:47 WARN  Invalid text document uri received from build server: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/core/SceneManager.scala.scala
+2025.08.21 17:01:47 INFO  time: compiled root in 0.43s
+2025.08.21 17:04:56 INFO  skipping build import with status 'Installed'
+2025.08.21 17:05:09 INFO  skipping build import with status 'Installed'

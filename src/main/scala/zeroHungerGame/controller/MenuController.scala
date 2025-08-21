@@ -63,13 +63,59 @@ class MenuController(sceneManager: SceneManager) extends Initializable {
             }
 
             // PURPOSE: Setup Top Menu Bar Buttons
-            // Help Button
+            setupHelpButton()
             // Credits Button
             setupAudioToggle()
       }
 
       // METHOD: Setup help button 
-      
+      private def setupHelpButton(): Unit = {
+            if (helpButton != null) {
+                  helpButton.setTooltip(new Tooltip("Show app guidance"))
+                  helpButton.setOnAction(_ => {
+                        showHelpOverlay()
+                  })
+                  println("Help button initialised")
+            } else {
+                  println("WARNING: helpButton is null!")
+            }
+      }
+
+      // METHOD: Show help overlay 
+      private def showHelpOverlay(): Unit = { 
+            val alert = new javafx.scene.control.Alert(javafx.scene.control.Alert.AlertType.INFORMATION)
+            alert.setTitle("How does NutriQuest work")
+            alert.setHeaderText("Application Instructions")
+
+            val helpContent = 
+                  "NutriQuest as the name suggest is about a quest for healthy nutrition:\n\n" + 
+                  "1. Users will be given a choice to choose between both the village and urban modes.\n" + 
+                  "2. Users will be guided first with nutrition facts in the context they have chosen.\n" + 
+                  "3. Based on the education section, users will engage in a quest to match food items with chracters based on their nutritional needs.\n" + 
+                  "4. The speed of the user making correct mataches will lead to higher scores.\n" + 
+                  "5. There will be 120 seconds for the village mode and 60 seconds for the urban mode.\n" + 
+                  "6. At the end of the game, a user has three options; try again, try new mode, or return to menu.\n" + 
+                  "Controls:\n" +
+                  "- Drag and drop food items to characters\n" +
+                  "- Use scroll bars to see all characters and foods\n" +
+                  "- Pause button to pause the game"
+            
+            val textArea = new javafx.scene.control.TextArea(helpContent)
+            textArea.setEditable(false)
+            textArea.setWrapText(true)
+            textArea.setPrefHeight(400)
+            textArea.setPrefWidth(550)
+
+            alert.getDialogPane.setContent(textArea)
+            alert.getDialogPane.setPrefWidth(600)
+
+            val cssPath = ResourceLoader.loadCssPath("style.css")
+            if (cssPath.nonEmpty) {
+                  alert.getDialogPane.getStylesheets.add(cssPath)
+            } 
+
+            alert.showAndWait()
+      }
 
       // METHOD: Setup credits button 
 
