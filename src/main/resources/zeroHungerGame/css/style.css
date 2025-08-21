@@ -303,20 +303,29 @@ Used constantly to experiment with different styling
   -fx-padding: 6px 12px;
 }
 
-.content-pane {
-  -fx-background-color: white;
-  -fx-background-radius: 6px;
-  -fx-border-radius: 6px;
-  -fx-border-color: #e5e5e5;
-  -fx-border-width: 1px;
-  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.05), 4, 0, 0, 1);
+/* Education Content Styles */
+.edu-content-container {
+  -fx-padding: 10px;
+  -fx-background-color: rgba(255, 255, 255, 0.9);
+  -fx-background-radius: 8px;
 }
 
 .edu-content {
-  -fx-font-size: 15px;
+  -fx-font-size: 14px;
   -fx-background-color: transparent;
   -fx-border-color: transparent;
   -fx-text-fill: #262626;
+  -fx-font-family: "SF Pro Text", sans-serif;
+}
+
+.edu-image {
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0, 0, 2);
+  -fx-background-color: white;
+  -fx-padding: 5px;
+  -fx-background-radius: 5px;
+  -fx-border-color: #e0e0e0;
+  -fx-border-width: 1px;
+  -fx-border-radius: 5px;
 }
 
 .section-header {

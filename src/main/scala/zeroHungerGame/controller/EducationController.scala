@@ -24,13 +24,14 @@ class EducationController(sceneManager: SceneManager) extends Initializable {
       @FXML private var backToMenuButton: Button = _
 
       // Implement a case class to help store educational content (May include images)
-      case class EducationalContent(text: String, imagePath: Option[String] = None)
+      case class EducationContent(text: String, imagePath: Option[String] = None)
 
       // State 
       private var mode: String = "village"
       private var pageNumber: Int = 1
       private var totalPages: Int = 5
       private var educationalContents: Array[String] = Array.empty
+      private var educationImagePaths: Array[Option[String]] = Array.empty
 
       override def initialize(location: URL, resources: ResourceBundle): Unit = {
             println("EducationController initializing...")
@@ -80,33 +81,115 @@ class EducationController(sceneManager: SceneManager) extends Initializable {
            updatePage()
       }
 
-      // METHOD: TO load the education content for both modes (VILLAGE and URBAN)
+      // METHOD: To load the education content for both modes (VILLAGE and URBAN)
       private def loadEducationalContent(): Unit = {
             println(s"Loading educational content for $mode mode")
 
-            val baseContent = mode match {
-                  case "village" => "Rural Nutrition Education"
-                  case "urban" => "Urban Nutrition Education"
-                  case _ => "Nutrition Education"
+            // Managing the content displayed based on the mode: VILLAGE and URBAN 
+            val educationPages = mode match {
+                  case "village" => Array (
+                        // VILLAGE MODE - PAGE 1
+                        EducationContent(
+                              """
+                              PAGE 1 TO BE UPTADED LATER
+                              """,
+                              Some("education/village_page1.png")
+
+                        ), 
+                        // VILLAGE MODE - PAGE 2
+                        EducationContent(
+                              """
+                              PAGE 2 TO BE UPTADED LATER
+                              """,
+                              Some("education/village_page2.png")
+
+                        ), 
+                        // VILLAGE MODE - PAGE 3
+                        EducationContent(
+                              """
+                              PAGE 3 TO BE UPTADED LATER
+                              """,
+                              Some("education/village_page3.png")
+
+                        ), 
+                        // VILLAGE MODE - PAGE 4
+                        EducationContent(
+                              """
+                              PAGE 4 TO BE UPTADED LATER
+                              """,
+                              Some("education/village_page4.png")
+
+                        ), 
+                        // VILLAGE MODE - PAGE 5
+                        EducationContent(
+                              """
+                              PAGE 5 TO BE UPTADED LATER
+                              """,
+                              Some("education/village_page5.png")
+
+                        )
+                  )
+
+                  case "urban" => Array (
+                        // URBAN MODE - PAGE 1
+                        EducationContent(
+                              """
+                              PAGE 1 TO BE UPTADED LATER
+                              """,
+                              Some("education/urban_page1.png")
+
+                        ),
+                        // URBAN MODE - PAGE 2
+                        EducationContent(
+                              """
+                              PAGE 2 TO BE UPTADED LATER
+                              """,
+                              Some("education/urban_page2.png")
+
+                        ),
+                        // URBAN MODE - PAGE 3
+                        EducationContent(
+                              """
+                              PAGE 3 TO BE UPTADED LATER
+                              """,
+                              Some("education/urban_page3.png")
+
+                        ),
+                        // URBAN MODE - PAGE 4
+                        EducationContent(
+                              """
+                              PAGE 4 TO BE UPTADED LATER
+                              """,
+                              Some("education/urban_page4.png")
+
+                        ),
+                        // URBAN MODE - PAGE 5
+                        EducationContent(
+                              """
+                              PAGE 5 TO BE UPTADED LATER
+                              """,
+                              Some("education/urban_page5.png")
+
+                        )
+                  )
+
+                  case _ => Array(
+                        EducationContent("Page 1 Education Content - Not Found"),
+                        EducationContent("Page 2 Education Content - Not Found"),
+                        EducationContent("Page 3 Education Content - Not Found"),
+                        EducationContent("Page 4 Education Content - Not Found"),
+                        EducationContent("Page 5 Education Content - Not Found")
+                  )
+
             }
 
-            // PAGES OF THE EDUCATION CONTENT 
-            educationalContents = Array(
-                  s"$baseContent - Page 1\n\nIntroduction to nutrition and its importance in ${mode} context.\n\nProper nutrition is essential for health and wellbeing, regardless of where you live.",
-                  
-                  s"$baseContent - Page 2\n\nCommon nutritional challenges in ${mode} environments.\n\nDifferent environments present unique challenges to maintaining a balanced diet.",
-                  
-                  s"$baseContent - Page 3\n\nKey food groups and their nutritional benefits.\n\nUnderstanding the different food groups helps in planning balanced meals.",
-                  
-                  s"$baseContent - Page 4\n\nTips for maintaining a balanced diet in ${mode} settings.\n\nPractical advice for addressing common nutritional challenges.",
-                  
-                  s"$baseContent - Page 5\n\nSummary and preparation for the nutrition matching game.\n\nNow it's time to test your knowledge in a fun and interactive way!"
-            )
+            educationalContents = educationPages.map(_.text)
+            educationImagePaths = educationPages.map(_.imagePath)
 
             // Establish the total number of pages 
             totalPages = educationalContents.length
 
-            println(s"Loaded $totalPages pages of educational content")
+            println(s"Loaded $totalPages pages of educational contents based on mode: $mode")
       }
 
       // METHOD: Update UI to display the current education page
@@ -124,8 +207,49 @@ class EducationController(sceneManager: SceneManager) extends Initializable {
                   titleLabel.setText(s"${mode.capitalize} Nutrition Education")
             }
             
-            if (contentArea != null && pageNumber <= educationalContents.length) {
-                  contentArea.setText(educationalContents(pageNumber - 1))
+            if (contentContainer != null) { 
+                  contentContainer.getChildren.clear()
+
+                  // Text Section
+                  if (pageNumber <= educationalContents.length) {
+                        val textArea = new TextArea{
+                              setText(educationalContents(pageNumber - 1))
+                              setWrapText(true)
+                              setEditable(false)
+                              setPrefHeight(220)
+                              getStyleClass.add("edu-content")
+                              setStyle("-fx-font-size: 14px; -fx-font-family: 'SF Pro Text', sans-serif;")
+                        }
+                        contentContainer.getChildren.add(textArea)
+                  }
+                  // Image Section
+                  if (pageNumber - 1 < educationImagePaths.length) { 
+                        educationImagePaths(pageNumber - 1).foreach { imagePath => 
+                              try {
+                                    val imageUrl = ResourceLoader.loadImagePath(imagePath)
+                                    val image = new javafx.scene.image.Image(imageUrl)
+                                    val imageView = new ImageView {
+                                          setImage(image)
+                                          setFitWidth(400)
+                                          setPreserveRatio(true)
+                                          setSmooth(true)
+                                          getStyleClass.add("edu-image")
+                                          setStyle("-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 2); -fx-background-color: white; -fx-padding: 5px; -fx-background-radius: 5px;")
+                                    }
+
+                                    val imageContainer = new HBox {
+                                          setAlignment(javafx.geometry.Pos.CENTER)
+                                          getChildren.add(imageView)
+                                          setStyle("-fx-padding: 10px;")
+                                    }
+
+                                    contentContainer.getChildren.add(imageContainer)
+                              } catch {
+                                    case e: Exception => 
+                                          println(s"Error loading image $imagePath: ${e.getMessage}")
+                              }                        
+                        }
+                  }
             }
             
             if (previousButton != null) {
