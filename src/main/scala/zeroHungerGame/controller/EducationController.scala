@@ -103,7 +103,7 @@ class EducationController(sceneManager: SceneManager) extends Initializable {
 
                               💪 Good nutrition helps villagers stay healthy, grow stronger, and have sufficient energy for everyday activities like farming or fishing. 
 
-                              Question: What is your favourite traditional kampung snack or food?""",
+                              QUESTION: What is your favourite traditional kampung snack or food?""",
                               Some("education/village_page1.png")
 
                         ), 
@@ -160,8 +160,7 @@ class EducationController(sceneManager: SceneManager) extends Initializable {
 
                               👶 Growing children require more protein and calcium to ensure healthy bones and steady growth. 
 
-                              FUN FACT: Many of the healthiest families in the world live in villages where they eat fresh food they grow themselves.
-                              """,
+                              FUN FACT: Many of the healthiest families in the world live in villages where they eat fresh food they grow themselves.""",
                               Some("education/village_page4.png")
 
                         ), 
@@ -178,8 +177,7 @@ class EducationController(sceneManager: SceneManager) extends Initializable {
 
                               3. Complete all matches before the time runs out to win the game!
 
-                              Press start game to proceed with the game. 
-                              """,
+                              Press start game to proceed with the game.""",
                               Some("education/village_page5.png")
 
                         )
@@ -189,32 +187,78 @@ class EducationController(sceneManager: SceneManager) extends Initializable {
                         // URBAN MODE - PAGE 1
                         EducationContent(
                               """
-                              PAGE 1 TO BE UPTADED LATER
-                              """,
+                              URBAN NUTRITION BASICS 🥡
+
+                              Welcome to the basics about Bandar Nutrition
+
+                              🏙️ In cities, food options come from all across the world which leads to more choices.
+
+                              🛒 Urban people often buy food from stores and markets instead of growing it like in the village. 
+
+                              🍟 The busier lifestyle within the urban setting has lead to fast food options which are unhealthy. 
+
+                              💪 Good nutrition helps people think clearly and stay healthy. 
+
+                              QUESTION: What's your favorite healthy food that you can find in the city?""",
                               Some("education/urban_page1.png")
 
                         ),
                         // URBAN MODE - PAGE 2
                         EducationContent(
                               """
-                              PAGE 2 TO BE UPTADED LATER
-                              """,
+                              CHALLENGES IN URBAN NUTRITION ⚠️
+
+                              Urban families sometimes face these nutrition challenges:
+
+                              🍔 Too much fast food options leads to unhealthy consumption habits.
+
+                              ⏰ Busy schedules can lead to many people skipping meals or substituting entire meals with unhealthy snacks. 
+
+                              🥗 Healthier food options may cost more and meal preparation requires additional time. 
+
+                              🏃 Insufficient physical activities combined with a higher calorie and sugary diet can have severe health impacts. 
+
+                              Making healthy choices requires a lot of extra effort in the city.""",
                               Some("education/urban_page2.png")
 
                         ),
                         // URBAN MODE - PAGE 3
                         EducationContent(
                               """
-                              PAGE 3 TO BE UPTADED LATER
-                              """,
+                              URBAN FOOD GROUPS 🛖
+
+                              Here are some of the major food groups found in villages:
+
+                              🥐 CARBOHYDRATES: Bread, pasta, multigrain rice, and pastries give the energy and should be consumed in moderation. 
+
+                              🍖 PROTEINS: Chicken, fish and beans all help build strong muscles and repairs body tissue. 
+
+                              🥕 VEGETABLES: Vegetables help by providing you with fiber and minerals to prevent you from getting sick. 
+
+                              🍊 FRUITS: Important for your health as it provides vitamins and fiber, it also can replace unhealthy snacks. 
+
+                              🧀 DAIRY: Yogurt and cheese provide calcium alternatives for your bones to stay strong.
+
+                              🥑 HEALTHY FATS: Nuts and avocados help provide the good fats for your brain.
+
+                              Everyone in the city should have a healthy mixture of all these groups to live a healthy life.""",
                               Some("education/urban_page3.png")
 
                         ),
                         // URBAN MODE - PAGE 4
                         EducationContent(
                               """
-                              PAGE 4 TO BE UPTADED LATER
-                              """,
+                              URBAN NUTRITION TIPS 💡 
+
+                              Smart ways to eat healthy in the city: 
+
+                              🗓️ Plan and preapre your meals on the weekends to help save cost and avoid unhealthy fast food options during the busy week. 
+
+                              🫐 Substitute sugary and processed snacks with healthier options like fruits to help with healthy eating habits in between meals. 
+
+                              🥤 Avoid sugary drinks and try to substitute with fresh juices or water. 
+
+                              FUN FACT: People who eat homemade meals tend to be much healthier than those who eat out.""",
                               Some("education/urban_page4.png")
 
                         ),
