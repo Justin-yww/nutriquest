@@ -33429,3 +33429,994 @@ WARNING: Unmatched cancel notification for request id 23529
 2025.08.22 12:48:50 INFO  compiling root (1 scala source)
 2025.08.22 12:48:52 WARN  Invalid text document uri received from build server: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/core/SceneManager.scala.scala
 2025.08.22 12:48:52 INFO  time: compiled root in 1.7s
+2025.08.22 13:10:16 INFO  compiling root (1 scala source)
+2025.08.22 13:10:17 WARN  Invalid text document uri received from build server: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/core/SceneManager.scala.scala
+2025.08.22 13:10:17 INFO  time: compiled root in 1.15s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.22 13:12:50 INFO  compiling root (1 scala source)
+2025.08.22 13:12:50 WARN  Invalid text document uri received from build server: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/core/SceneManager.scala.scala
+2025.08.22 13:12:50 INFO  time: compiled root in 0.42s
+2025.08.22 13:12:53 INFO  compiling root (1 scala source)
+2025.08.22 13:12:53 WARN  Invalid text document uri received from build server: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/core/SceneManager.scala.scala
+2025.08.22 13:12:53 INFO  time: compiled root in 0.28s
+2025.08.22 13:14:17 INFO  compiling root (1 scala source)
+2025.08.22 13:14:17 WARN  Invalid text document uri received from build server: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/core/SceneManager.scala.scala
+2025.08.22 13:14:17 INFO  time: compiled root in 0.26s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+2025.08.22 13:14:43 INFO  compiling root (1 scala source)
+2025.08.22 13:14:43 WARN  Invalid text document uri received from build server: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/core/SceneManager.scala.scala
+2025.08.22 13:14:43 INFO  time: compiled root in 0.19s
+error while checking new FoodItem("Fish", 180,
+  Set("protein",
+    "omega-),               " images / foods / fish _root_.scala.Predef.???)
+)
+error while checking {
+  new FoodItem("Fish", 180,
+    Set("protein",
+      "omega-),               " images / foods / fish _root_.scala.Predef.???)
+  )
+}
+error while checking case "fish" =>
+  new FoodItem("Fish", 180,
+    Set("protein",
+      "omega-),               " images / foods / fish _root_.scala.Predef.???)
+  )
+error while checking foodType.toLowerCase.replace(" ", "").replace("-", "") match
+  {
+    case "rice" =>
+      new FoodItem("Rice", 200, Set("carbs", "grain", "energy"),
+        "images/foods/rice.png")
+    case "milk" =>
+      new FoodItem("Milk", 120, Set("protein", "calcium", "dairy"),
+        "images/foods/milk.png")
+    case "fish" =>
+      new FoodItem("Fish", 180,
+        Set("protein",
+          "omega-),               " images / foods / fish
+            _root_.scala.Predef.???
+        )
+      )
+  }
+error while checking {
+  foodType.toLowerCase.replace(" ", "").replace("-", "") match
+    {
+      case "rice" =>
+        new FoodItem("Rice", 200, Set("carbs", "grain", "energy"),
+          "images/foods/rice.png")
+      case "milk" =>
+        new FoodItem("Milk", 120, Set("protein", "calcium", "dairy"),
+          "images/foods/milk.png")
+      case "fish" =>
+        new FoodItem("Fish", 180,
+          Set("protein",
+            "omega-),               " images / foods / fish
+              _root_.scala.Predef.???
+          )
+        )
+    }
+}
+error while checking def create(foodType: String): FoodItem =
+  {
+    foodType.toLowerCase.replace(" ", "").replace("-", "") match
+      {
+        case "rice" =>
+          new FoodItem("Rice", 200, Set("carbs", "grain", "energy"),
+            "images/foods/rice.png")
+        case "milk" =>
+          new FoodItem("Milk", 120, Set("protein", "calcium", "dairy"),
+            "images/foods/milk.png")
+        case "fish" =>
+          new FoodItem("Fish", 180,
+            Set("protein",
+              "omega-),               " images / foods / fish
+                _root_.scala.Predef.???
+            )
+          )
+      }
+  }
+error while checking  {
+  private val foodDatabase = mutable.Map[String, FoodItem]()
+  def create(foodType: String): FoodItem =
+    {
+      foodType.toLowerCase.replace(" ", "").replace("-", "") match
+        {
+          case "rice" =>
+            new FoodItem("Rice", 200, Set("carbs", "grain", "energy"),
+              "images/foods/rice.png")
+          case "milk" =>
+            new FoodItem("Milk", 120, Set("protein", "calcium", "dairy"),
+              "images/foods/milk.png")
+          case "fish" =>
+            new FoodItem("Fish", 180,
+              Set("protein",
+                "omega-),               " images / foods / fish
+                  _root_.scala.Predef.???
+              )
+            )
+        }
+    }
+  def get(foodType: String): FoodItem =
+    foodDatabase.getOrElseUpdate(foodType, create(foodType))
+}
+error while checking module object FoodItem {
+  private val foodDatabase = mutable.Map[String, FoodItem]()
+  def create(foodType: String): FoodItem =
+    {
+      foodType.toLowerCase.replace(" ", "").replace("-", "") match
+        {
+          case "rice" =>
+            new FoodItem("Rice", 200, Set("carbs", "grain", "energy"),
+              "images/foods/rice.png")
+          case "milk" =>
+            new FoodItem("Milk", 120, Set("protein", "calcium", "dairy"),
+              "images/foods/milk.png")
+          case "fish" =>
+            new FoodItem("Fish", 180,
+              Set("protein",
+                "omega-),               " images / foods / fish
+                  _root_.scala.Predef.???
+              )
+            )
+        }
+    }
+  def get(foodType: String): FoodItem =
+    foodDatabase.getOrElseUpdate(foodType, create(foodType))
+}
+error while checking package zeroHungerGame.model {
+  import scalafx.beans.property.{BooleanProperty, IntegerProperty,
+    ObjectProperty, StringProperty}
+  import scalafx.scene.image.Image
+  import scala.collection.mutable
+  import zeroHungerGame.util.ResourceLoader
+  class FoodItem(private[this] val initialName: String,
+    private[this] val initialCalories: Int,
+    private[this] val initialTags: Set[String],
+    private[this] val initialImagePath: String) {
+    private val _name = StringProperty(initialName)
+    private val _calories = IntegerProperty(initialCalories)
+    private val _tags = ObjectProperty[Set[String]](initialTags)
+    private val _imagePath = StringProperty(initialImagePath)
+    private val _imageCache =
+      ObjectProperty[Image](
+        new Image(ResourceLoader.loadImagePath("placeholder.png")))
+    private val _isMatched = BooleanProperty(false)
+    def name: String = _name.value
+    def calories: Int = _calories.value
+    def tags: Set[String] = _tags.value
+    def imagePath: String = _imagePath.value
+    def isMatched: Boolean = _isMatched.value
+    def name_=(v: String): Unit = _name.value = v
+    def calories_=(v: Int): Unit = _calories.value = v
+    def tags_=(v: Set[String]): Unit = _tags.value = v
+    def isMatched_=(v: Boolean): Unit = _isMatched.value = v
+    def nameProperty = _name
+    def caloriesProperty = _calories
+    def tagsProperty = _tags
+    def isMatchedProperty = _isMatched
+    def image: Image =
+      {
+        val relPath = imagePath.stripPrefix("images/")
+        val url = ResourceLoader.loadImagePath(relPath)
+        val safe =
+          if (url == null || url.isEmpty || url.startsWith("data:"))
+            ResourceLoader.loadImagePath("placeholder.png") else url
+        val img = new Image(safe)
+        _imageCache.value = img
+        _imageCache.value
+      }
+    def hasTag(tag: String): Boolean = tags.contains(tag)
+    def satisfies(requiredTags: Set[String]): Boolean =
+      requiredTags.subsetOf(tags)
+    def primaryCategory: String =
+      {
+        name.toLowerCase match
+          {
+            case "rice" =>
+              "Carbs"
+            case "milk" =>
+              "Protein"
+            case "fish" =>
+              "Protein"
+            case "vegetables" =>
+              "Fiber"
+            case "beans" =>
+              "Protein"
+            case "orange" =>
+              "Vitamin"
+            case "chicken" =>
+              "Protein"
+            case "fish_urban" =>
+              "omega-3"
+            case "banana" =>
+              "Potassium"
+            case "mixed nuts" =>
+              "Healthy Fats"
+            case "yogurt" =>
+              "Calcium"
+            case "whole-grain bread" =>
+              "Fiber"
+            case _ =>
+              val priorities =
+                List("carbs", "protein", "fiber", "vitamin", "calcium",
+                  "omega-3", "potassium", "healthy fats", "dairy", "fruit",
+                  "vegetable", "grain", "meat")
+              priorities.find(
+                priority =>
+                  tags.exists(
+                    _$1 =>
+                      _$1.toLowerCase.replace("-", " ") ==
+                        priority.toLowerCase.replace("-", " ")
+                  )
+              ).getOrElse(tags.headOption.getOrElse("Mixed")).split(" ").map(
+                _$2 => _$2.capitalize).mkString(" ")
+          }
+      }
+    override def toString: String =
+      s"FoodItem({name}, calories={calories}
+        , tags=[{
+          {
+            tags.mkString(", ")
+          }
+        }
+      ])"
+  }
+  module object FoodItem {
+    private val foodDatabase = mutable.Map[String, FoodItem]()
+    def create(foodType: String): FoodItem =
+      {
+        foodType.toLowerCase.replace(" ", "").replace("-", "") match
+          {
+            case "rice" =>
+              new FoodItem("Rice", 200, Set("carbs", "grain", "energy"),
+                "images/foods/rice.png")
+            case "milk" =>
+              new FoodItem("Milk", 120, Set("protein", "calcium", "dairy"),
+                "images/foods/milk.png")
+            case "fish" =>
+              new FoodItem("Fish", 180,
+                Set("protein",
+                  "omega-),               " images / foods / fish
+                    _root_.scala.Predef.???
+                )
+              )
+          }
+      }
+    def get(foodType: String): FoodItem =
+      foodDatabase.getOrElseUpdate(foodType, create(foodType))
+  }
+}
+Aug 22, 2025 1:16:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/.reports/metals-full/2025-08-22/r_compiler-error_(root)_13-16-16-209.md
+2025.08.22 13:16:16 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/model/FoodItem.scala
+error while checking new FoodItem("Fish", 180,
+  Set("protein",
+    "omeg),               " images / foods / fish _root_.scala.Predef.???)
+)
+error while checking {
+  new FoodItem("Fish", 180,
+    Set("protein",
+      "omeg),               " images / foods / fish _root_.scala.Predef.???)
+  )
+}
+error while checking case "fish" =>
+  new FoodItem("Fish", 180,
+    Set("protein",
+      "omeg),               " images / foods / fish _root_.scala.Predef.???)
+  )
+error while checking foodType.toLowerCase.replace(" ", "").replace("-", "") match
+  {
+    case "rice" =>
+      new FoodItem("Rice", 200, Set("carbs", "grain", "energy"),
+        "images/foods/rice.png")
+    case "milk" =>
+      new FoodItem("Milk", 120, Set("protein", "calcium", "dairy"),
+        "images/foods/milk.png")
+    case "fish" =>
+      new FoodItem("Fish", 180,
+        Set("protein",
+          "omeg),               " images / foods / fish _root_.scala.Predef.???)
+        )
+  }
+error while checking {
+  foodType.toLowerCase.replace(" ", "").replace("-", "") match
+    {
+      case "rice" =>
+        new FoodItem("Rice", 200, Set("carbs", "grain", "energy"),
+          "images/foods/rice.png")
+      case "milk" =>
+        new FoodItem("Milk", 120, Set("protein", "calcium", "dairy"),
+          "images/foods/milk.png")
+      case "fish" =>
+        new FoodItem("Fish", 180,
+          Set("protein",
+            "omeg),               " images / foods / fish
+              _root_.scala.Predef.???
+          )
+        )
+    }
+}
+error while checking def create(foodType: String): FoodItem =
+  {
+    foodType.toLowerCase.replace(" ", "").replace("-", "") match
+      {
+        case "rice" =>
+          new FoodItem("Rice", 200, Set("carbs", "grain", "energy"),
+            "images/foods/rice.png")
+        case "milk" =>
+          new FoodItem("Milk", 120, Set("protein", "calcium", "dairy"),
+            "images/foods/milk.png")
+        case "fish" =>
+          new FoodItem("Fish", 180,
+            Set("protein",
+              "omeg),               " images / foods / fish
+                _root_.scala.Predef.???
+            )
+          )
+      }
+  }
+error while checking  {
+  private val foodDatabase = mutable.Map[String, FoodItem]()
+  def create(foodType: String): FoodItem =
+    {
+      foodType.toLowerCase.replace(" ", "").replace("-", "") match
+        {
+          case "rice" =>
+            new FoodItem("Rice", 200, Set("carbs", "grain", "energy"),
+              "images/foods/rice.png")
+          case "milk" =>
+            new FoodItem("Milk", 120, Set("protein", "calcium", "dairy"),
+              "images/foods/milk.png")
+          case "fish" =>
+            new FoodItem("Fish", 180,
+              Set("protein",
+                "omeg),               " images / foods / fish
+                  _root_.scala.Predef.???
+              )
+            )
+        }
+    }
+  def get(foodType: String): FoodItem =
+    foodDatabase.getOrElseUpdate(foodType, create(foodType))
+}
+error while checking module object FoodItem {
+  private val foodDatabase = mutable.Map[String, FoodItem]()
+  def create(foodType: String): FoodItem =
+    {
+      foodType.toLowerCase.replace(" ", "").replace("-", "") match
+        {
+          case "rice" =>
+            new FoodItem("Rice", 200, Set("carbs", "grain", "energy"),
+              "images/foods/rice.png")
+          case "milk" =>
+            new FoodItem("Milk", 120, Set("protein", "calcium", "dairy"),
+              "images/foods/milk.png")
+          case "fish" =>
+            new FoodItem("Fish", 180,
+              Set("protein",
+                "omeg),               " images / foods / fish
+                  _root_.scala.Predef.???
+              )
+            )
+        }
+    }
+  def get(foodType: String): FoodItem =
+    foodDatabase.getOrElseUpdate(foodType, create(foodType))
+}
+error while checking package zeroHungerGame.model {
+  import scalafx.beans.property.{BooleanProperty, IntegerProperty,
+    ObjectProperty, StringProperty}
+  import scalafx.scene.image.Image
+  import scala.collection.mutable
+  import zeroHungerGame.util.ResourceLoader
+  class FoodItem(private[this] val initialName: String,
+    private[this] val initialCalories: Int,
+    private[this] val initialTags: Set[String],
+    private[this] val initialImagePath: String) {
+    private val _name = StringProperty(initialName)
+    private val _calories = IntegerProperty(initialCalories)
+    private val _tags = ObjectProperty[Set[String]](initialTags)
+    private val _imagePath = StringProperty(initialImagePath)
+    private val _imageCache =
+      ObjectProperty[Image](
+        new Image(ResourceLoader.loadImagePath("placeholder.png")))
+    private val _isMatched = BooleanProperty(false)
+    def name: String = _name.value
+    def calories: Int = _calories.value
+    def tags: Set[String] = _tags.value
+    def imagePath: String = _imagePath.value
+    def isMatched: Boolean = _isMatched.value
+    def name_=(v: String): Unit = _name.value = v
+    def calories_=(v: Int): Unit = _calories.value = v
+    def tags_=(v: Set[String]): Unit = _tags.value = v
+    def isMatched_=(v: Boolean): Unit = _isMatched.value = v
+    def nameProperty = _name
+    def caloriesProperty = _calories
+    def tagsProperty = _tags
+    def isMatchedProperty = _isMatched
+    def image: Image =
+      {
+        val relPath = imagePath.stripPrefix("images/")
+        val url = ResourceLoader.loadImagePath(relPath)
+        val safe =
+          if (url == null || url.isEmpty || url.startsWith("data:"))
+            ResourceLoader.loadImagePath("placeholder.png") else url
+        val img = new Image(safe)
+        _imageCache.value = img
+        _imageCache.value
+      }
+    def hasTag(tag: String): Boolean = tags.contains(tag)
+    def satisfies(requiredTags: Set[String]): Boolean =
+      requiredTags.subsetOf(tags)
+    def primaryCategory: String =
+      {
+        name.toLowerCase match
+          {
+            case "rice" =>
+              "Carbs"
+            case "milk" =>
+              "Protein"
+            case "fish" =>
+              "Protein"
+            case "vegetables" =>
+              "Fiber"
+            case "beans" =>
+              "Protein"
+            case "orange" =>
+              "Vitamin"
+            case "chicken" =>
+              "Protein"
+            case "fish_urban" =>
+              "omega-3"
+            case "banana" =>
+              "Potassium"
+            case "mixed nuts" =>
+              "Healthy Fats"
+            case "yogurt" =>
+              "Calcium"
+            case "whole-grain bread" =>
+              "Fiber"
+            case _ =>
+              val priorities =
+                List("carbs", "protein", "fiber", "vitamin", "calcium",
+                  "omega-3", "potassium", "healthy fats", "dairy", "fruit",
+                  "vegetable", "grain", "meat")
+              priorities.find(
+                priority =>
+                  tags.exists(
+                    _$1 =>
+                      _$1.toLowerCase.replace("-", " ") ==
+                        priority.toLowerCase.replace("-", " ")
+                  )
+              ).getOrElse(tags.headOption.getOrElse("Mixed")).split(" ").map(
+                _$2 => _$2.capitalize).mkString(" ")
+          }
+      }
+    override def toString: String =
+      s"FoodItem({name}, calories={calories}
+        , tags=[{
+          {
+            tags.mkString(", ")
+          }
+        }
+      ])"
+  }
+  module object FoodItem {
+    private val foodDatabase = mutable.Map[String, FoodItem]()
+    def create(foodType: String): FoodItem =
+      {
+        foodType.toLowerCase.replace(" ", "").replace("-", "") match
+          {
+            case "rice" =>
+              new FoodItem("Rice", 200, Set("carbs", "grain", "energy"),
+                "images/foods/rice.png")
+            case "milk" =>
+              new FoodItem("Milk", 120, Set("protein", "calcium", "dairy"),
+                "images/foods/milk.png")
+            case "fish" =>
+              new FoodItem("Fish", 180,
+                Set("protein",
+                  "omeg),               " images / foods / fish
+                    _root_.scala.Predef.???
+                )
+              )
+          }
+      }
+    def get(foodType: String): FoodItem =
+      foodDatabase.getOrElseUpdate(foodType, create(foodType))
+  }
+}
+Aug 22, 2025 1:16:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/.reports/metals-full/2025-08-22/r_compiler-error_(root)_13-16-16-540.md
+2025.08.22 13:16:16 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/model/FoodItem.scala
+error while checking new FoodItem("Fish", 180,
+  Set("protein",
+    "om),               " images / foods / fish _root_.scala.Predef.???)
+)
+error while checking {
+  new FoodItem("Fish", 180,
+    Set("protein",
+      "om),               " images / foods / fish _root_.scala.Predef.???)
+  )
+}
+error while checking case "fish" =>
+  new FoodItem("Fish", 180,
+    Set("protein",
+      "om),               " images / foods / fish _root_.scala.Predef.???)
+  )
+error while checking foodType.toLowerCase.replace(" ", "").replace("-", "") match
+  {
+    case "rice" =>
+      new FoodItem("Rice", 200, Set("carbs", "grain", "energy"),
+        "images/foods/rice.png")
+    case "milk" =>
+      new FoodItem("Milk", 120, Set("protein", "calcium", "dairy"),
+        "images/foods/milk.png")
+    case "fish" =>
+      new FoodItem("Fish", 180,
+        Set("protein",
+          "om),               " images / foods / fish _root_.scala.Predef.???)
+      )
+  }
+error while checking {
+  foodType.toLowerCase.replace(" ", "").replace("-", "") match
+    {
+      case "rice" =>
+        new FoodItem("Rice", 200, Set("carbs", "grain", "energy"),
+          "images/foods/rice.png")
+      case "milk" =>
+        new FoodItem("Milk", 120, Set("protein", "calcium", "dairy"),
+          "images/foods/milk.png")
+      case "fish" =>
+        new FoodItem("Fish", 180,
+          Set("protein",
+            "om),               " images / foods / fish _root_.scala.Predef.???)
+          )
+    }
+}
+error while checking def create(foodType: String): FoodItem =
+  {
+    foodType.toLowerCase.replace(" ", "").replace("-", "") match
+      {
+        case "rice" =>
+          new FoodItem("Rice", 200, Set("carbs", "grain", "energy"),
+            "images/foods/rice.png")
+        case "milk" =>
+          new FoodItem("Milk", 120, Set("protein", "calcium", "dairy"),
+            "images/foods/milk.png")
+        case "fish" =>
+          new FoodItem("Fish", 180,
+            Set("protein",
+              "om),               " images / foods / fish
+                _root_.scala.Predef.???
+            )
+          )
+      }
+  }
+error while checking  {
+  private val foodDatabase = mutable.Map[String, FoodItem]()
+  def create(foodType: String): FoodItem =
+    {
+      foodType.toLowerCase.replace(" ", "").replace("-", "") match
+        {
+          case "rice" =>
+            new FoodItem("Rice", 200, Set("carbs", "grain", "energy"),
+              "images/foods/rice.png")
+          case "milk" =>
+            new FoodItem("Milk", 120, Set("protein", "calcium", "dairy"),
+              "images/foods/milk.png")
+          case "fish" =>
+            new FoodItem("Fish", 180,
+              Set("protein",
+                "om),               " images / foods / fish
+                  _root_.scala.Predef.???
+              )
+            )
+        }
+    }
+  def get(foodType: String): FoodItem =
+    foodDatabase.getOrElseUpdate(foodType, create(foodType))
+}
+error while checking module object FoodItem {
+  private val foodDatabase = mutable.Map[String, FoodItem]()
+  def create(foodType: String): FoodItem =
+    {
+      foodType.toLowerCase.replace(" ", "").replace("-", "") match
+        {
+          case "rice" =>
+            new FoodItem("Rice", 200, Set("carbs", "grain", "energy"),
+              "images/foods/rice.png")
+          case "milk" =>
+            new FoodItem("Milk", 120, Set("protein", "calcium", "dairy"),
+              "images/foods/milk.png")
+          case "fish" =>
+            new FoodItem("Fish", 180,
+              Set("protein",
+                "om),               " images / foods / fish
+                  _root_.scala.Predef.???
+              )
+            )
+        }
+    }
+  def get(foodType: String): FoodItem =
+    foodDatabase.getOrElseUpdate(foodType, create(foodType))
+}
+error while checking package zeroHungerGame.model {
+  import scalafx.beans.property.{BooleanProperty, IntegerProperty,
+    ObjectProperty, StringProperty}
+  import scalafx.scene.image.Image
+  import scala.collection.mutable
+  import zeroHungerGame.util.ResourceLoader
+  class FoodItem(private[this] val initialName: String,
+    private[this] val initialCalories: Int,
+    private[this] val initialTags: Set[String],
+    private[this] val initialImagePath: String) {
+    private val _name = StringProperty(initialName)
+    private val _calories = IntegerProperty(initialCalories)
+    private val _tags = ObjectProperty[Set[String]](initialTags)
+    private val _imagePath = StringProperty(initialImagePath)
+    private val _imageCache =
+      ObjectProperty[Image](
+        new Image(ResourceLoader.loadImagePath("placeholder.png")))
+    private val _isMatched = BooleanProperty(false)
+    def name: String = _name.value
+    def calories: Int = _calories.value
+    def tags: Set[String] = _tags.value
+    def imagePath: String = _imagePath.value
+    def isMatched: Boolean = _isMatched.value
+    def name_=(v: String): Unit = _name.value = v
+    def calories_=(v: Int): Unit = _calories.value = v
+    def tags_=(v: Set[String]): Unit = _tags.value = v
+    def isMatched_=(v: Boolean): Unit = _isMatched.value = v
+    def nameProperty = _name
+    def caloriesProperty = _calories
+    def tagsProperty = _tags
+    def isMatchedProperty = _isMatched
+    def image: Image =
+      {
+        val relPath = imagePath.stripPrefix("images/")
+        val url = ResourceLoader.loadImagePath(relPath)
+        val safe =
+          if (url == null || url.isEmpty || url.startsWith("data:"))
+            ResourceLoader.loadImagePath("placeholder.png") else url
+        val img = new Image(safe)
+        _imageCache.value = img
+        _imageCache.value
+      }
+    def hasTag(tag: String): Boolean = tags.contains(tag)
+    def satisfies(requiredTags: Set[String]): Boolean =
+      requiredTags.subsetOf(tags)
+    def primaryCategory: String =
+      {
+        name.toLowerCase match
+          {
+            case "rice" =>
+              "Carbs"
+            case "milk" =>
+              "Protein"
+            case "fish" =>
+              "Protein"
+            case "vegetables" =>
+              "Fiber"
+            case "beans" =>
+              "Protein"
+            case "orange" =>
+              "Vitamin"
+            case "chicken" =>
+              "Protein"
+            case "fish_urban" =>
+              "omega-3"
+            case "banana" =>
+              "Potassium"
+            case "mixed nuts" =>
+              "Healthy Fats"
+            case "yogurt" =>
+              "Calcium"
+            case "whole-grain bread" =>
+              "Fiber"
+            case _ =>
+              val priorities =
+                List("carbs", "protein", "fiber", "vitamin", "calcium",
+                  "omega-3", "potassium", "healthy fats", "dairy", "fruit",
+                  "vegetable", "grain", "meat")
+              priorities.find(
+                priority =>
+                  tags.exists(
+                    _$1 =>
+                      _$1.toLowerCase.replace("-", " ") ==
+                        priority.toLowerCase.replace("-", " ")
+                  )
+              ).getOrElse(tags.headOption.getOrElse("Mixed")).split(" ").map(
+                _$2 => _$2.capitalize).mkString(" ")
+          }
+      }
+    override def toString: String =
+      s"FoodItem({name}, calories={calories}
+        , tags=[{
+          {
+            tags.mkString(", ")
+          }
+        }
+      ])"
+  }
+  module object FoodItem {
+    private val foodDatabase = mutable.Map[String, FoodItem]()
+    def create(foodType: String): FoodItem =
+      {
+        foodType.toLowerCase.replace(" ", "").replace("-", "") match
+          {
+            case "rice" =>
+              new FoodItem("Rice", 200, Set("carbs", "grain", "energy"),
+                "images/foods/rice.png")
+            case "milk" =>
+              new FoodItem("Milk", 120, Set("protein", "calcium", "dairy"),
+                "images/foods/milk.png")
+            case "fish" =>
+              new FoodItem("Fish", 180,
+                Set("protein",
+                  "om),               " images / foods / fish
+                    _root_.scala.Predef.???
+                )
+              )
+          }
+      }
+    def get(foodType: String): FoodItem =
+      foodDatabase.getOrElseUpdate(foodType, create(foodType))
+  }
+}
+Aug 22, 2025 1:16:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/.reports/metals-full/2025-08-22/r_compiler-error_(root)_13-16-16-880.md
+2025.08.22 13:16:16 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/model/FoodItem.scala
+error while checking new FoodItem("Fish", 180,
+  Set("protein",
+    "),               " images / foods / fish _root_.scala.Predef.???)
+)
+error while checking {
+  new FoodItem("Fish", 180,
+    Set("protein",
+      "),               " images / foods / fish _root_.scala.Predef.???)
+  )
+}
+error while checking case "fish" =>
+  new FoodItem("Fish", 180,
+    Set("protein",
+      "),               " images / foods / fish _root_.scala.Predef.???)
+  )
+error while checking foodType.toLowerCase.replace(" ", "").replace("-", "") match
+  {
+    case "rice" =>
+      new FoodItem("Rice", 200, Set("carbs", "grain", "energy"),
+        "images/foods/rice.png")
+    case "milk" =>
+      new FoodItem("Milk", 120, Set("protein", "calcium", "dairy"),
+        "images/foods/milk.png")
+    case "fish" =>
+      new FoodItem("Fish", 180,
+        Set("protein",
+          "),               " images / foods / fish _root_.scala.Predef.???)
+      )
+  }
+error while checking {
+  foodType.toLowerCase.replace(" ", "").replace("-", "") match
+    {
+      case "rice" =>
+        new FoodItem("Rice", 200, Set("carbs", "grain", "energy"),
+          "images/foods/rice.png")
+      case "milk" =>
+        new FoodItem("Milk", 120, Set("protein", "calcium", "dairy"),
+          "images/foods/milk.png")
+      case "fish" =>
+        new FoodItem("Fish", 180,
+          Set("protein",
+            "),               " images / foods / fish _root_.scala.Predef.???)
+        )
+    }
+}
+error while checking def create(foodType: String): FoodItem =
+  {
+    foodType.toLowerCase.replace(" ", "").replace("-", "") match
+      {
+        case "rice" =>
+          new FoodItem("Rice", 200, Set("carbs", "grain", "energy"),
+            "images/foods/rice.png")
+        case "milk" =>
+          new FoodItem("Milk", 120, Set("protein", "calcium", "dairy"),
+            "images/foods/milk.png")
+        case "fish" =>
+          new FoodItem("Fish", 180,
+            Set("protein",
+              "),               " images / foods / fish _root_.scala.Predef.???)
+            )
+      }
+  }
+error while checking  {
+  private val foodDatabase = mutable.Map[String, FoodItem]()
+  def create(foodType: String): FoodItem =
+    {
+      foodType.toLowerCase.replace(" ", "").replace("-", "") match
+        {
+          case "rice" =>
+            new FoodItem("Rice", 200, Set("carbs", "grain", "energy"),
+              "images/foods/rice.png")
+          case "milk" =>
+            new FoodItem("Milk", 120, Set("protein", "calcium", "dairy"),
+              "images/foods/milk.png")
+          case "fish" =>
+            new FoodItem("Fish", 180,
+              Set("protein",
+                "),               " images / foods / fish
+                  _root_.scala.Predef.???
+              )
+            )
+        }
+    }
+  def get(foodType: String): FoodItem =
+    foodDatabase.getOrElseUpdate(foodType, create(foodType))
+}
+error while checking module object FoodItem {
+  private val foodDatabase = mutable.Map[String, FoodItem]()
+  def create(foodType: String): FoodItem =
+    {
+      foodType.toLowerCase.replace(" ", "").replace("-", "") match
+        {
+          case "rice" =>
+            new FoodItem("Rice", 200, Set("carbs", "grain", "energy"),
+              "images/foods/rice.png")
+          case "milk" =>
+            new FoodItem("Milk", 120, Set("protein", "calcium", "dairy"),
+              "images/foods/milk.png")
+          case "fish" =>
+            new FoodItem("Fish", 180,
+              Set("protein",
+                "),               " images / foods / fish
+                  _root_.scala.Predef.???
+              )
+            )
+        }
+    }
+  def get(foodType: String): FoodItem =
+    foodDatabase.getOrElseUpdate(foodType, create(foodType))
+}
+error while checking package zeroHungerGame.model {
+  import scalafx.beans.property.{BooleanProperty, IntegerProperty,
+    ObjectProperty, StringProperty}
+  import scalafx.scene.image.Image
+  import scala.collection.mutable
+  import zeroHungerGame.util.ResourceLoader
+  class FoodItem(private[this] val initialName: String,
+    private[this] val initialCalories: Int,
+    private[this] val initialTags: Set[String],
+    private[this] val initialImagePath: String) {
+    private val _name = StringProperty(initialName)
+    private val _calories = IntegerProperty(initialCalories)
+    private val _tags = ObjectProperty[Set[String]](initialTags)
+    private val _imagePath = StringProperty(initialImagePath)
+    private val _imageCache =
+      ObjectProperty[Image](
+        new Image(ResourceLoader.loadImagePath("placeholder.png")))
+    private val _isMatched = BooleanProperty(false)
+    def name: String = _name.value
+    def calories: Int = _calories.value
+    def tags: Set[String] = _tags.value
+    def imagePath: String = _imagePath.value
+    def isMatched: Boolean = _isMatched.value
+    def name_=(v: String): Unit = _name.value = v
+    def calories_=(v: Int): Unit = _calories.value = v
+    def tags_=(v: Set[String]): Unit = _tags.value = v
+    def isMatched_=(v: Boolean): Unit = _isMatched.value = v
+    def nameProperty = _name
+    def caloriesProperty = _calories
+    def tagsProperty = _tags
+    def isMatchedProperty = _isMatched
+    def image: Image =
+      {
+        val relPath = imagePath.stripPrefix("images/")
+        val url = ResourceLoader.loadImagePath(relPath)
+        val safe =
+          if (url == null || url.isEmpty || url.startsWith("data:"))
+            ResourceLoader.loadImagePath("placeholder.png") else url
+        val img = new Image(safe)
+        _imageCache.value = img
+        _imageCache.value
+      }
+    def hasTag(tag: String): Boolean = tags.contains(tag)
+    def satisfies(requiredTags: Set[String]): Boolean =
+      requiredTags.subsetOf(tags)
+    def primaryCategory: String =
+      {
+        name.toLowerCase match
+          {
+            case "rice" =>
+              "Carbs"
+            case "milk" =>
+              "Protein"
+            case "fish" =>
+              "Protein"
+            case "vegetables" =>
+              "Fiber"
+            case "beans" =>
+              "Protein"
+            case "orange" =>
+              "Vitamin"
+            case "chicken" =>
+              "Protein"
+            case "fish_urban" =>
+              "omega-3"
+            case "banana" =>
+              "Potassium"
+            case "mixed nuts" =>
+              "Healthy Fats"
+            case "yogurt" =>
+              "Calcium"
+            case "whole-grain bread" =>
+              "Fiber"
+            case _ =>
+              val priorities =
+                List("carbs", "protein", "fiber", "vitamin", "calcium",
+                  "omega-3", "potassium", "healthy fats", "dairy", "fruit",
+                  "vegetable", "grain", "meat")
+              priorities.find(
+                priority =>
+                  tags.exists(
+                    _$1 =>
+                      _$1.toLowerCase.replace("-", " ") ==
+                        priority.toLowerCase.replace("-", " ")
+                  )
+              ).getOrElse(tags.headOption.getOrElse("Mixed")).split(" ").map(
+                _$2 => _$2.capitalize).mkString(" ")
+          }
+      }
+    override def toString: String =
+      s"FoodItem({name}, calories={calories}
+        , tags=[{
+          {
+            tags.mkString(", ")
+          }
+        }
+      ])"
+  }
+  module object FoodItem {
+    private val foodDatabase = mutable.Map[String, FoodItem]()
+    def create(foodType: String): FoodItem =
+      {
+        foodType.toLowerCase.replace(" ", "").replace("-", "") match
+          {
+            case "rice" =>
+              new FoodItem("Rice", 200, Set("carbs", "grain", "energy"),
+                "images/foods/rice.png")
+            case "milk" =>
+              new FoodItem("Milk", 120, Set("protein", "calcium", "dairy"),
+                "images/foods/milk.png")
+            case "fish" =>
+              new FoodItem("Fish", 180,
+                Set("protein",
+                  "),               " images / foods / fish
+                    _root_.scala.Predef.???
+                )
+              )
+          }
+      }
+    def get(foodType: String): FoodItem =
+      foodDatabase.getOrElseUpdate(foodType, create(foodType))
+  }
+}
+Aug 22, 2025 1:16:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/.metals/.reports/metals-full/2025-08-22/r_compiler-error_(root)_13-16-17-236.md
+2025.08.22 13:16:17 WARN  Could not find semantic tokens for: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/model/FoodItem.scala
+2025.08.22 13:16:21 INFO  compiling root (1 scala source)
+2025.08.22 13:16:21 WARN  Invalid text document uri received from build server: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/core/SceneManager.scala.scala
+2025.08.22 13:16:21 INFO  time: compiled root in 0.24s
+2025.08.22 13:16:54 INFO  compiling root (1 scala source)
+2025.08.22 13:16:54 WARN  Invalid text document uri received from build server: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/core/SceneManager.scala.scala
+2025.08.22 13:16:54 INFO  time: compiled root in 0.18s
+2025.08.22 13:18:18 INFO  compiling root (1 scala source)
+2025.08.22 13:18:18 WARN  Invalid text document uri received from build server: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/core/SceneManager.scala.scala
+2025.08.22 13:18:18 INFO  time: compiled root in 0.22s
+exception caught when loading module class module-info$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+Aug 22, 2025 1:22:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24896
+2025.08.22 13:22:50 INFO  compiling root (1 scala source)
+2025.08.22 13:22:50 WARN  Invalid text document uri received from build server: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/core/SceneManager.scala.scala
+2025.08.22 13:22:50 INFO  time: compiled root in 0.22s
+2025.08.22 13:23:56 INFO  compiling root (1 scala source)
+2025.08.22 13:23:56 WARN  Invalid text document uri received from build server: file:///Users/justinyong/Desktop/Code/Scala/final-project-Justin-yww/src/main/scala/zeroHungerGame/core/SceneManager.scala.scala
+2025.08.22 13:23:56 INFO  time: compiled root in 0.22s

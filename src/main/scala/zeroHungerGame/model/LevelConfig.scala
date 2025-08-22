@@ -224,7 +224,7 @@ object LevelConfig {
                   FoodItem.create("chicken"),         
                   FoodItem.create("rice"),            
                   FoodItem.create("beans"),           
-                  FoodItem.create("fish"),            
+                  FoodItem.create("fish_urban"),            
                   FoodItem.create("banana"),          
                   FoodItem.create("mixed nuts"),      
                   FoodItem.create("yogurt"),             

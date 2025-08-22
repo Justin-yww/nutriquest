@@ -60,13 +60,14 @@ class FoodItem(
                   // Village Mode
                   case "rice" => "Carbs"
                   case "milk" => "Protein"
-                  case "fish" => "Protein" // Used in both modes (focus is on omega-3 for URBAN MODE)
+                  case "fish" => "Protein"
                   case "vegetables" => "Fiber"
                   case "beans" => "Protein"
 
                   // Urban Mode
                   case "orange" => "Vitamin"
                   case "chicken" => "Protein"
+                  case "salmon" => "Omega-3"
                   case "banana" => "Potassium"
                   case "mixed nuts" => "Healthy Fats"
                   case "yogurt" => "Calcium"
@@ -98,13 +99,14 @@ object FoodItem {
                   // Village Mode Items 
                   case "rice"       => new FoodItem("Rice",       200, Set("carbs", "grain", "energy"),         "images/foods/rice.png")
                   case "milk"       => new FoodItem("Milk",       120, Set("protein", "calcium", "dairy"),      "images/foods/milk.png")
-                  case "fish"       => new FoodItem("Fish",       180, Set("protein", "omega-3"),               "images/foods/fish.png")
+                  case "fish"       => new FoodItem("Fish",       180, Set("protein"),               "images/foods/fish.png")
                   case "vegetables" => new FoodItem("Vegetables",  40, Set("fiber", "vitamin", "vegetable"),    "images/foods/vegetables.png")
                   case "beans"      => new FoodItem("Beans",      150, Set("protein", "fiber", "folate"),       "images/foods/beans.png")
 
                   // Urban Mode Items
                   case "orange"           => new FoodItem("Orange",      80, Set("vitamin", "fruit", "energy"),       "images/foods/orange.png")
                   case "chicken"          => new FoodItem("Chicken",    250, Set("protein", "meat"),                  "images/foods/chicken.png")
+                  case "fish_urban"       => new FoodItem("Salmon",       180, Set("omega-3"),               "images/foods/fish_urban.png")
                   case "banana"           => new FoodItem("Banana",     105, Set("potassium", "fruit", "quick-energy"), "images/foods/banana.png")
                   case "mixednuts"        => new FoodItem("Mixed Nuts", 180, Set("healthy fats", "protein", "focus"), "images/foods/mixed_nuts.png")
                   case "yogurt"           => new FoodItem("Yogurt",     100, Set("calcium", "protein", "dairy"),      "images/foods/yogurt.png")

@@ -133,7 +133,7 @@ class Character(
                   case ("ms. sofea", "chicken") => true
                   case ("mr. ravi", "rice") => true
                   case ("ms. nurul", "beans") => true
-                  case ("ethan", "fish") => true
+                  case ("ethan", "salmon") => true
                   case ("mr. danial", "banana") => true
                   case ("ms. adrianna", "mixed nuts") => true
                   case ("mr. chen", "yogurt") => true
