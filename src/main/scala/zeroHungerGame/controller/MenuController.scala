@@ -149,6 +149,8 @@ class MenuController(sceneManager: SceneManager) extends Initializable {
                   "Link: https://www.canva.com/design/DAGwsWrAu1M/zA5vrzYh05v50_paDbgNUA/edit?utm_content=DAGwsWrAu1M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton\n\n" + 
                   "5. Food Item Designs: Designed by Justin Yong with Canva\n" + 
                   "Link: https://www.canva.com/design/DAGwsWeYC00/qXgx2VXdPjy6yyJEwK81lA/edit?utm_content=DAGwsWeYC00&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton\n\n" + 
+                  "6. Education Section: Designed by Justin Yong with Canva\n" + 
+                  "Link: https://www.canva.com/design/DAGwsgE6clQ/iB6cQCVM-rI7qNcBpuEmmg/edit?utm_content=DAGwsgE6clQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton\n\n" +
                   "Special thanks to all open-source libraries used in this project."
 
             val textArea = new javafx.scene.control.TextArea(creditsContent)
