@@ -1,71 +1,64 @@
-# Project NutriQuest
+# 🌾 NutriQuest - A Food Nutrition Education Game
 
-## SETUP GUIDE: Scala on ARM-based Macbooks / Macs
+**Supporting UN Sustainable Development Goal 2: Zero Hunger**
 
-This document provides a complete procedure for setting up and running the Scala program on an ARM-based Macs.
+NutriQuest is an interactive educational game designed to teach children (ages 7-12) about proper nutrition and food security through gamified learning experiences. Built with Scala and ScalaFX, the game features two distinct modes representing Malaysian rural and urban contexts.
 
-The build environment as per assignment brief
+![NutriQuest Logo](src/main/resources/zeroHungerGame/images/logo.png)
 
-1. **SBT Builder**
-2. **Java 21 Library**
-3. **Scala 3 Library**
-4. **ScalaFX 21 GUI Library**
+## Project Overview
 
----
+This project was developed as part of PRG2104: Object-Oriented Programming course, demonstrating key OOP concepts including:
+- **Abstraction** - Simplified interfaces hiding complex implementations
+- **Inheritance** - Specialized character classes extending base abstractions  
+- **Polymorphism** - Multiple forms of behavior based on context
+- **Encapsulation** - Protected data with controlled access
+- **MVC Architecture** - Clean separation of concerns
 
-## 1. Prerequisites — Install Java 21 using Temurin and SBT
+##Features
 
-Open a terminal and run the following commands:
+### Game Modes
+- **Village Mode** (120 seconds) - Focus on rural nutrition challenges and local food sources
+- **Urban Mode** (60 seconds) - Emphasis on city lifestyle nutrition needs
 
+### Educational Content
+- Multi-page interactive learning modules
+- Visual infographics and contextual information
+- Malaysian-specific food and nutrition contexts
+- Self-paced learning with navigation controls
+
+### Interactive Gameplay
+- **Drag-and-drop interface** - Match food items to characters based on nutritional needs
+- **Timer-based scoring** - Rewards both accuracy and speed
+- **Visual feedback** - Red glow for incorrect matches, green completion states
+- **Pause/Resume functionality** - Flexible gameplay control
+- **Bonus scoring system** - Hidden speed bonuses encourage efficiency
+
+### User Experience
+- Soothing background music with toggle controls
+- Smooth scene transition
+- Responsive visual effects and animations
+
+<br> 
+<br> 
+
+## 🚀 Quick Start
+
+### System Prerequisites
+Ensure you have the following installed:
+- Java 21 (Temurin recommended)
+- SBT (Scala Build Tool)
+- Git
+
+### Installation
+
+1. **Clone the repository**
 ```bash
-# Install Java 21 (Temurin build)
-brew install --cask temurin@21
+git clone https://github.com/sunwaydcis/final-project-Justin-yww.git
+cd final-project-Justin-yww
 ```
 
-```bash
-# Install SBT
-brew install sbt
-```
-
-To verify CPU architecture (Expected output: arm64)
-
-```bash
-arch
-```
-
-## 2. Configure Java 21 for the current session
-
-Set JAVA_HOME to JDK 21:
-
-```bash
-export JAVA_HOME=$(/usr/libexec/java_home -v 21)
-```
-
-You may also check the Java version (Should indicate Java 21)
-
-```bash
-java -version
-```
-
-## 3. Setting up Visual Studio Code
-
-- Install visual studio code if you have not
-- Open the extentions panel and install the following:
-  1. Metals
-  2. Scala Syntax (OPTIONAL - but highly encouraged)
-
-## 4. Running the program
-
-Just input the following into the VS code terminal to run the program:
-
+2. **Running the proghram**
 ```bash
 sbt run
-```
-
-## Additional
-
-- If there were previously downloaded JavaFX binaries with the wrong architecture (Intel-based), remove them:
-
-```bash
-rm -rf ~/.openjfx/cache
 ```
