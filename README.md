@@ -62,3 +62,30 @@ cd final-project-Justin-yww
 ```bash
 sbt run
 ```
+
+## 🛠️ Setup Guide for ARM-based Macs / MacBooks
+
+### Install Java 21 (Temurin build)
+```bash
+brew install --cask temurin@21
+```
+### Install SBT
+```bash
+brew install sbt
+```
+
+### Configure the Environment
+```bash
+export JAVA_HOME=$(/usr/libexec/java_home -v 21)
+```
+
+### Verify installation
+```bash
+java -version
+arch  # Should output: arm64
+```
+
+### IDE Setup (Visual Studio Code) 
+Install these extensions:
+1. Metals - Scala language server
+2. Scala Syntax (Optional but recommended)
