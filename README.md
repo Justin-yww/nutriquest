@@ -15,7 +15,7 @@ This project was developed as part of PRG2104: Object-Oriented Programming cours
 - **Encapsulation** - Protected data with controlled access
 - **MVC Architecture** - Clean separation of concerns
 
-##Features
+## Features
 
 ### Game Modes
 - **Village Mode** (120 seconds) - Focus on rural nutrition challenges and local food sources
