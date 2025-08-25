@@ -1,4 +1,4 @@
-# PRG 2104 Final Assessment
+# Project NutriQuest
 
 ## SETUP GUIDE: Scala on ARM-based Macbooks / Macs
 
